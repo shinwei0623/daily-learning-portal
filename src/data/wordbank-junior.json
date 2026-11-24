@@ -1,0 +1,155 @@
+{
+  "note": "精簡常用字庫，供產文抽字；完整官方字表請依非營利條件自官方 PDF 匯入，勿把本檔當成大考中心全文。",
+  "words": [
+    {
+      "word": "practice",
+      "pos": "v./n.",
+      "def_zh": "練習"
+    },
+    {
+      "word": "team",
+      "pos": "n.",
+      "def_zh": "隊伍"
+    },
+    {
+      "word": "score",
+      "pos": "v./n.",
+      "def_zh": "得分"
+    },
+    {
+      "word": "cheer",
+      "pos": "v.",
+      "def_zh": "加油；歡呼"
+    },
+    {
+      "word": "skill",
+      "pos": "n.",
+      "def_zh": "技巧"
+    },
+    {
+      "word": "market",
+      "pos": "n.",
+      "def_zh": "市場"
+    },
+    {
+      "word": "hungry",
+      "pos": "adj.",
+      "def_zh": "飢餓的"
+    },
+    {
+      "word": "snack",
+      "pos": "n.",
+      "def_zh": "點心"
+    },
+    {
+      "word": "delicious",
+      "pos": "adj.",
+      "def_zh": "美味的"
+    },
+    {
+      "word": "share",
+      "pos": "v.",
+      "def_zh": "分享"
+    },
+    {
+      "word": "hobby",
+      "pos": "n.",
+      "def_zh": "嗜好"
+    },
+    {
+      "word": "music",
+      "pos": "n.",
+      "def_zh": "音樂"
+    },
+    {
+      "word": "friend",
+      "pos": "n.",
+      "def_zh": "朋友"
+    },
+    {
+      "word": "weekend",
+      "pos": "n.",
+      "def_zh": "週末"
+    },
+    {
+      "word": "garden",
+      "pos": "n.",
+      "def_zh": "花園"
+    },
+    {
+      "word": "cook",
+      "pos": "v./n.",
+      "def_zh": "烹飪；廚師"
+    },
+    {
+      "word": "travel",
+      "pos": "v.",
+      "def_zh": "旅行"
+    },
+    {
+      "word": "camera",
+      "pos": "n.",
+      "def_zh": "照相機"
+    },
+    {
+      "word": "river",
+      "pos": "n.",
+      "def_zh": "河流"
+    },
+    {
+      "word": "mountain",
+      "pos": "n.",
+      "def_zh": "山"
+    },
+    {
+      "word": "bicycle",
+      "pos": "n.",
+      "def_zh": "腳踏車"
+    },
+    {
+      "word": "library",
+      "pos": "n.",
+      "def_zh": "圖書館"
+    },
+    {
+      "word": "festival",
+      "pos": "n.",
+      "def_zh": "節慶"
+    },
+    {
+      "word": "weather",
+      "pos": "n.",
+      "def_zh": "天氣"
+    },
+    {
+      "word": "breakfast",
+      "pos": "n.",
+      "def_zh": "早餐"
+    },
+    {
+      "word": "museum",
+      "pos": "n.",
+      "def_zh": "博物館"
+    },
+    {
+      "word": "concert",
+      "pos": "n.",
+      "def_zh": "音樂會"
+    },
+    {
+      "word": "swim",
+      "pos": "v.",
+      "def_zh": "游泳"
+    },
+    {
+      "word": "paint",
+      "pos": "v.",
+      "def_zh": "繪畫"
+    },
+    {
+      "word": "story",
+      "pos": "n.",
+      "def_zh": "故事"
+    }
+  ]
+}

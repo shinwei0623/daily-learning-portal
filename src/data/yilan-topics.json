@@ -1,0 +1,133 @@
+{
+  "note": "只准依據 excerpt 改寫，禁止增添 excerpt 未出現的史實、數字或人名。沒有可用授權圖片的題目，產文腳本應跳過。",
+  "topics": [
+    {
+      "id": "guishan-island",
+      "title_hint": "龜山島",
+      "used_on": [
+        "2026-11-24"
+      ],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／龜山島身世」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "龜山島是本縣的重要地標，距臺灣本島最近約9公里，因為外貌酷似海龜而得名，地質主要是由紫蘇輝石之安山岩質熔岩和火山碎屑岩之互層所構成，面積為2.9平方公里，海岸線長8.5公里。全島可分為頭部、背部和尾部三部份；尾部在西，頭部在東；由尾部至頭部長度為3.5公里。龜山島的頭部高239公尺；背部高401公尺，是全島最高峯，尾部為礫石灘。龜山島為火山作用形成的島嶼，仍有硫氣孔和噴氣孔在活動。龜尾部分的石礫海灘，會隨著季節及海流變化而移動，春夏呈筆直一線，秋冬則向南彎曲，於是有「靈龜擺尾」的俗諺。"
+        }
+      ],
+      "image": {
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Guishan_Island.jpg",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Guishan_Island.jpg",
+        "author": "阿爾特斯",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "從陸地遠望宜蘭外海的龜山島全景",
+        "credit": "照片：阿爾特斯（Wikimedia Commons），CC BY-SA 3.0。已縮圖供網頁使用。"
+      }
+    },
+    {
+      "id": "lanyang-plain",
+      "title_hint": "蘭陽平原",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／山川宜蘭」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "蘭陽平原是蘭陽溪、宜蘭河、冬山河，以及雪山、中央山脈，多條小河流共同沖積而成的沖積平原。其形狀近似一個等邊三角形，三個頂點為頭城、三星和蘇澳，各邊長度約30公里。頭城到三星一線的西北側是雪山山脈，三星到蘇澳一線以南是中央山脈。頭城到蘇澳一線為海岸線，蘭陽溪於海岸中間的東港（壯圍鄉）和清水（五結鄉）之間注入太平洋。"
+        }
+      ],
+      "image": {
+        "download_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/Category:Yilan_County",
+        "author": "待選定（產文時須有明確授權圖檔，否則略過此題）",
+        "license": "CC BY-SA 或政府開放授權",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "蘭陽平原地景",
+        "credit": "產文前須補上作者與授權。"
+      }
+    },
+    {
+      "id": "jiaoxi-hotspring",
+      "title_hint": "礁溪溫泉",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／宜蘭大地」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "宜蘭是全臺灣溫泉最多的縣，著名的溫泉區有礁溪、員山、清水、梵梵、仁澤、土場和龜山島等。其中只有龜山島和火山活動有關，其餘的溫泉都是因深層地下水受熱後，沿斷層裂面上升至地表所形成。"
+        }
+      ],
+      "image": {
+        "download_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/Category:Yilan_County",
+        "author": "待選定",
+        "license": "CC BY-SA 或政府開放授權",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "礁溪溫泉區",
+        "credit": "產文前須補上作者與授權。"
+      }
+    },
+    {
+      "id": "suao-cold-spring",
+      "title_hint": "蘇澳冷泉",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／宜蘭大地」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "蘇澳是全臺灣唯一有冷泉的地方，因地下水穿透岩石內石灰層，使泉水富含二氧化碳，日治時期曾加糖製成汽水。溫泉和冷泉都是宜蘭重要的自然景觀與遊憩資源。"
+        }
+      ],
+      "image": {
+        "download_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/Category:Yilan_County",
+        "author": "待選定",
+        "license": "CC BY-SA 或政府開放授權",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "蘇澳冷泉",
+        "credit": "產文前須補上作者與授權。"
+      }
+    },
+    {
+      "id": "kavalan-ting-1812",
+      "title_hint": "噶瑪蘭廳設立",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭縣行政區簡介」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14747",
+          "excerpt": "1810（嘉慶15）年，在清政府官員討論將此區收入帝國版圖的奏疏中便陸續稱作「噶瑪蘭」。1812（嘉慶17）年確定設置通判一名並鑄給「噶瑪蘭管理民番糧捕通判」關防，「噶瑪蘭廳」於此正式開設。資料來源：黃雯娟，《臺灣地名辭書（卷一）：宜蘭縣》。南投：臺灣省文獻委員會，2000年。"
+        }
+      ],
+      "image": {
+        "download_url": "",
+        "file_page": "https://yihistory.e-land.gov.tw/cp.aspx?n=12785",
+        "author": "待選定（縣史館地圖多僅供教學或非營利使用，使用時須遵守原站聲明）",
+        "license": "教學或非營利使用（依宜蘭縣史館頁面聲明）",
+        "license_url": "https://yihistory.e-land.gov.tw/cp.aspx?n=12785",
+        "alt": "宜蘭歷史地圖或行政沿革示意",
+        "credit": "產文前須補上可合法使用的圖像與出處。"
+      }
+    },
+    {
+      "id": "yilan-county-1950",
+      "title_hint": "1950年宜蘭重新設縣",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭縣行政區簡介」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14747",
+          "excerpt": "二戰後，政府先改設宜蘭區、羅東區、蘇澳區三區及宜蘭市，隸屬臺北縣；復於1950（民國39）年，臺灣省政府調整行政區域及因應推行地方自治，宜蘭縣重新獨立設縣，並選出首任民選縣長盧纘祥。宜蘭縣共轄12鄉鎮縣轄市。資料來源：黃雯娟，《臺灣地名辭書（卷一）：宜蘭縣》。南投：臺灣省文獻委員會，2000年。"
+        }
+      ],
+      "image": {
+        "download_url": "",
+        "file_page": "https://www.e-land.gov.tw/cp.aspx?n=14747",
+        "author": "待選定",
+        "license": "政府網站資料開放宣告（使用須註明出處，並確認該圖確屬開放範圍）",
+        "license_url": "https://www.e-land.gov.tw/cp.aspx?n=4771",
+        "alt": "宜蘭縣行政區",
+        "credit": "產文前須補上可合法使用的圖像與出處。"
+      }
+    }
+  ]
+}

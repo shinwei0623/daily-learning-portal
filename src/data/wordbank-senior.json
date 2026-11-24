@@ -1,0 +1,155 @@
+{
+  "note": "精簡常用字庫，供產文抽字；完整官方字表請依非營利條件自官方 PDF 匯入。",
+  "words": [
+    {
+      "word": "rehearsal",
+      "pos": "n.",
+      "def_zh": "彩排"
+    },
+    {
+      "word": "melody",
+      "pos": "n.",
+      "def_zh": "旋律"
+    },
+    {
+      "word": "perform",
+      "pos": "v.",
+      "def_zh": "演出"
+    },
+    {
+      "word": "audience",
+      "pos": "n.",
+      "def_zh": "觀眾"
+    },
+    {
+      "word": "inspire",
+      "pos": "v.",
+      "def_zh": "激勵"
+    },
+    {
+      "word": "trail",
+      "pos": "n.",
+      "def_zh": "步道"
+    },
+    {
+      "word": "landscape",
+      "pos": "n.",
+      "def_zh": "地景；風景"
+    },
+    {
+      "word": "capture",
+      "pos": "v.",
+      "def_zh": "捕捉（影像）"
+    },
+    {
+      "word": "patience",
+      "pos": "n.",
+      "def_zh": "耐心"
+    },
+    {
+      "word": "appreciate",
+      "pos": "v.",
+      "def_zh": "欣賞"
+    },
+    {
+      "word": "composition",
+      "pos": "n.",
+      "def_zh": "構圖；作品"
+    },
+    {
+      "word": "rhythm",
+      "pos": "n.",
+      "def_zh": "節奏"
+    },
+    {
+      "word": "exhibition",
+      "pos": "n.",
+      "def_zh": "展覽"
+    },
+    {
+      "word": "volunteer",
+      "pos": "n./v.",
+      "def_zh": "志工；志願"
+    },
+    {
+      "word": "cuisine",
+      "pos": "n.",
+      "def_zh": "料理；菜餚"
+    },
+    {
+      "word": "ingredient",
+      "pos": "n.",
+      "def_zh": "食材；成分"
+    },
+    {
+      "word": "horizon",
+      "pos": "n.",
+      "def_zh": "地平線；視野"
+    },
+    {
+      "word": "conservation",
+      "pos": "n.",
+      "def_zh": "保育；保存"
+    },
+    {
+      "word": "atmosphere",
+      "pos": "n.",
+      "def_zh": "氣氛；大氣"
+    },
+    {
+      "word": "tradition",
+      "pos": "n.",
+      "def_zh": "傳統"
+    },
+    {
+      "word": "innovation",
+      "pos": "n.",
+      "def_zh": "創新"
+    },
+    {
+      "word": "collaborate",
+      "pos": "v.",
+      "def_zh": "合作"
+    },
+    {
+      "word": "observe",
+      "pos": "v.",
+      "def_zh": "觀察"
+    },
+    {
+      "word": "heritage",
+      "pos": "n.",
+      "def_zh": "文化遺產"
+    },
+    {
+      "word": "scenic",
+      "pos": "adj.",
+      "def_zh": "風景優美的"
+    },
+    {
+      "word": "rehearse",
+      "pos": "v.",
+      "def_zh": "預演"
+    },
+    {
+      "word": "enthusiastic",
+      "pos": "adj.",
+      "def_zh": "熱心的"
+    },
+    {
+      "word": "challenge",
+      "pos": "n./v.",
+      "def_zh": "挑戰"
+    },
+    {
+      "word": "balance",
+      "pos": "n./v.",
+      "def_zh": "平衡"
+    },
+    {
+      "word": "curious",
+      "pos": "adj.",
+      "def_zh": "好奇的"
+    }
+  ]
+}
