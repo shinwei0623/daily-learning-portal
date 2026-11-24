@@ -1,0 +1,35 @@
+---
+interface Word {
+  word: string;
+  pos: string;
+  def_zh: string;
+  def_en: string;
+  kk: string;
+  ipa: string;
+  example: string;
+  example_zh: string;
+  audio?: string;
+}
+interface Props { item: Word; }
+const { item } = Astro.props;
+const id = `word-${item.word.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+const src = item.audio
+  ? (item.audio.startsWith('http') ? item.audio : `${import.meta.env.BASE_URL}${item.audio.replace(/^\//, '')}`)
+  : '';
+---
+<article class="vocab-card" id={id}>
+  <div class="vocab-head">
+    <h3 class="vocab-word">{item.word}</h3>
+    <button class="audio-btn" type="button" data-word={item.word} data-src={src} aria-label={`播放 ${item.word} 的發音`}>▶</button>
+  </div>
+  <p class="pos">{item.pos}</p>
+  <p class="phonetics"><span>KK {item.kk}</span><span>IPA {item.ipa}</span></p>
+  <dl class="defs">
+    <dt>中文</dt>
+    <dd>{item.def_zh}</dd>
+    <dt>English</dt>
+    <dd>{item.def_en}</dd>
+  </dl>
+  <p class="example">{item.example}</p>
+  <p class="example-zh">{item.example_zh}</p>
+</article>

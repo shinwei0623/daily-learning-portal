@@ -1,0 +1,17 @@
+---
+interface Props {
+  pdfHref?: string;
+  printHref?: string;
+}
+const { pdfHref, printHref } = Astro.props;
+---
+<div class="print-bar no-print">
+  <button class="btn btn-primary" type="button" id="print-btn">列印 A4</button>
+  {pdfHref && <a class="btn btn-ghost btn-link" href={pdfHref} download>下載 PDF</a>}
+  {printHref && <a class="btn btn-ghost btn-link" href={printHref}>開啟列印版面</a>}
+</div>
+<script is:inline>
+  document.getElementById('print-btn')?.addEventListener('click', function () {
+    window.print();
+  });
+</script>
