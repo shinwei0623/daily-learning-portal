@@ -1,0 +1,22 @@
+---
+import { LEVELS, type LevelId } from '../lib/site';
+interface Props {
+  current: LevelId;
+  date?: string;
+}
+const { current, date } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<div class="level-toggle" role="navigation" aria-label="程度切換">
+  {Object.values(LEVELS).map((level) => {
+    const href = date
+      ? `${base}english/${level.id}/${date}/`
+      : `${base}english/${level.id}/`;
+    const active = level.id === current;
+    return (
+      <a href={href} class:list={[{ 'is-active': active }]} aria-current={active ? 'page' : undefined}>
+        {level.label}
+      </a>
+    );
+  })}
+</div>

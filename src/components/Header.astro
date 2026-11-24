@@ -1,0 +1,26 @@
+---
+import { SITE_NAME } from '../lib/site';
+const path = Astro.url.pathname;
+const base = import.meta.env.BASE_URL;
+function current(href: string) {
+  const full = href === base ? base : href;
+  if (href === base || href === `${base}`) {
+    return path === base || path === `${base}` || path === '/';
+  }
+  return path.startsWith(full);
+}
+---
+<header class="site-header no-print">
+  <div class="wrap header-inner">
+    <a class="brand" href={base}>
+      <span class="brand-mark">{SITE_NAME}</span>
+      <span class="brand-tag">英語短文 · 宜蘭見聞</span>
+    </a>
+    <nav class="nav" aria-label="主要選單">
+      <a href={base} aria-current={current(base) && !path.includes('/english') && !path.includes('/yilan') && !path.includes('/about') ? 'page' : undefined}>今日</a>
+      <a href={`${base}english/`} aria-current={path.includes('/english') ? 'page' : undefined}>英語單字</a>
+      <a href={`${base}yilan/`} aria-current={path.includes('/yilan') ? 'page' : undefined}>宜蘭每日見聞</a>
+      <a href={`${base}about/`} aria-current={path.includes('/about') ? 'page' : undefined}>關於</a>
+    </nav>
+  </div>
+</header>
