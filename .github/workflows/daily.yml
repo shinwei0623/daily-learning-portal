@@ -28,6 +28,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: 還原音檔、圖片與 PDF
+        run: python3 scripts/unpack-assets.py
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
