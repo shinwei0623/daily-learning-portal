@@ -314,15 +314,52 @@ a:hover { color: var(--coral); }
   font-size: 0.88rem;
 }
 .notice { font-size: 0.82rem; max-width: 48rem; }
+.supporter-credit {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
 
 .print-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
 
 .yilan-body { font-size: 1.12rem; letter-spacing: 0.03em; }
 
+body[data-print] .site-footer {
+  margin-top: 1.4rem;
+  padding: 0.5rem 0 0;
+  border-top: none;
+}
+body[data-print] .site-footer p:not(.supporter-credit) {
+  display: none;
+}
+body[data-print] .supporter-credit {
+  margin-top: 0;
+  text-align: center;
+  font-size: 0.78rem;
+}
+
 @media print {
   @page { size: A4; margin: 12mm; }
-  .skip-link, .site-header, .site-footer, .print-bar, .archive, .level-toggle, .btn, .btn-link, .nav, .no-print {
+  .skip-link, .site-header, .print-bar, .archive, .level-toggle, .btn, .btn-link, .nav, .no-print {
     display: none !important;
+  }
+  .site-footer {
+    display: block !important;
+    margin-top: 1.2rem;
+    padding: 0.35rem 0 0;
+    border-top: none;
+    color: #555;
+  }
+  .site-footer p:not(.supporter-credit) {
+    display: none !important;
+  }
+  .supporter-credit {
+    display: block !important;
+    margin: 0;
+    text-align: center;
+    font-size: 9pt;
+    letter-spacing: 0.04em;
   }
   body { background: #fff; }
   .card, .article-image { box-shadow: none; border-color: #ccc; }

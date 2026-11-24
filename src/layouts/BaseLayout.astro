@@ -34,7 +34,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
     <main id="main">
       <slot />
     </main>
-    {printFriendly ? null : <Footer />}
+    <Footer />
     <script is:inline src={`${import.meta.env.BASE_URL}scripts/audio.js`}></script>
   </body>
 </html>

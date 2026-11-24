@@ -136,7 +136,12 @@ def render_one(data: dict, dest: Path) -> None:
         y += 6
 
     footer = "本頁為非營利公益學習用途。建議以 A4 直式列印。"
-    draw.text((x0, H - MARGIN - 20), footer, font=small, fill=SOFT)
+    credit_line = "日日學網站由宜蘭高中員生合作社支持建置"
+    fw = draw.textlength(footer, font=small)
+    draw.text(((W - fw) / 2, H - MARGIN - 44), footer, font=small, fill=SOFT)
+    credit_f = font(False, 15)
+    cw = draw.textlength(credit_line, font=credit_f)
+    draw.text(((W - cw) / 2, H - MARGIN - 18), credit_line, font=credit_f, fill=SOFT)
 
     dest.parent.mkdir(parents=True, exist_ok=True)
     img.save(dest, "PDF", resolution=DPI, title=data["title"])
