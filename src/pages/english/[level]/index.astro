@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { isLevelId, LEVELS, type LevelId } from '../../../lib/site';
+import { formatZhDate, taipeiDateISO } from '../../../lib/dates';
+
+export async function getStaticPaths() {
+  return [
+    { params: { level: 'junior' } },
+    { params: { level: 'senior' } },
+  ];
+}
+
+const levelParam = Astro.params.level;
+if (!isLevelId(levelParam)) {
+  throw new Error('Unknown level');
+}
+const level: LevelId = levelParam;
+const all = (await getCollection('english')).filter((e) => e.data.level === level);
+const dates = [...new Set(all.map((e) => e.data.date))].sort().reverse();
+const today = taipeiDateISO();
+const latest = dates.includes(today) ? today : dates[0];
+const base = import.meta.env.BASE_URL;
+const levelInfo = LEVELS[level];
+---
+<BaseLayout title={`${levelInfo.label}英語單字`} description={`每日兩篇約百字英文短文，程度為${levelInfo.label}（${levelInfo.words}）。`}>
+  <div class="wrap hero">
+    <p class="kicker">英語單字</p>
+    <h1>{levelInfo.label}短文檔案</h1>
+    <p class="lede">每天兩篇約 100 字的英文短文，各介紹五個單字。可切換國中或高中程度。</p>
+    <div class="level-toggle" role="navigation" aria-label="程度切換" style="margin-top:1rem;">
+      <a href={`${base}english/junior/`} class:list={[{ 'is-active': level === 'junior' }]} aria-current={level === 'junior' ? 'page' : undefined}>國中</a>
+      <a href={`${base}english/senior/`} class:list={[{ 'is-active': level === 'senior' }]} aria-current={level === 'senior' ? 'page' : undefined}>高中</a>
+    </div>
+  </div>
+  <div class="wrap">
+    {latest && (
+      <p>
+        <a class="btn btn-primary btn-link" href={`${base}english/${level}/${latest}/`}>閱讀最新：{formatZhDate(latest)}</a>
+      </p>
+    )}
+    <nav class="archive" aria-label="日期檔案">
+      <h2>依日期瀏覽</h2>
+      <ul>
+        {dates.map((d) => (
+          <li><a href={`${base}english/${level}/${d}/`} aria-current={d === latest ? 'page' : undefined}>{formatZhDate(d)}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</BaseLayout>
+<script is:inline src={`${import.meta.env.BASE_URL}scripts/level-pref.js`}></script>

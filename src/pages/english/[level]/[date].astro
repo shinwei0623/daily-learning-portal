@@ -1,0 +1,56 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import VocabCard from '../../../components/VocabCard.astro';
+import { isLevelId, LEVELS, type LevelId } from '../../../lib/site';
+import { formatZhDate } from '../../../lib/dates';
+
+export async function getStaticPaths() {
+  const all = await getCollection('english');
+  const keys = [...new Set(all.map((e) => `${e.data.level}/${e.data.date}`))];
+  return keys.map((key) => {
+    const [level, date] = key.split('/');
+    return { params: { level, date } };
+  });
+}
+
+const { level: levelParam, date } = Astro.params;
+if (!isLevelId(levelParam) || !date) throw new Error('Invalid route');
+const level: LevelId = levelParam;
+const stories = (await getCollection('english'))
+  .filter((e) => e.data.level === level && e.data.date === date)
+  .sort((a, b) => a.data.slot - b.data.slot);
+
+const rendered = [];
+for (const entry of stories) {
+  const { Content } = await render(entry);
+  rendered.push({ entry, Content });
+}
+const base = import.meta.env.BASE_URL;
+const levelInfo = LEVELS[level];
+---
+<BaseLayout title={`${formatZhDate(date)}｜${levelInfo.label}英語短文`} description={`${levelInfo.label}程度，${date} 的兩篇英語短文與單字卡。`}>
+  <div class="wrap hero">
+    <p class="kicker">英語單字 · {levelInfo.label}</p>
+    <h1>{formatZhDate(date)}</h1>
+    <p class="lede">兩篇約 100 字短文，每篇五個單字。點短文裡的粗體字可聽到發音。程度：{levelInfo.words}。</p>
+    <div class="level-toggle" role="navigation" aria-label="程度切換" style="margin-top:1rem;">
+      <a href={`${base}english/junior/${date}/`} class:list={[{ 'is-active': level === 'junior' }]} aria-current={level === 'junior' ? 'page' : undefined}>國中</a>
+      <a href={`${base}english/senior/${date}/`} class:list={[{ 'is-active': level === 'senior' }]} aria-current={level === 'senior' ? 'page' : undefined}>高中</a>
+    </div>
+  </div>
+  <div class="wrap">
+    {rendered.map(({ entry, Content }) => (
+      <section class="card" style="margin-bottom:1.2rem;">
+        <h2>{entry.data.title_zh}</h2>
+        <p class="meta">{entry.data.title} · 主題：{entry.data.topic}</p>
+        <div class="story"><Content /></div>
+        <div class="vocab-grid">
+          {entry.data.words.map((w) => <VocabCard item={w} />)}
+        </div>
+      </section>
+    ))}
+    <p class="no-print"><a href={`${base}english/${level}/`}>回到{levelInfo.label}檔案</a></p>
+  </div>
+</BaseLayout>
+<script is:inline src={`${import.meta.env.BASE_URL}scripts/level-pref.js`}></script>
