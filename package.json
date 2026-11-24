@@ -1,0 +1,21 @@
+{
+  "name": "daily-learning-portal",
+  "type": "module",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate": "node scripts/generate-daily.mjs",
+    "pdf": "python3 scripts/make-pdf.py",
+    "build:all": "npm run build && npm run pdf"
+  },
+  "dependencies": {
+    "astro": "^7.4.13"
+  },
+  "description": "日日學：國高中英語單字短文與宜蘭每日見聞（公益學習靜態網站）"
+}

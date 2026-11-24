@@ -1,0 +1,13 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+.env.*
+!.env.example
+previews/
