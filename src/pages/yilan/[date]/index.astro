@@ -1,0 +1,48 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PrintBar from '../../../components/PrintBar.astro';
+import { formatZhDate, countChineseChars } from '../../../lib/dates';
+
+export async function getStaticPaths() {
+  const all = await getCollection('yilan');
+  return all.map((entry) => ({ params: { date: entry.data.date }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const bodyText = entry.body ?? '';
+const chars = countChineseChars(bodyText);
+const data = entry.data;
+---
+<BaseLayout title={`${data.title}｜宜蘭每日見聞`} description={`${formatZhDate(data.date)}：${data.title}`}>
+  <article class="wrap" style="padding-top:1.5rem;padding-bottom:2rem;max-width:46rem;">
+    <p class="kicker">宜蘭每日見聞</p>
+    <h1 style="font-family:var(--font-display);font-size:clamp(1.7rem,3vw,2.4rem);margin:0.4rem 0;">{data.title}</h1>
+    <p class="meta">{formatZhDate(data.date)} · {chars} 字</p>
+    <PrintBar
+      pdfHref={`${base}pdfs/yilan-${data.date}.pdf`}
+      printHref={`${base}yilan/${data.date}/print/`}
+    />
+    <figure class="article-image">
+      <img src={`${base}${data.image}`} alt={data.image_alt} width="1800" height="1160" />
+    </figure>
+    <p class="credit">{data.image_credit} 授權條款：<a href={data.image_license_url}>{data.image_license}</a>．原圖：<a href={data.image_source_url}>{data.image_author}</a></p>
+    <div class="yilan-body card" style="margin-top:1rem;">
+      <Content />
+    </div>
+    <section class="sources">
+      <h2>資料來源</h2>
+      <ul>
+        {data.sources.map((s) => (
+          <li>
+            <a href={s.url}>{s.title}</a>
+            {s.note ? ` — ${s.note}` : ''}
+          </li>
+        ))}
+      </ul>
+    </section>
+    <p class="no-print" style="margin-top:1.4rem;"><a href={`${base}yilan/`}>回到見聞檔案</a></p>
+  </article>
+</BaseLayout>

@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatZhDate, taipeiDateISO } from '../../lib/dates';
+
+const all = (await getCollection('yilan')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const dates = all.map((e) => e.data.date);
+const today = taipeiDateISO();
+const latest = dates.includes(today) ? today : dates[0];
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="宜蘭每日見聞" description="每日一則 300 字以內的宜蘭歷史或地理圖文，附來源與 A4 列印。">
+  <div class="wrap hero">
+    <p class="kicker">宜蘭每日見聞</p>
+    <h1>認識這塊土地的一件事</h1>
+    <p class="lede">每天一則 300 字以內的圖文，改寫自可查證的公開來源，並標示圖片授權。適合列印成 A4，張貼在公布欄。</p>
+  </div>
+  <div class="wrap">
+    {latest && (
+      <p><a class="btn btn-primary btn-link" href={`${base}yilan/${latest}/`}>閱讀最新：{formatZhDate(latest)}</a></p>
+    )}
+    <nav class="archive" aria-label="日期檔案">
+      <h2>依日期瀏覽</h2>
+      <ul>
+        {dates.map((d) => (
+          <li><a href={`${base}yilan/${d}/`} aria-current={d === latest ? 'page' : undefined}>{formatZhDate(d)}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</BaseLayout>
