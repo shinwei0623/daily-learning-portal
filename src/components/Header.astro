@@ -1,5 +1,5 @@
 ---
-import { SITE_NAME } from '../lib/site';
+import { SITE_NAME, COOP_SITE_LABEL, COOP_SITE_URL } from '../lib/site';
 const path = Astro.url.pathname;
 const base = import.meta.env.BASE_URL;
 function current(href: string) {
@@ -21,6 +21,7 @@ function current(href: string) {
       <a href={`${base}english/`} aria-current={path.includes('/english') ? 'page' : undefined}>英語單字</a>
       <a href={`${base}yilan/`} aria-current={path.includes('/yilan') ? 'page' : undefined}>宜蘭每日見聞</a>
       <a href={`${base}about/`} aria-current={path.includes('/about') ? 'page' : undefined}>關於</a>
+      <a class="nav-external" href={COOP_SITE_URL} target="_blank" rel="noopener">{COOP_SITE_LABEL}</a>
     </nav>
   </div>
 </header>

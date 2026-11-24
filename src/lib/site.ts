@@ -1,6 +1,10 @@
 export const SITE_NAME = '日日學';
 export const SITE_TAGLINE = '每天兩篇英語短文，再看一則宜蘭見聞';
 
+export const COOP_SITE_LABEL = '宜蘭高中員生合作社網站';
+export const COOP_SITE_URL =
+  'https://script.google.com/a/gapp.ylsh.ilc.edu.tw/macros/s/AKfycbwEMKdzTTplSslhxRL39Ejtn8k2TckMfv5Bt12dbzuHda6aNT-W9JtN6O-LP5lrqfPh/exec';
+
 export const LEVELS = {
   junior: { id: 'junior' as const, label: '國中', short: '國中', words: '課綱約 2,000 字' },
   senior: { id: 'senior' as const, label: '高中', short: '高中', words: '學測參考詞彙 6,005 字' },

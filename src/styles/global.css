@@ -109,6 +109,13 @@ a:hover { color: var(--coral); }
   background: var(--sea);
   color: #fff;
 }
+.nav a.nav-external {
+  border: 1px solid var(--line);
+}
+.nav a.nav-external:hover {
+  background: var(--sea-mist);
+  color: var(--sea-deep);
+}
 
 .hero {
   padding: 2.2rem 0 1.2rem;
@@ -320,6 +327,13 @@ a:hover { color: var(--coral); }
   letter-spacing: 0.04em;
   color: var(--ink-soft);
 }
+.supporter-sep { margin: 0 0.45em; }
+.supporter-credit a {
+  color: var(--sea-deep);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+.supporter-credit a:hover { color: var(--sea); }
 
 .print-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
 
