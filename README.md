@@ -55,7 +55,7 @@ GitHub Actions 於每天 **台北時間 00:30**（UTC 16:30）執行 `scripts/ge
 - `/` 今日總覽（英語可切國中／高中）
 - `/english/junior/`、`/english/senior/` 與依日期的檔案頁
 - `/yilan/` 與 `/yilan/YYYY-MM-DD/` 見聞頁（含列印 A4 與 PDF）
-- `/resources/` 免費英語學習資源（只連官方網站）
+- `/resources/` 教育資源分享（只連官方免費網站）
 - `/about/` 出處與授權說明
 
 列印使用 CSS `@page { size: A4; margin: 12mm; }`，並另有列印版面與 PDF。
