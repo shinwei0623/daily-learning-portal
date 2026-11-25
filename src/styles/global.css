@@ -385,3 +385,61 @@ body[data-print] .supporter-credit {
   .hero { padding-top: 1.3rem; }
   .story { font-size: 1.08rem; }
 }
+
+.resource-section { margin-bottom: 2rem; }
+.resource-list {
+  list-style: none;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 800px) {
+  .resource-list { grid-template-columns: repeat(3, 1fr); }
+}
+.resource-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  margin: 0.15rem 0 0.45rem;
+  line-height: 1.3;
+}
+.resource-name-zh {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: var(--font-sans, inherit);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+.resource-cat {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  background: var(--sea-mist);
+  color: var(--sea-deep);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.resource-desc { margin: 0 0 0.5rem; }
+.resource-note {
+  margin: 0 0 0.6rem;
+  padding: 0.45rem 0.65rem;
+  border-left: 3px solid var(--sun, #e0a106);
+  background: color-mix(in srgb, var(--sun, #e0a106) 12%, white);
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+.resource-url {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.8rem;
+  margin: 0.7rem 0 0;
+}
+.resource-href {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  word-break: break-all;
+}

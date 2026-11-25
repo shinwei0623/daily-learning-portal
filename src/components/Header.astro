@@ -17,9 +17,10 @@ function current(href: string) {
       <span class="brand-tag">英語短文 · 宜蘭見聞</span>
     </a>
     <nav class="nav" aria-label="主要選單">
-      <a href={base} aria-current={current(base) && !path.includes('/english') && !path.includes('/yilan') && !path.includes('/about') ? 'page' : undefined}>今日</a>
+      <a href={base} aria-current={current(base) && !path.includes('/english') && !path.includes('/yilan') && !path.includes('/about') && !path.includes('/resources') ? 'page' : undefined}>今日</a>
       <a href={`${base}english/`} aria-current={path.includes('/english') ? 'page' : undefined}>英語單字</a>
       <a href={`${base}yilan/`} aria-current={path.includes('/yilan') ? 'page' : undefined}>宜蘭每日見聞</a>
+      <a href={`${base}resources/`} aria-current={path.includes('/resources') ? 'page' : undefined}>學習資源</a>
       <a href={`${base}about/`} aria-current={path.includes('/about') ? 'page' : undefined}>關於</a>
       <a class="nav-external" href={COOP_SITE_URL} target="_blank" rel="noopener">{COOP_SITE_LABEL}</a>
     </nav>

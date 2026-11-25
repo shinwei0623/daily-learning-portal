@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_NAME } from '../../lib/site';
+import resources from '../../data/resources.json';
+
+const base = import.meta.env.BASE_URL;
+const items = resources.items;
+const categories = [...new Set(items.map((item) => item.category))];
+---
+<BaseLayout title="學習資源" description={`${SITE_NAME}整理的完全免費英語學習網站，只連到官方網址，不必付費入會。`}>
+  <div class="wrap hero">
+    <p class="kicker">學習資源</p>
+    <h1>免費英語學習網站</h1>
+    <p class="lede">{resources.intro}下列連結皆為查核過的官方網站，會另開分頁。</p>
+  </div>
+  <div class="wrap" style="padding-bottom:2rem;">
+    {categories.map((category) => (
+      <section class="resource-section" aria-labelledby={`cat-${category}`}>
+        <h2 class="section-title" id={`cat-${category}`}>{category}</h2>
+        <ul class="resource-list">
+          {items.filter((item) => item.category === category).map((item) => (
+            <li class="card resource-card">
+              <p class="resource-cat">{item.category}</p>
+              <h3>
+                {item.name}
+                {item.name_zh ? <span class="resource-name-zh">{item.name_zh}</span> : null}
+              </h3>
+              <p class="resource-desc">{item.description}</p>
+              {item.login_note ? <p class="resource-note">{item.login_note}</p> : null}
+              <p class="credit">出處：{item.publisher}</p>
+              <p class="resource-url">
+                <a class="btn btn-primary btn-link" href={item.url} target="_blank" rel="noopener">
+                  前往官方網站
+                </a>
+                <span class="resource-href">{item.url}</span>
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>
