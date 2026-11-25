@@ -21,7 +21,13 @@ const date = dateArg || taipeiDateISO();
 
 const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_GENAI_API_KEY;
 const openaiKey = process.env.OPENAI_API_KEY;
-const geminiModel = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
+const geminiFallbacks = [...new Set([
+  process.env.GEMINI_MODEL,
+  'gemini-3.8-flash',
+  'gemini-3.6-flash',
+  'gemini-3.5-flash-lite',
+].filter(Boolean))];
+let geminiModel = geminiFallbacks[0];
 const openaiModel = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 
 if (!geminiKey && !openaiKey) {
@@ -217,34 +223,39 @@ async function callLLM(prompt) {
 }
 
 async function callGemini(prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(geminiModel)}:generateContent`;
-  const delays = [0, 8000, 20000, 45000];
+  const models = [geminiModel, ...geminiFallbacks.filter((m) => m !== geminiModel)];
   let lastErr;
-  for (let i = 0; i < delays.length; i++) {
-    if (delays[i]) {
-      console.log(`Gemini 暫時忙碌，${delays[i] / 1000} 秒後重試（第 ${i} 次）…`);
-      await sleep(delays[i]);
+  for (const model of models) {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
+    for (const delay of [0, 8000]) {
+      if (delay) {
+        console.log(`Gemini ${model} 暫時忙碌，${delay / 1000} 秒後重試…`);
+        await sleep(delay);
+      }
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': geminiKey },
+        body: JSON.stringify({
+          contents: [{ role: 'user', parts: [{ text: prompt }] }],
+          generationConfig: { temperature: 0.4, responseMimeType: 'application/json' },
+        }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
+        if (!text) throw new Error(`Gemini 沒有回傳文字（${model}）`);
+        if (geminiModel !== model) {
+          console.log(`改用 Gemini 模型 ${model}`);
+          geminiModel = model;
+        }
+        return text;
+      }
+      const body = await res.text();
+      lastErr = new Error(`Gemini ${res.status} (${model}): ${body}`);
+      console.log(lastErr.message);
+      if (res.status === 404) break;
+      if (![429, 500, 503].includes(res.status)) throw lastErr;
     }
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-goog-api-key': geminiKey },
-      body: JSON.stringify({
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.4, responseMimeType: 'application/json' },
-      }),
-    });
-    if (res.ok) {
-      const data = await res.json();
-      const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
-      if (!text) throw new Error('Gemini 沒有回傳文字');
-      return text;
-    }
-    const body = await res.text();
-    lastErr = new Error(`Gemini ${res.status}: ${body}`);
-    if (![429, 500, 503].includes(res.status) || i === delays.length - 1) {
-      throw lastErr;
-    }
-    console.log(lastErr.message);
   }
   throw lastErr;
 }
