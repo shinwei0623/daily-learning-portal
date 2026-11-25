@@ -218,19 +218,39 @@ async function callLLM(prompt) {
 
 async function callGemini(prompt) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(geminiModel)}:generateContent`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'x-goog-api-key': geminiKey },
-    body: JSON.stringify({
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.4, responseMimeType: 'application/json' },
-    }),
-  });
-  if (!res.ok) throw new Error(`Gemini ${res.status}: ${await res.text()}`);
-  const data = await res.json();
-  const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
-  if (!text) throw new Error('Gemini 沒有回傳文字');
-  return text;
+  const delays = [0, 8000, 20000, 45000];
+  let lastErr;
+  for (let i = 0; i < delays.length; i++) {
+    if (delays[i]) {
+      console.log(`Gemini 暫時忙碌，${delays[i] / 1000} 秒後重試（第 ${i} 次）…`);
+      await sleep(delays[i]);
+    }
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-goog-api-key': geminiKey },
+      body: JSON.stringify({
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.4, responseMimeType: 'application/json' },
+      }),
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
+      if (!text) throw new Error('Gemini 沒有回傳文字');
+      return text;
+    }
+    const body = await res.text();
+    lastErr = new Error(`Gemini ${res.status}: ${body}`);
+    if (![429, 500, 503].includes(res.status) || i === delays.length - 1) {
+      throw lastErr;
+    }
+    console.log(lastErr.message);
+  }
+  throw lastErr;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function callOpenAI(prompt) {
