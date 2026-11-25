@@ -4,7 +4,7 @@
  * 需要環境變數 GEMINI_API_KEY（建議）或 OPENAI_API_KEY。
  * 用法：node scripts/generate-daily.mjs [--date YYYY-MM-DD] [--force]
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -41,10 +41,9 @@ if (!geminiKey && !openaiKey) {
 
 const englishDir = path.join(root, 'src/content/english');
 const yilanDir = path.join(root, 'src/content/yilan');
-const already =
-  existsSync(path.join(yilanDir, `${date}.md`)) &&
-  existsSync(path.join(englishDir, `${date}-junior-1.md`));
-if (already && !force) {
+const englishExists = existsSync(path.join(englishDir, `${date}-junior-1.md`));
+const yilanExists = existsSync(path.join(yilanDir, `${date}.md`));
+if (englishExists && yilanExists && !force) {
   console.log(`${date} 的內容已存在。若要重產，請加 --force。`);
   process.exit(0);
 }
@@ -58,9 +57,17 @@ const usedWords = collectUsedWords(englishDir);
 const banned = 'politics, political, election, religion, god, temple, church, war, kill, weapon, violence, drug, gambling, horror, terror, suicide, adult, dating app';
 
 try {
-  await generateEnglish('junior', juniorBank.words, 2);
-  await generateEnglish('senior', seniorBank.words, 2);
-  await generateYilan();
+  if (!englishExists || force) {
+    await generateEnglish('junior', juniorBank.words, 2);
+    await generateEnglish('senior', seniorBank.words, 2);
+  } else {
+    console.log(`${date} 英語短文已存在，略過。`);
+  }
+  if (!yilanExists || force) {
+    await generateYilan();
+  } else {
+    console.log(`${date} 宜蘭見聞已存在，略過。`);
+  }
   console.log(`完成 ${date} 的產文。`);
 } catch (err) {
   console.error(err);
@@ -155,9 +162,12 @@ function writeEnglish(level, slot, story, expected) {
 }
 
 async function generateYilan() {
-  const topic = topicsDoc.topics.find((t) => t.image?.download_url && !(t.used_on || []).includes(date));
+  const withImage = topicsDoc.topics.filter((t) => t.image?.download_url);
+  const unused = withImage.filter((t) => !(t.used_on || []).length);
+  const unusedToday = withImage.filter((t) => !(t.used_on || []).includes(date));
+  const topic = unused[0] || unusedToday[0];
   if (!topic) {
-    throw new Error('沒有「已備妥授權圖片、且本日尚未使用」的宜蘭題目。請先在 src/data/yilan-topics.json 補上 download_url 與授權資訊。');
+    throw new Error('沒有「已備妥授權圖片、且尚未用盡」的宜蘭題目。請先在 src/data/yilan-topics.json 補上 download_url 與授權資訊。');
   }
   const excerpts = topic.sources
     .map((s, i) => `來源${i + 1}「${s.title}」 ${s.url}\n${s.excerpt}`)
@@ -342,6 +352,7 @@ im.save(${JSON.stringify(dest)}, quality=86, optimize=True)
 `;
   const p = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
   if (p.status !== 0) throw new Error(`縮圖失敗：${p.stderr || p.stdout}`);
+  try { unlinkSync(tmp); } catch {}
 }
 
 function yamlQ(value) {
