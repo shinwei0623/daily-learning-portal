@@ -33,7 +33,7 @@ GitHub Actions 於每天 **台北時間 00:30**（UTC 16:30）執行 `scripts/ge
 | `GEMINI_API_KEY` | 建議。至 Google AI Studio 申請 Gemini API 鑰匙 |
 | `OPENAI_API_KEY` | 備用 |
 
-可選變數：`GEMINI_MODEL`（預設 `gemini-2.5-flash`）、`SITE_URL`、`BASE_PATH`（若以 `username.github.io/repo-name/` 發布，設為 `/repo-name/`）。
+可選變數：`GEMINI_MODEL`（預設 `gemini-3.8-flash`）、`SITE_URL`、`BASE_PATH`（若以 `username.github.io/repo-name/` 發布，設為 `/repo-name/`）。
 
 宜蘭見聞採「先有來源再改寫」：題目與摘錄在 `src/data/yilan-topics.json`。沒有可用授權圖片（`download_url`）的題目會被跳過，以免無圖或授權不明的內容自動上線。
 

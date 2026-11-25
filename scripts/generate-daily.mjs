@@ -21,7 +21,7 @@ const date = dateArg || taipeiDateISO();
 
 const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_GENAI_API_KEY;
 const openaiKey = process.env.OPENAI_API_KEY;
-const geminiModel = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const geminiModel = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 const openaiModel = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 
 if (!geminiKey && !openaiKey) {
