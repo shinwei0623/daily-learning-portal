@@ -25,6 +25,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: 安裝圖片縮圖與 PDF 所需套件
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pil fonts-noto-cjk
+
       - name: 還原音檔、圖片與 PDF
         run: python3 scripts/unpack-assets.py
 
@@ -44,6 +49,10 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: node scripts/generate-daily.mjs
 
+      - name: 產出宜蘭 A4 PDF
+        run: npm run pdf
+        continue-on-error: true
+
       - name: 若有新內容則提交
         if: github.event_name != 'push'
         run: |
@@ -62,10 +71,6 @@ jobs:
           BASE_PATH: ${{ vars.BASE_PATH || '/daily-learning-portal/' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://shinwei0623.github.io/daily-learning-portal' }}
         run: npm run build
-
-      - name: 嘗試產出 PDF
-        run: npm run pdf
-        continue-on-error: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
