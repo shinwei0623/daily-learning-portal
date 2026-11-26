@@ -227,6 +227,9 @@ ${excerpts}`;
   console.log('wrote yilan', topic.id, compact.length, 'chars');
 }
 
+const REQUEST_TIMEOUT_MS = 75_000;
+const RETRYABLE_HTTP = new Set([429, 500, 502, 503, 504]);
+
 async function callLLM(prompt) {
   if (geminiKey) return callGemini(prompt);
   return callOpenAI(prompt);
@@ -239,58 +242,123 @@ async function callGemini(prompt) {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
     for (const delay of [0, 8000]) {
       if (delay) {
-        console.log(`Gemini ${model} 暫時忙碌，${delay / 1000} 秒後重試…`);
+        console.log(`Gemini ${model} 暫時忙碌或連線失敗，${delay / 1000} 秒後重試…`);
         await sleep(delay);
       }
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': geminiKey },
-        body: JSON.stringify({
-          contents: [{ role: 'user', parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.4, responseMimeType: 'application/json' },
-        }),
-      });
-      if (res.ok) {
-        const data = await res.json();
-        const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
-        if (!text) throw new Error(`Gemini 沒有回傳文字（${model}）`);
-        if (geminiModel !== model) {
-          console.log(`改用 Gemini 模型 ${model}`);
-          geminiModel = model;
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'x-goog-api-key': geminiKey },
+          body: JSON.stringify({
+            contents: [{ role: 'user', parts: [{ text: prompt }] }],
+            generationConfig: { temperature: 0.4, responseMimeType: 'application/json' },
+          }),
+          signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+        });
+        if (res.ok) {
+          const data = await res.json();
+          const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
+          if (!text) throw new Error(`Gemini 沒有回傳文字（${model}）`);
+          if (geminiModel !== model) {
+            console.log(`改用 Gemini 模型 ${model}`);
+            geminiModel = model;
+          }
+          return text;
         }
-        return text;
+        const body = await res.text();
+        lastErr = new Error(`Gemini ${res.status} (${model}): ${body}`);
+        console.log(lastErr.message);
+        if (res.status === 404) break;
+        if (!RETRYABLE_HTTP.has(res.status)) throw lastErr;
+      } catch (err) {
+        if (!isRetryableRequestError(err)) throw err;
+        lastErr = err;
+        console.log(`Gemini ${model} 連線失敗：${describeError(err)}`);
       }
-      const body = await res.text();
-      lastErr = new Error(`Gemini ${res.status} (${model}): ${body}`);
-      console.log(lastErr.message);
-      if (res.status === 404) break;
-      if (![429, 500, 503].includes(res.status)) throw lastErr;
     }
   }
   throw lastErr;
 }
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+async function callOpenAI(prompt) {
+  let lastErr;
+  for (const [i, delay] of [0, 8000, 20000].entries()) {
+    if (delay) {
+      console.log(`OpenAI 暫時忙碌或連線失敗，${delay / 1000} 秒後重試（第 ${i} 次）…`);
+      await sleep(delay);
+    }
+    try {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openaiKey}` },
+        body: JSON.stringify({
+          model: openaiModel,
+          temperature: 0.4,
+          response_format: { type: 'json_object' },
+          messages: [
+            { role: 'system', content: 'Reply with JSON only.' },
+            { role: 'user', content: prompt },
+          ],
+        }),
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        return data.choices?.[0]?.message?.content || '';
+      }
+      const body = await res.text();
+      lastErr = new Error(`OpenAI ${res.status}: ${body}`);
+      console.log(lastErr.message);
+      if (!RETRYABLE_HTTP.has(res.status)) throw lastErr;
+    } catch (err) {
+      if (!isRetryableRequestError(err)) throw err;
+      lastErr = err;
+      console.log(`OpenAI 連線失敗：${describeError(err)}`);
+    }
+  }
+  throw lastErr;
 }
 
-async function callOpenAI(prompt) {
-  const res = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openaiKey}` },
-    body: JSON.stringify({
-      model: openaiModel,
-      temperature: 0.4,
-      response_format: { type: 'json_object' },
-      messages: [
-        { role: 'system', content: 'Reply with JSON only.' },
-        { role: 'user', content: prompt },
-      ],
-    }),
-  });
-  if (!res.ok) throw new Error(`OpenAI ${res.status}: ${await res.text()}`);
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content || '';
+function isRetryableRequestError(err) {
+  if (err?.message?.startsWith('Gemini ') || err?.message?.startsWith('OpenAI ')) {
+    const status = Number((err.message.match(/^(?:Gemini|OpenAI) (\d+)/) || [])[1]);
+    return RETRYABLE_HTTP.has(status);
+  }
+  let cur = err;
+  const seen = new Set();
+  while (cur && !seen.has(cur)) {
+    seen.add(cur);
+    const name = String(cur.name || '');
+    const code = String(cur.code || '');
+    const msg = String(cur.message || '');
+    if (name === 'AbortError' || name === 'TimeoutError') return true;
+    if (name === 'TypeError' && /fetch failed/i.test(msg)) return true;
+    if (
+      code.includes('TIMEOUT') ||
+      code.startsWith('UND_ERR') ||
+      code === 'ETIMEDOUT' ||
+      code === 'ECONNRESET' ||
+      code === 'ECONNREFUSED' ||
+      code === 'EAI_AGAIN' ||
+      code === 'ENOTFOUND'
+    ) {
+      return true;
+    }
+    if (/headers timeout|body timeout|connect timeout|socket hang up|network|aborted|timeout/i.test(msg)) {
+      return true;
+    }
+    cur = cur.cause;
+  }
+  return false;
+}
+
+function describeError(err) {
+  const parts = [err?.name, err?.message, err?.code, err?.cause?.code, err?.cause?.message].filter(Boolean);
+  return [...new Set(parts)].join(' / ');
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function extractJson(text) {
