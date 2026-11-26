@@ -99,12 +99,23 @@ Story 1 must use exactly these words in the story: ${groups[0].map((w) => w.word
 Story 2 must use exactly these words in the story: ${groups[1].map((w) => w.word).join(', ')}
 Chinese must be Traditional Chinese (臺灣用字).`;
 
-  const raw = await callLLM(prompt);
-  const stories = extractJson(raw);
-  if (!Array.isArray(stories) || stories.length !== storyCount) {
-    throw new Error(`${level} 回傳不是 ${storyCount} 篇 JSON`);
+  let lastErr;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const raw = await callLLM(prompt);
+      const stories = extractJson(raw);
+      if (!Array.isArray(stories) || stories.length !== storyCount) {
+        throw new Error(`${level} 回傳不是 ${storyCount} 篇 JSON`);
+      }
+      stories.forEach((story, i) => writeEnglish(level, i + 1, story, groups[i]));
+      return;
+    } catch (err) {
+      lastErr = err;
+      console.log(`${level} 產文第 ${attempt} 次未通過檢查：${err.message}`);
+      if (attempt === 3) throw lastErr;
+    }
   }
-  stories.forEach((story, i) => writeEnglish(level, i + 1, story, groups[i]));
+  throw lastErr;
 }
 
 function writeEnglish(level, slot, story, expected) {
