@@ -29,6 +29,8 @@ const geminiFallbacks = [...new Set([
 ].filter(Boolean))];
 let geminiModel = geminiFallbacks[0];
 const openaiModel = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+const REQUEST_TIMEOUT_MS = 75_000;
+const RETRYABLE_HTTP = new Set([429, 500, 502, 503, 504]);
 
 if (!geminiKey && !openaiKey) {
   console.log(`沒有可用的 LLM 鑰匙，略過 ${date} 的自動產文。
@@ -227,9 +229,6 @@ ${excerpts}`;
   console.log('wrote yilan', topic.id, compact.length, 'chars');
 }
 
-const REQUEST_TIMEOUT_MS = 75_000;
-const RETRYABLE_HTTP = new Set([429, 500, 502, 503, 504]);
-
 async function callLLM(prompt) {
   if (geminiKey) return callGemini(prompt);
   return callOpenAI(prompt);
@@ -320,8 +319,9 @@ async function callOpenAI(prompt) {
 }
 
 function isRetryableRequestError(err) {
-  if (err?.message?.startsWith('Gemini ') || err?.message?.startsWith('OpenAI ')) {
-    const status = Number((err.message.match(/^(?:Gemini|OpenAI) (\d+)/) || [])[1]);
+  const msg0 = String(err?.message || '');
+  if (msg0.startsWith('Gemini ') || msg0.startsWith('OpenAI ')) {
+    const status = Number((msg0.match(/^(?:Gemini|OpenAI) (\d+)/) || [])[1]);
     return RETRYABLE_HTTP.has(status);
   }
   let cur = err;
@@ -331,20 +331,24 @@ function isRetryableRequestError(err) {
     const name = String(cur.name || '');
     const code = String(cur.code || '');
     const msg = String(cur.message || '');
+    if (name === 'ReferenceError' || name === 'SyntaxError' || name === 'RangeError') return false;
     if (name === 'AbortError' || name === 'TimeoutError') return true;
     if (name === 'TypeError' && /fetch failed/i.test(msg)) return true;
     if (
-      code.includes('TIMEOUT') ||
-      code.startsWith('UND_ERR') ||
+      code === 'UND_ERR_HEADERS_TIMEOUT' ||
+      code === 'UND_ERR_BODY_TIMEOUT' ||
+      code === 'UND_ERR_CONNECT_TIMEOUT' ||
+      code === 'UND_ERR_SOCKET' ||
       code === 'ETIMEDOUT' ||
       code === 'ECONNRESET' ||
       code === 'ECONNREFUSED' ||
+      code === 'EPIPE' ||
       code === 'EAI_AGAIN' ||
       code === 'ENOTFOUND'
     ) {
       return true;
     }
-    if (/headers timeout|body timeout|connect timeout|socket hang up|network|aborted|timeout/i.test(msg)) {
+    if (/headers timeout|body timeout|connect timeout|socket hang up|fetch failed|the operation was aborted/i.test(msg)) {
       return true;
     }
     cur = cur.cause;
