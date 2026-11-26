@@ -50,7 +50,9 @@
     {
       "id": "jiaoxi-hotspring",
       "title_hint": "礁溪溫泉",
-      "used_on": [],
+      "used_on": [
+        "2026-11-26"
+      ],
       "sources": [
         {
           "title": "宜蘭縣政府「宜蘭好山水／宜蘭大地」",
