@@ -55,7 +55,7 @@ const seniorBank = JSON.parse(readFileSync(path.join(root, 'src/data/wordbank-se
 const topicsFile = path.join(root, 'src/data/yilan-topics.json');
 const topicsDoc = JSON.parse(readFileSync(topicsFile, 'utf8'));
 
-const usedWords = collectUsedWords(englishDir);
+const wordUsage = collectWordUsage(englishDir);
 const banned = 'politics, political, election, religion, god, temple, church, war, kill, weapon, violence, drug, gambling, horror, terror, suicide, adult, dating app';
 
 try {
@@ -77,10 +77,7 @@ try {
 }
 
 async function generateEnglish(level, bank, storyCount) {
-  const picks = pickUnused(bank, usedWords, 5 * storyCount);
-  if (picks.length < 5 * storyCount) {
-    throw new Error(`${level} 字庫可用單字不足`);
-  }
+  const picks = pickWords(bank, wordUsage, 5 * storyCount, date);
   const groups = [];
   for (let i = 0; i < storyCount; i++) groups.push(picks.slice(i * 5, i * 5 + 5));
 
@@ -175,13 +172,7 @@ function writeEnglish(level, slot, story, expected) {
 }
 
 async function generateYilan() {
-  const withImage = topicsDoc.topics.filter((t) => t.image?.download_url);
-  const unused = withImage.filter((t) => !(t.used_on || []).length);
-  const unusedToday = withImage.filter((t) => !(t.used_on || []).includes(date));
-  const topic = unused[0] || unusedToday[0];
-  if (!topic) {
-    throw new Error('沒有「已備妥授權圖片、且尚未用盡」的宜蘭題目。請先在 src/data/yilan-topics.json 補上 download_url 與授權資訊。');
-  }
+  const topic = pickYilanTopic(topicsDoc.topics, date);
   const excerpts = topic.sources
     .map((s, i) => `來源${i + 1}「${s.title}」 ${s.url}\n${s.excerpt}`)
     .join('\n\n');
@@ -383,28 +374,73 @@ function extractJson(text) {
   return JSON.parse(trimmed.slice(start));
 }
 
-function collectUsedWords(dir) {
-  const used = new Set();
-  if (!existsSync(dir)) return used;
+function collectWordUsage(dir) {
+  const usage = new Map();
+  if (!existsSync(dir)) return usage;
   for (const name of readdirSync(dir)) {
     if (!name.endsWith('.md')) continue;
     const text = readFileSync(path.join(dir, name), 'utf8');
+    const dm = text.match(/^date:\s*"?(\d{4}-\d{2}-\d{2})"?/m);
+    const when = (dm && dm[1]) || (name.match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || '';
     for (const m of text.matchAll(/^\s+- word:\s+"?([^"\n]+)"?/gm)) {
-      used.add(m[1].trim().toLowerCase());
+      const key = m[1].trim().toLowerCase();
+      const prev = usage.get(key);
+      if (!prev || when > prev) usage.set(key, when);
     }
   }
-  return used;
+  return usage;
 }
 
-function pickUnused(bank, used, n) {
-  const rest = bank.filter((w) => !used.has(w.word.toLowerCase()));
-  for (let i = rest.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [rest[i], rest[j]] = [rest[j], rest[i]];
+function pickWords(bank, usage, n, today) {
+  const unused = [];
+  const recycled = [];
+  for (const w of bank) {
+    const key = w.word.toLowerCase();
+    const last = usage.get(key);
+    if (!last) unused.push(w);
+    else if (last !== today) recycled.push({ word: w, last });
   }
-  const chosen = rest.slice(0, n);
-  chosen.forEach((w) => used.add(w.word.toLowerCase()));
-  return chosen;
+  shuffleInPlace(unused);
+  const picks = unused.slice(0, n);
+  if (picks.length < n) {
+    recycled.sort((a, b) => a.last.localeCompare(b.last) || a.word.word.localeCompare(b.word.word));
+    for (const item of recycled) {
+      if (picks.length >= n) break;
+      picks.push(item.word);
+    }
+  }
+  if (picks.length < n) {
+    throw new Error(`字庫中「本日尚未使用」的單字不足 ${n} 個（字庫共 ${bank.length} 個）。請擴充字庫。`);
+  }
+  picks.forEach((w) => usage.set(w.word.toLowerCase(), today));
+  return picks;
+}
+
+function pickYilanTopic(topics, today) {
+  const withImage = topics.filter((t) => t.image?.download_url);
+  if (!withImage.length) {
+    throw new Error('沒有已備妥授權圖片的宜蘭題目。請先在 src/data/yilan-topics.json 補上 download_url 與授權資訊。');
+  }
+  const unused = withImage.filter((t) => !(t.used_on || []).length);
+  if (unused.length) return unused[0];
+  const notToday = withImage.filter((t) => !(t.used_on || []).includes(today));
+  if (!notToday.length) {
+    throw new Error('本日已用盡所有已備妥圖片的宜蘭題目。');
+  }
+  notToday.sort((a, b) => {
+    const lastA = [...(a.used_on || [])].sort().at(-1) || '';
+    const lastB = [...(b.used_on || [])].sort().at(-1) || '';
+    return lastA.localeCompare(lastB) || String(a.id).localeCompare(String(b.id));
+  });
+  return notToday[0];
+}
+
+function shuffleInPlace(list) {
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
 }
 
 function downloadAudio(word, dest) {

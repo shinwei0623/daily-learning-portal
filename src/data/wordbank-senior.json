@@ -1,5 +1,5 @@
 {
-  "note": "精簡常用字庫，供產文抽字；完整官方字表請依非營利條件自官方 PDF 匯入。",
+  "note": "供每日產文抽字的高中字庫。詞目以大考中心《高中英文參考詞彙表》（學測核心字彙）常見詞為範圍，釋義為本站自編臺灣繁體簡釋，供非營利教育使用；本檔並非官方字表全文，完整字表請依其非營利條款自官方來源取得。",
   "words": [
     {
       "word": "rehearsal",
@@ -150,6 +150,5771 @@
       "word": "curious",
       "pos": "adj.",
       "def_zh": "好奇的"
+    },
+    {
+      "word": "ability",
+      "pos": "n.",
+      "def_zh": "能力"
+    },
+    {
+      "word": "abroad",
+      "pos": "adv.",
+      "def_zh": "在國外"
+    },
+    {
+      "word": "absorb",
+      "pos": "v.",
+      "def_zh": "吸收"
+    },
+    {
+      "word": "abstract",
+      "pos": "adj.",
+      "def_zh": "抽象的"
+    },
+    {
+      "word": "academic",
+      "pos": "adj.",
+      "def_zh": "學術的"
+    },
+    {
+      "word": "accept",
+      "pos": "v.",
+      "def_zh": "接受"
+    },
+    {
+      "word": "access",
+      "pos": "n./v.",
+      "def_zh": "管道；取得"
+    },
+    {
+      "word": "accident",
+      "pos": "n.",
+      "def_zh": "意外事故"
+    },
+    {
+      "word": "accompany",
+      "pos": "v.",
+      "def_zh": "陪伴"
+    },
+    {
+      "word": "accomplish",
+      "pos": "v.",
+      "def_zh": "完成"
+    },
+    {
+      "word": "according",
+      "pos": "adv.",
+      "def_zh": "依照"
+    },
+    {
+      "word": "account",
+      "pos": "n.",
+      "def_zh": "帳戶；敘述"
+    },
+    {
+      "word": "accurate",
+      "pos": "adj.",
+      "def_zh": "精確的"
+    },
+    {
+      "word": "achieve",
+      "pos": "v.",
+      "def_zh": "達成"
+    },
+    {
+      "word": "acquire",
+      "pos": "v.",
+      "def_zh": "獲得"
+    },
+    {
+      "word": "adapt",
+      "pos": "v.",
+      "def_zh": "適應"
+    },
+    {
+      "word": "addition",
+      "pos": "n.",
+      "def_zh": "增加；加法"
+    },
+    {
+      "word": "adequate",
+      "pos": "adj.",
+      "def_zh": "足夠的"
+    },
+    {
+      "word": "adjust",
+      "pos": "v.",
+      "def_zh": "調整"
+    },
+    {
+      "word": "admire",
+      "pos": "v.",
+      "def_zh": "欽佩"
+    },
+    {
+      "word": "admit",
+      "pos": "v.",
+      "def_zh": "承認"
+    },
+    {
+      "word": "adopt",
+      "pos": "v.",
+      "def_zh": "採納；收養"
+    },
+    {
+      "word": "advance",
+      "pos": "v./n.",
+      "def_zh": "前進；進展"
+    },
+    {
+      "word": "advantage",
+      "pos": "n.",
+      "def_zh": "優點"
+    },
+    {
+      "word": "adventure",
+      "pos": "n.",
+      "def_zh": "冒險"
+    },
+    {
+      "word": "advice",
+      "pos": "n.",
+      "def_zh": "建議"
+    },
+    {
+      "word": "advise",
+      "pos": "v.",
+      "def_zh": "勸告"
+    },
+    {
+      "word": "affect",
+      "pos": "v.",
+      "def_zh": "影響"
+    },
+    {
+      "word": "afford",
+      "pos": "v.",
+      "def_zh": "負擔得起"
+    },
+    {
+      "word": "agency",
+      "pos": "n.",
+      "def_zh": "機構"
+    },
+    {
+      "word": "agriculture",
+      "pos": "n.",
+      "def_zh": "農業"
+    },
+    {
+      "word": "aid",
+      "pos": "n./v.",
+      "def_zh": "援助"
+    },
+    {
+      "word": "aim",
+      "pos": "n./v.",
+      "def_zh": "目標；旨在"
+    },
+    {
+      "word": "alarm",
+      "pos": "n.",
+      "def_zh": "警報"
+    },
+    {
+      "word": "alert",
+      "pos": "adj.",
+      "def_zh": "警覺的"
+    },
+    {
+      "word": "alike",
+      "pos": "adj.",
+      "def_zh": "相似的"
+    },
+    {
+      "word": "allow",
+      "pos": "v.",
+      "def_zh": "允許"
+    },
+    {
+      "word": "alter",
+      "pos": "v.",
+      "def_zh": "改變"
+    },
+    {
+      "word": "amazing",
+      "pos": "adj.",
+      "def_zh": "令人驚豔的"
+    },
+    {
+      "word": "ambition",
+      "pos": "n.",
+      "def_zh": "志向"
+    },
+    {
+      "word": "amount",
+      "pos": "n.",
+      "def_zh": "數量"
+    },
+    {
+      "word": "amuse",
+      "pos": "v.",
+      "def_zh": "逗樂"
+    },
+    {
+      "word": "analysis",
+      "pos": "n.",
+      "def_zh": "分析"
+    },
+    {
+      "word": "analyze",
+      "pos": "v.",
+      "def_zh": "分析"
+    },
+    {
+      "word": "ancestor",
+      "pos": "n.",
+      "def_zh": "祖先"
+    },
+    {
+      "word": "ancient",
+      "pos": "adj.",
+      "def_zh": "古代的"
+    },
+    {
+      "word": "angle",
+      "pos": "n.",
+      "def_zh": "角度"
+    },
+    {
+      "word": "announce",
+      "pos": "v.",
+      "def_zh": "宣布"
+    },
+    {
+      "word": "annual",
+      "pos": "adj.",
+      "def_zh": "每年的"
+    },
+    {
+      "word": "anxiety",
+      "pos": "n.",
+      "def_zh": "焦慮"
+    },
+    {
+      "word": "anxious",
+      "pos": "adj.",
+      "def_zh": "焦慮的"
+    },
+    {
+      "word": "anyway",
+      "pos": "adv.",
+      "def_zh": "無論如何"
+    },
+    {
+      "word": "apology",
+      "pos": "n.",
+      "def_zh": "道歉"
+    },
+    {
+      "word": "apparent",
+      "pos": "adj.",
+      "def_zh": "明顯的"
+    },
+    {
+      "word": "appeal",
+      "pos": "v./n.",
+      "def_zh": "呼籲；吸引力"
+    },
+    {
+      "word": "appear",
+      "pos": "v.",
+      "def_zh": "出現"
+    },
+    {
+      "word": "application",
+      "pos": "n.",
+      "def_zh": "申請；應用"
+    },
+    {
+      "word": "apply",
+      "pos": "v.",
+      "def_zh": "申請；運用"
+    },
+    {
+      "word": "appoint",
+      "pos": "v.",
+      "def_zh": "任命"
+    },
+    {
+      "word": "approach",
+      "pos": "v./n.",
+      "def_zh": "接近；方法"
+    },
+    {
+      "word": "appropriate",
+      "pos": "adj.",
+      "def_zh": "適當的"
+    },
+    {
+      "word": "approval",
+      "pos": "n.",
+      "def_zh": "批准"
+    },
+    {
+      "word": "approve",
+      "pos": "v.",
+      "def_zh": "贊同"
+    },
+    {
+      "word": "architect",
+      "pos": "n.",
+      "def_zh": "建築師"
+    },
+    {
+      "word": "argue",
+      "pos": "v.",
+      "def_zh": "爭論"
+    },
+    {
+      "word": "argument",
+      "pos": "n.",
+      "def_zh": "論點；爭執"
+    },
+    {
+      "word": "arise",
+      "pos": "v.",
+      "def_zh": "產生；升起"
+    },
+    {
+      "word": "arrange",
+      "pos": "v.",
+      "def_zh": "安排"
+    },
+    {
+      "word": "article",
+      "pos": "n.",
+      "def_zh": "文章"
+    },
+    {
+      "word": "artificial",
+      "pos": "adj.",
+      "def_zh": "人造的"
+    },
+    {
+      "word": "artist",
+      "pos": "n.",
+      "def_zh": "藝術家"
+    },
+    {
+      "word": "ashamed",
+      "pos": "adj.",
+      "def_zh": "感到羞愧的"
+    },
+    {
+      "word": "aspect",
+      "pos": "n.",
+      "def_zh": "方面"
+    },
+    {
+      "word": "assemble",
+      "pos": "v.",
+      "def_zh": "集合；組裝"
+    },
+    {
+      "word": "assess",
+      "pos": "v.",
+      "def_zh": "評估"
+    },
+    {
+      "word": "assign",
+      "pos": "v.",
+      "def_zh": "指派"
+    },
+    {
+      "word": "assist",
+      "pos": "v.",
+      "def_zh": "協助"
+    },
+    {
+      "word": "associate",
+      "pos": "v.",
+      "def_zh": "聯想；往來"
+    },
+    {
+      "word": "assume",
+      "pos": "v.",
+      "def_zh": "假定"
+    },
+    {
+      "word": "astonish",
+      "pos": "v.",
+      "def_zh": "使驚訝"
+    },
+    {
+      "word": "athlete",
+      "pos": "n.",
+      "def_zh": "運動員"
+    },
+    {
+      "word": "attach",
+      "pos": "v.",
+      "def_zh": "附上"
+    },
+    {
+      "word": "attempt",
+      "pos": "v./n.",
+      "def_zh": "嘗試"
+    },
+    {
+      "word": "attend",
+      "pos": "v.",
+      "def_zh": "出席"
+    },
+    {
+      "word": "attention",
+      "pos": "n.",
+      "def_zh": "注意力"
+    },
+    {
+      "word": "attitude",
+      "pos": "n.",
+      "def_zh": "態度"
+    },
+    {
+      "word": "attract",
+      "pos": "v.",
+      "def_zh": "吸引"
+    },
+    {
+      "word": "attractive",
+      "pos": "adj.",
+      "def_zh": "有吸引力的"
+    },
+    {
+      "word": "authority",
+      "pos": "n.",
+      "def_zh": "當局；權威"
+    },
+    {
+      "word": "automatic",
+      "pos": "adj.",
+      "def_zh": "自動的"
+    },
+    {
+      "word": "available",
+      "pos": "adj.",
+      "def_zh": "可得到的"
+    },
+    {
+      "word": "average",
+      "pos": "adj./n.",
+      "def_zh": "平均的；平均值"
+    },
+    {
+      "word": "avoid",
+      "pos": "v.",
+      "def_zh": "避免"
+    },
+    {
+      "word": "award",
+      "pos": "n./v.",
+      "def_zh": "獎項；頒發"
+    },
+    {
+      "word": "aware",
+      "pos": "adj.",
+      "def_zh": "察覺的"
+    },
+    {
+      "word": "awful",
+      "pos": "adj.",
+      "def_zh": "糟糕的"
+    },
+    {
+      "word": "awkward",
+      "pos": "adj.",
+      "def_zh": "尷尬的"
+    },
+    {
+      "word": "background",
+      "pos": "n.",
+      "def_zh": "背景"
+    },
+    {
+      "word": "barely",
+      "pos": "adv.",
+      "def_zh": "僅僅；幾乎不"
+    },
+    {
+      "word": "bargain",
+      "pos": "n./v.",
+      "def_zh": "划算的買賣；議價"
+    },
+    {
+      "word": "barrier",
+      "pos": "n.",
+      "def_zh": "障礙"
+    },
+    {
+      "word": "basic",
+      "pos": "adj.",
+      "def_zh": "基本的"
+    },
+    {
+      "word": "behavior",
+      "pos": "n.",
+      "def_zh": "行為"
+    },
+    {
+      "word": "belief",
+      "pos": "n.",
+      "def_zh": "信念"
+    },
+    {
+      "word": "belong",
+      "pos": "v.",
+      "def_zh": "屬於"
+    },
+    {
+      "word": "benefit",
+      "pos": "n./v.",
+      "def_zh": "益處；有益於"
+    },
+    {
+      "word": "besides",
+      "pos": "prep.",
+      "def_zh": "除……之外"
+    },
+    {
+      "word": "bitter",
+      "pos": "adj.",
+      "def_zh": "苦的；痛苦的"
+    },
+    {
+      "word": "blame",
+      "pos": "v.",
+      "def_zh": "責備"
+    },
+    {
+      "word": "blank",
+      "pos": "adj.",
+      "def_zh": "空白的"
+    },
+    {
+      "word": "bless",
+      "pos": "v.",
+      "def_zh": "祝福"
+    },
+    {
+      "word": "blind",
+      "pos": "adj.",
+      "def_zh": "瞎的"
+    },
+    {
+      "word": "bloom",
+      "pos": "v.",
+      "def_zh": "開花"
+    },
+    {
+      "word": "board",
+      "pos": "n./v.",
+      "def_zh": "木板；上船"
+    },
+    {
+      "word": "boast",
+      "pos": "v.",
+      "def_zh": "誇耀"
+    },
+    {
+      "word": "bold",
+      "pos": "adj.",
+      "def_zh": "大膽的"
+    },
+    {
+      "word": "bond",
+      "pos": "n.",
+      "def_zh": "連結"
+    },
+    {
+      "word": "border",
+      "pos": "n.",
+      "def_zh": "邊界"
+    },
+    {
+      "word": "bored",
+      "pos": "adj.",
+      "def_zh": "感到無聊的"
+    },
+    {
+      "word": "bother",
+      "pos": "v.",
+      "def_zh": "打擾"
+    },
+    {
+      "word": "bound",
+      "pos": "adj.",
+      "def_zh": "必然的"
+    },
+    {
+      "word": "brand",
+      "pos": "n.",
+      "def_zh": "品牌"
+    },
+    {
+      "word": "breath",
+      "pos": "n.",
+      "def_zh": "呼吸"
+    },
+    {
+      "word": "breathe",
+      "pos": "v.",
+      "def_zh": "呼吸"
+    },
+    {
+      "word": "breed",
+      "pos": "v.",
+      "def_zh": "繁殖"
+    },
+    {
+      "word": "brief",
+      "pos": "adj.",
+      "def_zh": "簡短的"
+    },
+    {
+      "word": "brilliant",
+      "pos": "adj.",
+      "def_zh": "出色的"
+    },
+    {
+      "word": "broad",
+      "pos": "adj.",
+      "def_zh": "寬闊的"
+    },
+    {
+      "word": "broadcast",
+      "pos": "v./n.",
+      "def_zh": "廣播"
+    },
+    {
+      "word": "budget",
+      "pos": "n.",
+      "def_zh": "預算"
+    },
+    {
+      "word": "burden",
+      "pos": "n.",
+      "def_zh": "負擔"
+    },
+    {
+      "word": "burst",
+      "pos": "v.",
+      "def_zh": "爆開"
+    },
+    {
+      "word": "cabin",
+      "pos": "n.",
+      "def_zh": "小屋；船艙"
+    },
+    {
+      "word": "calculate",
+      "pos": "v.",
+      "def_zh": "計算"
+    },
+    {
+      "word": "candidate",
+      "pos": "n.",
+      "def_zh": "候選人"
+    },
+    {
+      "word": "capable",
+      "pos": "adj.",
+      "def_zh": "有能力的"
+    },
+    {
+      "word": "capacity",
+      "pos": "n.",
+      "def_zh": "容量；能力"
+    },
+    {
+      "word": "career",
+      "pos": "n.",
+      "def_zh": "職涯"
+    },
+    {
+      "word": "cargo",
+      "pos": "n.",
+      "def_zh": "貨物"
+    },
+    {
+      "word": "cash",
+      "pos": "n.",
+      "def_zh": "現金"
+    },
+    {
+      "word": "casual",
+      "pos": "adj.",
+      "def_zh": "隨便的；休閒的"
+    },
+    {
+      "word": "category",
+      "pos": "n.",
+      "def_zh": "類別"
+    },
+    {
+      "word": "cause",
+      "pos": "n./v.",
+      "def_zh": "原因；造成"
+    },
+    {
+      "word": "ceiling",
+      "pos": "n.",
+      "def_zh": "天花板"
+    },
+    {
+      "word": "celebrate",
+      "pos": "v.",
+      "def_zh": "慶祝"
+    },
+    {
+      "word": "ceremony",
+      "pos": "n.",
+      "def_zh": "典禮"
+    },
+    {
+      "word": "certain",
+      "pos": "adj.",
+      "def_zh": "確定的"
+    },
+    {
+      "word": "certificate",
+      "pos": "n.",
+      "def_zh": "證書"
+    },
+    {
+      "word": "characteristic",
+      "pos": "n.",
+      "def_zh": "特徵"
+    },
+    {
+      "word": "charity",
+      "pos": "n.",
+      "def_zh": "慈善"
+    },
+    {
+      "word": "chase",
+      "pos": "v.",
+      "def_zh": "追趕"
+    },
+    {
+      "word": "chemical",
+      "pos": "adj./n.",
+      "def_zh": "化學的；化學物質"
+    },
+    {
+      "word": "chief",
+      "pos": "adj./n.",
+      "def_zh": "主要的；首領"
+    },
+    {
+      "word": "circumstance",
+      "pos": "n.",
+      "def_zh": "情況"
+    },
+    {
+      "word": "citizen",
+      "pos": "n.",
+      "def_zh": "公民"
+    },
+    {
+      "word": "civil",
+      "pos": "adj.",
+      "def_zh": "公民的；民事的"
+    },
+    {
+      "word": "claim",
+      "pos": "v./n.",
+      "def_zh": "聲稱；主張"
+    },
+    {
+      "word": "classic",
+      "pos": "adj.",
+      "def_zh": "經典的"
+    },
+    {
+      "word": "climate",
+      "pos": "n.",
+      "def_zh": "氣候"
+    },
+    {
+      "word": "clue",
+      "pos": "n.",
+      "def_zh": "線索"
+    },
+    {
+      "word": "coach",
+      "pos": "n.",
+      "def_zh": "教練"
+    },
+    {
+      "word": "coast",
+      "pos": "n.",
+      "def_zh": "海岸"
+    },
+    {
+      "word": "collapse",
+      "pos": "v.",
+      "def_zh": "倒塌"
+    },
+    {
+      "word": "colleague",
+      "pos": "n.",
+      "def_zh": "同事"
+    },
+    {
+      "word": "collect",
+      "pos": "v.",
+      "def_zh": "收集"
+    },
+    {
+      "word": "collection",
+      "pos": "n.",
+      "def_zh": "收藏"
+    },
+    {
+      "word": "colony",
+      "pos": "n.",
+      "def_zh": "殖民地"
+    },
+    {
+      "word": "column",
+      "pos": "n.",
+      "def_zh": "欄；柱"
+    },
+    {
+      "word": "combine",
+      "pos": "v.",
+      "def_zh": "結合"
+    },
+    {
+      "word": "comfort",
+      "pos": "n./v.",
+      "def_zh": "舒適；安慰"
+    },
+    {
+      "word": "command",
+      "pos": "v./n.",
+      "def_zh": "命令"
+    },
+    {
+      "word": "comment",
+      "pos": "n./v.",
+      "def_zh": "評論"
+    },
+    {
+      "word": "commercial",
+      "pos": "adj.",
+      "def_zh": "商業的"
+    },
+    {
+      "word": "commission",
+      "pos": "n.",
+      "def_zh": "委員會；佣金"
+    },
+    {
+      "word": "commit",
+      "pos": "v.",
+      "def_zh": "犯下；投入"
+    },
+    {
+      "word": "committee",
+      "pos": "n.",
+      "def_zh": "委員會"
+    },
+    {
+      "word": "communicate",
+      "pos": "v.",
+      "def_zh": "溝通"
+    },
+    {
+      "word": "community",
+      "pos": "n.",
+      "def_zh": "社區"
+    },
+    {
+      "word": "companion",
+      "pos": "n.",
+      "def_zh": "同伴"
+    },
+    {
+      "word": "compare",
+      "pos": "v.",
+      "def_zh": "比較"
+    },
+    {
+      "word": "compete",
+      "pos": "v.",
+      "def_zh": "競爭"
+    },
+    {
+      "word": "competition",
+      "pos": "n.",
+      "def_zh": "比賽"
+    },
+    {
+      "word": "complain",
+      "pos": "v.",
+      "def_zh": "抱怨"
+    },
+    {
+      "word": "complete",
+      "pos": "v./adj.",
+      "def_zh": "完成；完整的"
+    },
+    {
+      "word": "complex",
+      "pos": "adj.",
+      "def_zh": "複雜的"
+    },
+    {
+      "word": "complicate",
+      "pos": "v.",
+      "def_zh": "使複雜"
+    },
+    {
+      "word": "compose",
+      "pos": "v.",
+      "def_zh": "創作；組成"
+    },
+    {
+      "word": "compound",
+      "pos": "n.",
+      "def_zh": "化合物；複合詞"
+    },
+    {
+      "word": "comprehensive",
+      "pos": "adj.",
+      "def_zh": "全面的"
+    },
+    {
+      "word": "concern",
+      "pos": "n./v.",
+      "def_zh": "關切"
+    },
+    {
+      "word": "conclude",
+      "pos": "v.",
+      "def_zh": "下結論"
+    },
+    {
+      "word": "conclusion",
+      "pos": "n.",
+      "def_zh": "結論"
+    },
+    {
+      "word": "concrete",
+      "pos": "adj.",
+      "def_zh": "具體的"
+    },
+    {
+      "word": "condition",
+      "pos": "n.",
+      "def_zh": "狀況"
+    },
+    {
+      "word": "conduct",
+      "pos": "v./n.",
+      "def_zh": "進行；行為"
+    },
+    {
+      "word": "conference",
+      "pos": "n.",
+      "def_zh": "會議"
+    },
+    {
+      "word": "confidence",
+      "pos": "n.",
+      "def_zh": "信心"
+    },
+    {
+      "word": "confirm",
+      "pos": "v.",
+      "def_zh": "確認"
+    },
+    {
+      "word": "conflict",
+      "pos": "n.",
+      "def_zh": "衝突"
+    },
+    {
+      "word": "confuse",
+      "pos": "v.",
+      "def_zh": "使困惑"
+    },
+    {
+      "word": "connect",
+      "pos": "v.",
+      "def_zh": "連接"
+    },
+    {
+      "word": "conscience",
+      "pos": "n.",
+      "def_zh": "良心"
+    },
+    {
+      "word": "conscious",
+      "pos": "adj.",
+      "def_zh": "有意識的"
+    },
+    {
+      "word": "consequence",
+      "pos": "n.",
+      "def_zh": "後果"
+    },
+    {
+      "word": "consider",
+      "pos": "v.",
+      "def_zh": "考慮"
+    },
+    {
+      "word": "consist",
+      "pos": "v.",
+      "def_zh": "由……組成"
+    },
+    {
+      "word": "constant",
+      "pos": "adj.",
+      "def_zh": "不斷的"
+    },
+    {
+      "word": "constitute",
+      "pos": "v.",
+      "def_zh": "構成"
+    },
+    {
+      "word": "construct",
+      "pos": "v.",
+      "def_zh": "建造"
+    },
+    {
+      "word": "consult",
+      "pos": "v.",
+      "def_zh": "諮詢"
+    },
+    {
+      "word": "consume",
+      "pos": "v.",
+      "def_zh": "消耗"
+    },
+    {
+      "word": "contact",
+      "pos": "n./v.",
+      "def_zh": "聯絡"
+    },
+    {
+      "word": "contain",
+      "pos": "v.",
+      "def_zh": "包含"
+    },
+    {
+      "word": "content",
+      "pos": "n./adj.",
+      "def_zh": "內容；滿足的"
+    },
+    {
+      "word": "contest",
+      "pos": "n.",
+      "def_zh": "競賽"
+    },
+    {
+      "word": "context",
+      "pos": "n.",
+      "def_zh": "上下文"
+    },
+    {
+      "word": "continent",
+      "pos": "n.",
+      "def_zh": "洲"
+    },
+    {
+      "word": "continue",
+      "pos": "v.",
+      "def_zh": "繼續"
+    },
+    {
+      "word": "contract",
+      "pos": "n.",
+      "def_zh": "契約"
+    },
+    {
+      "word": "contrast",
+      "pos": "n./v.",
+      "def_zh": "對比"
+    },
+    {
+      "word": "contribute",
+      "pos": "v.",
+      "def_zh": "貢獻"
+    },
+    {
+      "word": "control",
+      "pos": "v./n.",
+      "def_zh": "控制"
+    },
+    {
+      "word": "convenient",
+      "pos": "adj.",
+      "def_zh": "方便的"
+    },
+    {
+      "word": "convention",
+      "pos": "n.",
+      "def_zh": "慣例；大會"
+    },
+    {
+      "word": "conversation",
+      "pos": "n.",
+      "def_zh": "對話"
+    },
+    {
+      "word": "convert",
+      "pos": "v.",
+      "def_zh": "轉換"
+    },
+    {
+      "word": "convince",
+      "pos": "v.",
+      "def_zh": "說服"
+    },
+    {
+      "word": "cooperate",
+      "pos": "v.",
+      "def_zh": "合作"
+    },
+    {
+      "word": "cope",
+      "pos": "v.",
+      "def_zh": "應付"
+    },
+    {
+      "word": "core",
+      "pos": "n.",
+      "def_zh": "核心"
+    },
+    {
+      "word": "corporation",
+      "pos": "n.",
+      "def_zh": "公司"
+    },
+    {
+      "word": "correspond",
+      "pos": "v.",
+      "def_zh": "通信；符合"
+    },
+    {
+      "word": "council",
+      "pos": "n.",
+      "def_zh": "理事會"
+    },
+    {
+      "word": "courage",
+      "pos": "n.",
+      "def_zh": "勇氣"
+    },
+    {
+      "word": "court",
+      "pos": "n.",
+      "def_zh": "法庭；球場"
+    },
+    {
+      "word": "cover",
+      "pos": "v./n.",
+      "def_zh": "覆蓋；封面"
+    },
+    {
+      "word": "crash",
+      "pos": "v./n.",
+      "def_zh": "撞擊"
+    },
+    {
+      "word": "create",
+      "pos": "v.",
+      "def_zh": "創造"
+    },
+    {
+      "word": "creature",
+      "pos": "n.",
+      "def_zh": "生物"
+    },
+    {
+      "word": "credit",
+      "pos": "n.",
+      "def_zh": "信用；功勞"
+    },
+    {
+      "word": "crew",
+      "pos": "n.",
+      "def_zh": "全體工作人員"
+    },
+    {
+      "word": "crime",
+      "pos": "n.",
+      "def_zh": "犯罪"
+    },
+    {
+      "word": "crisis",
+      "pos": "n.",
+      "def_zh": "危機"
+    },
+    {
+      "word": "critic",
+      "pos": "n.",
+      "def_zh": "評論家"
+    },
+    {
+      "word": "critical",
+      "pos": "adj.",
+      "def_zh": "關鍵的；批評的"
+    },
+    {
+      "word": "crop",
+      "pos": "n.",
+      "def_zh": "作物"
+    },
+    {
+      "word": "crucial",
+      "pos": "adj.",
+      "def_zh": "至關重要的"
+    },
+    {
+      "word": "cruel",
+      "pos": "adj.",
+      "def_zh": "殘忍的"
+    },
+    {
+      "word": "cultural",
+      "pos": "adj.",
+      "def_zh": "文化的"
+    },
+    {
+      "word": "culture",
+      "pos": "n.",
+      "def_zh": "文化"
+    },
+    {
+      "word": "current",
+      "pos": "adj./n.",
+      "def_zh": "目前的；氣流"
+    },
+    {
+      "word": "custom",
+      "pos": "n.",
+      "def_zh": "習俗"
+    },
+    {
+      "word": "damage",
+      "pos": "n./v.",
+      "def_zh": "損害"
+    },
+    {
+      "word": "data",
+      "pos": "n.",
+      "def_zh": "資料"
+    },
+    {
+      "word": "debate",
+      "pos": "n./v.",
+      "def_zh": "辯論"
+    },
+    {
+      "word": "decade",
+      "pos": "n.",
+      "def_zh": "十年"
+    },
+    {
+      "word": "declare",
+      "pos": "v.",
+      "def_zh": "宣布"
+    },
+    {
+      "word": "decline",
+      "pos": "v./n.",
+      "def_zh": "下降；婉拒"
+    },
+    {
+      "word": "decorate",
+      "pos": "v.",
+      "def_zh": "裝飾"
+    },
+    {
+      "word": "decrease",
+      "pos": "v.",
+      "def_zh": "減少"
+    },
+    {
+      "word": "defeat",
+      "pos": "v./n.",
+      "def_zh": "擊敗；失敗"
+    },
+    {
+      "word": "defend",
+      "pos": "v.",
+      "def_zh": "防禦"
+    },
+    {
+      "word": "define",
+      "pos": "v.",
+      "def_zh": "定義"
+    },
+    {
+      "word": "degree",
+      "pos": "n.",
+      "def_zh": "程度；學位"
+    },
+    {
+      "word": "delay",
+      "pos": "v./n.",
+      "def_zh": "延遲"
+    },
+    {
+      "word": "delicate",
+      "pos": "adj.",
+      "def_zh": "精緻的；脆弱的"
+    },
+    {
+      "word": "deliver",
+      "pos": "v.",
+      "def_zh": "遞送"
+    },
+    {
+      "word": "demand",
+      "pos": "n./v.",
+      "def_zh": "需求；要求"
+    },
+    {
+      "word": "democracy",
+      "pos": "n.",
+      "def_zh": "民主"
+    },
+    {
+      "word": "demonstrate",
+      "pos": "v.",
+      "def_zh": "示範；證明"
+    },
+    {
+      "word": "deny",
+      "pos": "v.",
+      "def_zh": "否認"
+    },
+    {
+      "word": "depart",
+      "pos": "v.",
+      "def_zh": "出發"
+    },
+    {
+      "word": "depend",
+      "pos": "v.",
+      "def_zh": "依靠"
+    },
+    {
+      "word": "depress",
+      "pos": "v.",
+      "def_zh": "使沮喪"
+    },
+    {
+      "word": "describe",
+      "pos": "v.",
+      "def_zh": "描述"
+    },
+    {
+      "word": "desert",
+      "pos": "n.",
+      "def_zh": "沙漠"
+    },
+    {
+      "word": "deserve",
+      "pos": "v.",
+      "def_zh": "值得"
+    },
+    {
+      "word": "design",
+      "pos": "n./v.",
+      "def_zh": "設計"
+    },
+    {
+      "word": "desire",
+      "pos": "n./v.",
+      "def_zh": "渴望"
+    },
+    {
+      "word": "despair",
+      "pos": "n.",
+      "def_zh": "絕望"
+    },
+    {
+      "word": "despite",
+      "pos": "prep.",
+      "def_zh": "儘管"
+    },
+    {
+      "word": "destroy",
+      "pos": "v.",
+      "def_zh": "破壞"
+    },
+    {
+      "word": "detail",
+      "pos": "n.",
+      "def_zh": "細節"
+    },
+    {
+      "word": "detect",
+      "pos": "v.",
+      "def_zh": "偵測"
+    },
+    {
+      "word": "determine",
+      "pos": "v.",
+      "def_zh": "決定；查明"
+    },
+    {
+      "word": "develop",
+      "pos": "v.",
+      "def_zh": "發展"
+    },
+    {
+      "word": "device",
+      "pos": "n.",
+      "def_zh": "裝置"
+    },
+    {
+      "word": "devote",
+      "pos": "v.",
+      "def_zh": "奉獻"
+    },
+    {
+      "word": "diagram",
+      "pos": "n.",
+      "def_zh": "圖表"
+    },
+    {
+      "word": "dialect",
+      "pos": "n.",
+      "def_zh": "方言"
+    },
+    {
+      "word": "dialogue",
+      "pos": "n.",
+      "def_zh": "對話"
+    },
+    {
+      "word": "differ",
+      "pos": "v.",
+      "def_zh": "相異"
+    },
+    {
+      "word": "digest",
+      "pos": "v.",
+      "def_zh": "消化"
+    },
+    {
+      "word": "digital",
+      "pos": "adj.",
+      "def_zh": "數位的"
+    },
+    {
+      "word": "dimension",
+      "pos": "n.",
+      "def_zh": "面向；尺寸"
+    },
+    {
+      "word": "direct",
+      "pos": "v./adj.",
+      "def_zh": "指導；直接的"
+    },
+    {
+      "word": "direction",
+      "pos": "n.",
+      "def_zh": "方向"
+    },
+    {
+      "word": "disability",
+      "pos": "n.",
+      "def_zh": "身心障礙"
+    },
+    {
+      "word": "disappear",
+      "pos": "v.",
+      "def_zh": "消失"
+    },
+    {
+      "word": "disaster",
+      "pos": "n.",
+      "def_zh": "災難"
+    },
+    {
+      "word": "discipline",
+      "pos": "n.",
+      "def_zh": "紀律"
+    },
+    {
+      "word": "discount",
+      "pos": "n.",
+      "def_zh": "折扣"
+    },
+    {
+      "word": "discover",
+      "pos": "v.",
+      "def_zh": "發現"
+    },
+    {
+      "word": "discuss",
+      "pos": "v.",
+      "def_zh": "討論"
+    },
+    {
+      "word": "disease",
+      "pos": "n.",
+      "def_zh": "疾病"
+    },
+    {
+      "word": "dismiss",
+      "pos": "v.",
+      "def_zh": "解散；不予考慮"
+    },
+    {
+      "word": "display",
+      "pos": "v./n.",
+      "def_zh": "展示"
+    },
+    {
+      "word": "dispose",
+      "pos": "v.",
+      "def_zh": "處理"
+    },
+    {
+      "word": "dispute",
+      "pos": "n.",
+      "def_zh": "爭執"
+    },
+    {
+      "word": "distance",
+      "pos": "n.",
+      "def_zh": "距離"
+    },
+    {
+      "word": "distinct",
+      "pos": "adj.",
+      "def_zh": "明顯不同的"
+    },
+    {
+      "word": "distinguish",
+      "pos": "v.",
+      "def_zh": "區別"
+    },
+    {
+      "word": "distribute",
+      "pos": "v.",
+      "def_zh": "分配"
+    },
+    {
+      "word": "district",
+      "pos": "n.",
+      "def_zh": "地區"
+    },
+    {
+      "word": "disturb",
+      "pos": "v.",
+      "def_zh": "打擾"
+    },
+    {
+      "word": "diverse",
+      "pos": "adj.",
+      "def_zh": "多元的"
+    },
+    {
+      "word": "divide",
+      "pos": "v.",
+      "def_zh": "分割"
+    },
+    {
+      "word": "document",
+      "pos": "n.",
+      "def_zh": "文件"
+    },
+    {
+      "word": "domestic",
+      "pos": "adj.",
+      "def_zh": "國內的；家用的"
+    },
+    {
+      "word": "dominate",
+      "pos": "v.",
+      "def_zh": "主導"
+    },
+    {
+      "word": "donate",
+      "pos": "v.",
+      "def_zh": "捐贈"
+    },
+    {
+      "word": "draft",
+      "pos": "n./v.",
+      "def_zh": "草稿；起草"
+    },
+    {
+      "word": "drama",
+      "pos": "n.",
+      "def_zh": "戲劇"
+    },
+    {
+      "word": "drastic",
+      "pos": "adj.",
+      "def_zh": "劇烈的"
+    },
+    {
+      "word": "drift",
+      "pos": "v.",
+      "def_zh": "漂流"
+    },
+    {
+      "word": "due",
+      "pos": "adj.",
+      "def_zh": "到期的；由於"
+    },
+    {
+      "word": "dull",
+      "pos": "adj.",
+      "def_zh": "沉悶的"
+    },
+    {
+      "word": "duration",
+      "pos": "n.",
+      "def_zh": "持續時間"
+    },
+    {
+      "word": "duty",
+      "pos": "n.",
+      "def_zh": "責任"
+    },
+    {
+      "word": "eager",
+      "pos": "adj.",
+      "def_zh": "熱切的"
+    },
+    {
+      "word": "earn",
+      "pos": "v.",
+      "def_zh": "賺得"
+    },
+    {
+      "word": "ease",
+      "pos": "n./v.",
+      "def_zh": "輕鬆；緩和"
+    },
+    {
+      "word": "economic",
+      "pos": "adj.",
+      "def_zh": "經濟的"
+    },
+    {
+      "word": "economy",
+      "pos": "n.",
+      "def_zh": "經濟"
+    },
+    {
+      "word": "edit",
+      "pos": "v.",
+      "def_zh": "編輯"
+    },
+    {
+      "word": "educate",
+      "pos": "v.",
+      "def_zh": "教育"
+    },
+    {
+      "word": "effect",
+      "pos": "n.",
+      "def_zh": "效果"
+    },
+    {
+      "word": "effective",
+      "pos": "adj.",
+      "def_zh": "有效的"
+    },
+    {
+      "word": "efficient",
+      "pos": "adj.",
+      "def_zh": "有效率的"
+    },
+    {
+      "word": "effort",
+      "pos": "n.",
+      "def_zh": "努力"
+    },
+    {
+      "word": "element",
+      "pos": "n.",
+      "def_zh": "要素"
+    },
+    {
+      "word": "eliminate",
+      "pos": "v.",
+      "def_zh": "消除"
+    },
+    {
+      "word": "embarrass",
+      "pos": "v.",
+      "def_zh": "使尷尬"
+    },
+    {
+      "word": "emerge",
+      "pos": "v.",
+      "def_zh": "出現"
+    },
+    {
+      "word": "emergency",
+      "pos": "n.",
+      "def_zh": "緊急情況"
+    },
+    {
+      "word": "emotion",
+      "pos": "n.",
+      "def_zh": "情緒"
+    },
+    {
+      "word": "emphasis",
+      "pos": "n.",
+      "def_zh": "強調"
+    },
+    {
+      "word": "emphasize",
+      "pos": "v.",
+      "def_zh": "強調"
+    },
+    {
+      "word": "empire",
+      "pos": "n.",
+      "def_zh": "帝國"
+    },
+    {
+      "word": "employ",
+      "pos": "v.",
+      "def_zh": "雇用"
+    },
+    {
+      "word": "employee",
+      "pos": "n.",
+      "def_zh": "員工"
+    },
+    {
+      "word": "employer",
+      "pos": "n.",
+      "def_zh": "雇主"
+    },
+    {
+      "word": "empty",
+      "pos": "adj.",
+      "def_zh": "空的"
+    },
+    {
+      "word": "enable",
+      "pos": "v.",
+      "def_zh": "使能夠"
+    },
+    {
+      "word": "encounter",
+      "pos": "v./n.",
+      "def_zh": "遭遇"
+    },
+    {
+      "word": "encourage",
+      "pos": "v.",
+      "def_zh": "鼓勵"
+    },
+    {
+      "word": "energy",
+      "pos": "n.",
+      "def_zh": "能量"
+    },
+    {
+      "word": "enforce",
+      "pos": "v.",
+      "def_zh": "執行"
+    },
+    {
+      "word": "engage",
+      "pos": "v.",
+      "def_zh": "從事；吸引"
+    },
+    {
+      "word": "engine",
+      "pos": "n.",
+      "def_zh": "引擎"
+    },
+    {
+      "word": "enhance",
+      "pos": "v.",
+      "def_zh": "增進"
+    },
+    {
+      "word": "enormous",
+      "pos": "adj.",
+      "def_zh": "巨大的"
+    },
+    {
+      "word": "ensure",
+      "pos": "v.",
+      "def_zh": "確保"
+    },
+    {
+      "word": "enterprise",
+      "pos": "n.",
+      "def_zh": "企業"
+    },
+    {
+      "word": "entertain",
+      "pos": "v.",
+      "def_zh": "娛樂"
+    },
+    {
+      "word": "entire",
+      "pos": "adj.",
+      "def_zh": "全部的"
+    },
+    {
+      "word": "environment",
+      "pos": "n.",
+      "def_zh": "環境"
+    },
+    {
+      "word": "episode",
+      "pos": "n.",
+      "def_zh": "一集；一段經歷"
+    },
+    {
+      "word": "equal",
+      "pos": "adj.",
+      "def_zh": "相等的"
+    },
+    {
+      "word": "equipment",
+      "pos": "n.",
+      "def_zh": "設備"
+    },
+    {
+      "word": "era",
+      "pos": "n.",
+      "def_zh": "時代"
+    },
+    {
+      "word": "error",
+      "pos": "n.",
+      "def_zh": "錯誤"
+    },
+    {
+      "word": "escape",
+      "pos": "v.",
+      "def_zh": "逃脫"
+    },
+    {
+      "word": "especially",
+      "pos": "adv.",
+      "def_zh": "尤其"
+    },
+    {
+      "word": "essay",
+      "pos": "n.",
+      "def_zh": "短文"
+    },
+    {
+      "word": "essential",
+      "pos": "adj.",
+      "def_zh": "必要的"
+    },
+    {
+      "word": "establish",
+      "pos": "v.",
+      "def_zh": "建立"
+    },
+    {
+      "word": "estimate",
+      "pos": "v./n.",
+      "def_zh": "估計"
+    },
+    {
+      "word": "ethnic",
+      "pos": "adj.",
+      "def_zh": "族群的"
+    },
+    {
+      "word": "evaluate",
+      "pos": "v.",
+      "def_zh": "評估"
+    },
+    {
+      "word": "event",
+      "pos": "n.",
+      "def_zh": "事件"
+    },
+    {
+      "word": "evidence",
+      "pos": "n.",
+      "def_zh": "證據"
+    },
+    {
+      "word": "evolve",
+      "pos": "v.",
+      "def_zh": "演進"
+    },
+    {
+      "word": "exact",
+      "pos": "adj.",
+      "def_zh": "精確的"
+    },
+    {
+      "word": "examine",
+      "pos": "v.",
+      "def_zh": "檢查"
+    },
+    {
+      "word": "exceed",
+      "pos": "v.",
+      "def_zh": "超過"
+    },
+    {
+      "word": "except",
+      "pos": "prep.",
+      "def_zh": "除了"
+    },
+    {
+      "word": "exchange",
+      "pos": "v./n.",
+      "def_zh": "交換"
+    },
+    {
+      "word": "exclaim",
+      "pos": "v.",
+      "def_zh": "驚叫"
+    },
+    {
+      "word": "exclude",
+      "pos": "v.",
+      "def_zh": "排除"
+    },
+    {
+      "word": "execute",
+      "pos": "v.",
+      "def_zh": "執行"
+    },
+    {
+      "word": "exhaust",
+      "pos": "v.",
+      "def_zh": "使精疲力盡"
+    },
+    {
+      "word": "exist",
+      "pos": "v.",
+      "def_zh": "存在"
+    },
+    {
+      "word": "expand",
+      "pos": "v.",
+      "def_zh": "擴展"
+    },
+    {
+      "word": "expect",
+      "pos": "v.",
+      "def_zh": "預期"
+    },
+    {
+      "word": "expense",
+      "pos": "n.",
+      "def_zh": "費用"
+    },
+    {
+      "word": "experience",
+      "pos": "n./v.",
+      "def_zh": "經驗；經歷"
+    },
+    {
+      "word": "experiment",
+      "pos": "n.",
+      "def_zh": "實驗"
+    },
+    {
+      "word": "expert",
+      "pos": "n.",
+      "def_zh": "專家"
+    },
+    {
+      "word": "explain",
+      "pos": "v.",
+      "def_zh": "解釋"
+    },
+    {
+      "word": "explode",
+      "pos": "v.",
+      "def_zh": "爆炸"
+    },
+    {
+      "word": "explore",
+      "pos": "v.",
+      "def_zh": "探索"
+    },
+    {
+      "word": "export",
+      "pos": "v./n.",
+      "def_zh": "出口"
+    },
+    {
+      "word": "expose",
+      "pos": "v.",
+      "def_zh": "暴露"
+    },
+    {
+      "word": "express",
+      "pos": "v.",
+      "def_zh": "表達"
+    },
+    {
+      "word": "extend",
+      "pos": "v.",
+      "def_zh": "延伸"
+    },
+    {
+      "word": "extent",
+      "pos": "n.",
+      "def_zh": "程度"
+    },
+    {
+      "word": "external",
+      "pos": "adj.",
+      "def_zh": "外部的"
+    },
+    {
+      "word": "extra",
+      "pos": "adj.",
+      "def_zh": "額外的"
+    },
+    {
+      "word": "extreme",
+      "pos": "adj.",
+      "def_zh": "極端的"
+    },
+    {
+      "word": "facility",
+      "pos": "n.",
+      "def_zh": "設施"
+    },
+    {
+      "word": "factor",
+      "pos": "n.",
+      "def_zh": "因素"
+    },
+    {
+      "word": "fade",
+      "pos": "v.",
+      "def_zh": "褪色；逐漸消失"
+    },
+    {
+      "word": "failure",
+      "pos": "n.",
+      "def_zh": "失敗"
+    },
+    {
+      "word": "fair",
+      "pos": "adj.",
+      "def_zh": "公平的"
+    },
+    {
+      "word": "faith",
+      "pos": "n.",
+      "def_zh": "信心；信任"
+    },
+    {
+      "word": "familiar",
+      "pos": "adj.",
+      "def_zh": "熟悉的"
+    },
+    {
+      "word": "fancy",
+      "pos": "adj.",
+      "def_zh": "花俏的"
+    },
+    {
+      "word": "fare",
+      "pos": "n.",
+      "def_zh": "車費"
+    },
+    {
+      "word": "fashion",
+      "pos": "n.",
+      "def_zh": "時尚"
+    },
+    {
+      "word": "fatal",
+      "pos": "adj.",
+      "def_zh": "致命的"
+    },
+    {
+      "word": "fault",
+      "pos": "n.",
+      "def_zh": "過錯"
+    },
+    {
+      "word": "favor",
+      "pos": "n./v.",
+      "def_zh": "恩惠；偏愛"
+    },
+    {
+      "word": "feature",
+      "pos": "n.",
+      "def_zh": "特色"
+    },
+    {
+      "word": "federal",
+      "pos": "adj.",
+      "def_zh": "聯邦的"
+    },
+    {
+      "word": "fee",
+      "pos": "n.",
+      "def_zh": "費用"
+    },
+    {
+      "word": "feedback",
+      "pos": "n.",
+      "def_zh": "回饋"
+    },
+    {
+      "word": "fellow",
+      "pos": "n.",
+      "def_zh": "同伴"
+    },
+    {
+      "word": "female",
+      "pos": "adj./n.",
+      "def_zh": "女性的；女性"
+    },
+    {
+      "word": "fertile",
+      "pos": "adj.",
+      "def_zh": "肥沃的"
+    },
+    {
+      "word": "fiction",
+      "pos": "n.",
+      "def_zh": "虛構作品"
+    },
+    {
+      "word": "figure",
+      "pos": "n./v.",
+      "def_zh": "數字；認為"
+    },
+    {
+      "word": "file",
+      "pos": "n.",
+      "def_zh": "檔案"
+    },
+    {
+      "word": "filter",
+      "pos": "n./v.",
+      "def_zh": "過濾器；過濾"
+    },
+    {
+      "word": "final",
+      "pos": "adj.",
+      "def_zh": "最終的"
+    },
+    {
+      "word": "finance",
+      "pos": "n.",
+      "def_zh": "財政"
+    },
+    {
+      "word": "firm",
+      "pos": "n./adj.",
+      "def_zh": "公司；堅定的"
+    },
+    {
+      "word": "fit",
+      "pos": "v./adj.",
+      "def_zh": "適合；健康的"
+    },
+    {
+      "word": "flavor",
+      "pos": "n.",
+      "def_zh": "風味"
+    },
+    {
+      "word": "flexible",
+      "pos": "adj.",
+      "def_zh": "有彈性的"
+    },
+    {
+      "word": "flight",
+      "pos": "n.",
+      "def_zh": "航班"
+    },
+    {
+      "word": "float",
+      "pos": "v.",
+      "def_zh": "漂浮"
+    },
+    {
+      "word": "flood",
+      "pos": "n.",
+      "def_zh": "洪水"
+    },
+    {
+      "word": "flow",
+      "pos": "v./n.",
+      "def_zh": "流動"
+    },
+    {
+      "word": "fluent",
+      "pos": "adj.",
+      "def_zh": "流利的"
+    },
+    {
+      "word": "focus",
+      "pos": "v./n.",
+      "def_zh": "聚焦；焦點"
+    },
+    {
+      "word": "fold",
+      "pos": "v.",
+      "def_zh": "摺疊"
+    },
+    {
+      "word": "folk",
+      "pos": "n.",
+      "def_zh": "人們；民間"
+    },
+    {
+      "word": "force",
+      "pos": "n./v.",
+      "def_zh": "力量；強迫"
+    },
+    {
+      "word": "forecast",
+      "pos": "n./v.",
+      "def_zh": "預測"
+    },
+    {
+      "word": "form",
+      "pos": "n./v.",
+      "def_zh": "形式；形成"
+    },
+    {
+      "word": "formal",
+      "pos": "adj.",
+      "def_zh": "正式的"
+    },
+    {
+      "word": "former",
+      "pos": "adj.",
+      "def_zh": "先前的"
+    },
+    {
+      "word": "fortunate",
+      "pos": "adj.",
+      "def_zh": "幸運的"
+    },
+    {
+      "word": "fortune",
+      "pos": "n.",
+      "def_zh": "財富；命運"
+    },
+    {
+      "word": "foundation",
+      "pos": "n.",
+      "def_zh": "基礎；基金會"
+    },
+    {
+      "word": "fraction",
+      "pos": "n.",
+      "def_zh": "分數；一小部分"
+    },
+    {
+      "word": "frame",
+      "pos": "n.",
+      "def_zh": "框架"
+    },
+    {
+      "word": "freedom",
+      "pos": "n.",
+      "def_zh": "自由"
+    },
+    {
+      "word": "frequent",
+      "pos": "adj.",
+      "def_zh": "頻繁的"
+    },
+    {
+      "word": "frighten",
+      "pos": "v.",
+      "def_zh": "使害怕"
+    },
+    {
+      "word": "function",
+      "pos": "n.",
+      "def_zh": "功能"
+    },
+    {
+      "word": "fund",
+      "pos": "n.",
+      "def_zh": "資金"
+    },
+    {
+      "word": "fundamental",
+      "pos": "adj.",
+      "def_zh": "基本的"
+    },
+    {
+      "word": "furthermore",
+      "pos": "adv.",
+      "def_zh": "此外"
+    },
+    {
+      "word": "gain",
+      "pos": "v.",
+      "def_zh": "獲得"
+    },
+    {
+      "word": "gap",
+      "pos": "n.",
+      "def_zh": "差距"
+    },
+    {
+      "word": "gather",
+      "pos": "v.",
+      "def_zh": "聚集"
+    },
+    {
+      "word": "generate",
+      "pos": "v.",
+      "def_zh": "產生"
+    },
+    {
+      "word": "generous",
+      "pos": "adj.",
+      "def_zh": "慷慨的"
+    },
+    {
+      "word": "genius",
+      "pos": "n.",
+      "def_zh": "天才"
+    },
+    {
+      "word": "genre",
+      "pos": "n.",
+      "def_zh": "類型"
+    },
+    {
+      "word": "genuine",
+      "pos": "adj.",
+      "def_zh": "真正的"
+    },
+    {
+      "word": "gesture",
+      "pos": "n.",
+      "def_zh": "手勢"
+    },
+    {
+      "word": "giant",
+      "pos": "adj./n.",
+      "def_zh": "巨大的；巨人"
+    },
+    {
+      "word": "glance",
+      "pos": "v./n.",
+      "def_zh": "瞥一眼"
+    },
+    {
+      "word": "global",
+      "pos": "adj.",
+      "def_zh": "全球的"
+    },
+    {
+      "word": "glory",
+      "pos": "n.",
+      "def_zh": "榮耀"
+    },
+    {
+      "word": "goal",
+      "pos": "n.",
+      "def_zh": "目標"
+    },
+    {
+      "word": "govern",
+      "pos": "v.",
+      "def_zh": "治理"
+    },
+    {
+      "word": "government",
+      "pos": "n.",
+      "def_zh": "政府"
+    },
+    {
+      "word": "grade",
+      "pos": "n.",
+      "def_zh": "成績；年級"
+    },
+    {
+      "word": "gradual",
+      "pos": "adj.",
+      "def_zh": "逐漸的"
+    },
+    {
+      "word": "graduate",
+      "pos": "v./n.",
+      "def_zh": "畢業；畢業生"
+    },
+    {
+      "word": "grain",
+      "pos": "n.",
+      "def_zh": "穀物"
+    },
+    {
+      "word": "grand",
+      "pos": "adj.",
+      "def_zh": "宏偉的"
+    },
+    {
+      "word": "grant",
+      "pos": "v./n.",
+      "def_zh": "授予；補助金"
+    },
+    {
+      "word": "graphic",
+      "pos": "adj.",
+      "def_zh": "圖像的"
+    },
+    {
+      "word": "grateful",
+      "pos": "adj.",
+      "def_zh": "感激的"
+    },
+    {
+      "word": "greedy",
+      "pos": "adj.",
+      "def_zh": "貪婪的"
+    },
+    {
+      "word": "grief",
+      "pos": "n.",
+      "def_zh": "悲痛"
+    },
+    {
+      "word": "guarantee",
+      "pos": "v./n.",
+      "def_zh": "保證"
+    },
+    {
+      "word": "guard",
+      "pos": "n./v.",
+      "def_zh": "警衛；守衛"
+    },
+    {
+      "word": "guidance",
+      "pos": "n.",
+      "def_zh": "指導"
+    },
+    {
+      "word": "guilty",
+      "pos": "adj.",
+      "def_zh": "有罪的；內疚的"
+    },
+    {
+      "word": "habit",
+      "pos": "n.",
+      "def_zh": "習慣"
+    },
+    {
+      "word": "handle",
+      "pos": "v./n.",
+      "def_zh": "處理；把手"
+    },
+    {
+      "word": "harm",
+      "pos": "n./v.",
+      "def_zh": "傷害"
+    },
+    {
+      "word": "harsh",
+      "pos": "adj.",
+      "def_zh": "嚴酷的"
+    },
+    {
+      "word": "harvest",
+      "pos": "n./v.",
+      "def_zh": "收成；收割"
+    },
+    {
+      "word": "haste",
+      "pos": "n.",
+      "def_zh": "匆忙"
+    },
+    {
+      "word": "hazard",
+      "pos": "n.",
+      "def_zh": "危害"
+    },
+    {
+      "word": "headline",
+      "pos": "n.",
+      "def_zh": "標題"
+    },
+    {
+      "word": "heaven",
+      "pos": "n.",
+      "def_zh": "天空；樂園"
+    },
+    {
+      "word": "height",
+      "pos": "n.",
+      "def_zh": "高度"
+    },
+    {
+      "word": "hesitate",
+      "pos": "v.",
+      "def_zh": "猶豫"
+    },
+    {
+      "word": "hide",
+      "pos": "v.",
+      "def_zh": "隱藏"
+    },
+    {
+      "word": "highlight",
+      "pos": "v./n.",
+      "def_zh": "凸顯；重點"
+    },
+    {
+      "word": "highly",
+      "pos": "adv.",
+      "def_zh": "高度地"
+    },
+    {
+      "word": "hint",
+      "pos": "n.",
+      "def_zh": "提示"
+    },
+    {
+      "word": "hire",
+      "pos": "v.",
+      "def_zh": "雇用"
+    },
+    {
+      "word": "honor",
+      "pos": "n./v.",
+      "def_zh": "榮譽；尊敬"
+    },
+    {
+      "word": "hook",
+      "pos": "n.",
+      "def_zh": "鉤子"
+    },
+    {
+      "word": "host",
+      "pos": "n./v.",
+      "def_zh": "主人；主持"
+    },
+    {
+      "word": "household",
+      "pos": "n.",
+      "def_zh": "家庭"
+    },
+    {
+      "word": "huge",
+      "pos": "adj.",
+      "def_zh": "巨大的"
+    },
+    {
+      "word": "human",
+      "pos": "adj./n.",
+      "def_zh": "人類的；人類"
+    },
+    {
+      "word": "humor",
+      "pos": "n.",
+      "def_zh": "幽默"
+    },
+    {
+      "word": "hunt",
+      "pos": "v.",
+      "def_zh": "獵捕；搜尋"
+    },
+    {
+      "word": "identify",
+      "pos": "v.",
+      "def_zh": "辨識"
+    },
+    {
+      "word": "identity",
+      "pos": "n.",
+      "def_zh": "身分"
+    },
+    {
+      "word": "ignore",
+      "pos": "v.",
+      "def_zh": "忽視"
+    },
+    {
+      "word": "illegal",
+      "pos": "adj.",
+      "def_zh": "非法的"
+    },
+    {
+      "word": "illustrate",
+      "pos": "v.",
+      "def_zh": "說明；插圖"
+    },
+    {
+      "word": "image",
+      "pos": "n.",
+      "def_zh": "影像"
+    },
+    {
+      "word": "imagine",
+      "pos": "v.",
+      "def_zh": "想像"
+    },
+    {
+      "word": "immediate",
+      "pos": "adj.",
+      "def_zh": "立即的"
+    },
+    {
+      "word": "immigrant",
+      "pos": "n.",
+      "def_zh": "移民"
+    },
+    {
+      "word": "impact",
+      "pos": "n.",
+      "def_zh": "影響"
+    },
+    {
+      "word": "impatient",
+      "pos": "adj.",
+      "def_zh": "不耐煩的"
+    },
+    {
+      "word": "implement",
+      "pos": "v.",
+      "def_zh": "實施"
+    },
+    {
+      "word": "imply",
+      "pos": "v.",
+      "def_zh": "暗示"
+    },
+    {
+      "word": "import",
+      "pos": "v./n.",
+      "def_zh": "進口"
+    },
+    {
+      "word": "impress",
+      "pos": "v.",
+      "def_zh": "使印象深刻"
+    },
+    {
+      "word": "impression",
+      "pos": "n.",
+      "def_zh": "印象"
+    },
+    {
+      "word": "improve",
+      "pos": "v.",
+      "def_zh": "改善"
+    },
+    {
+      "word": "incident",
+      "pos": "n.",
+      "def_zh": "事件"
+    },
+    {
+      "word": "include",
+      "pos": "v.",
+      "def_zh": "包括"
+    },
+    {
+      "word": "income",
+      "pos": "n.",
+      "def_zh": "收入"
+    },
+    {
+      "word": "increase",
+      "pos": "v./n.",
+      "def_zh": "增加"
+    },
+    {
+      "word": "indeed",
+      "pos": "adv.",
+      "def_zh": "的確"
+    },
+    {
+      "word": "independent",
+      "pos": "adj.",
+      "def_zh": "獨立的"
+    },
+    {
+      "word": "indicate",
+      "pos": "v.",
+      "def_zh": "顯示"
+    },
+    {
+      "word": "individual",
+      "pos": "n./adj.",
+      "def_zh": "個人；個別的"
+    },
+    {
+      "word": "industry",
+      "pos": "n.",
+      "def_zh": "產業"
+    },
+    {
+      "word": "inevitable",
+      "pos": "adj.",
+      "def_zh": "不可避免的"
+    },
+    {
+      "word": "infant",
+      "pos": "n.",
+      "def_zh": "嬰兒"
+    },
+    {
+      "word": "infect",
+      "pos": "v.",
+      "def_zh": "感染"
+    },
+    {
+      "word": "infer",
+      "pos": "v.",
+      "def_zh": "推論"
+    },
+    {
+      "word": "inflation",
+      "pos": "n.",
+      "def_zh": "通貨膨脹"
+    },
+    {
+      "word": "influence",
+      "pos": "n./v.",
+      "def_zh": "影響"
+    },
+    {
+      "word": "inform",
+      "pos": "v.",
+      "def_zh": "告知"
+    },
+    {
+      "word": "information",
+      "pos": "n.",
+      "def_zh": "資訊"
+    },
+    {
+      "word": "initial",
+      "pos": "adj.",
+      "def_zh": "最初的"
+    },
+    {
+      "word": "injure",
+      "pos": "v.",
+      "def_zh": "使受傷"
+    },
+    {
+      "word": "innocent",
+      "pos": "adj.",
+      "def_zh": "無辜的"
+    },
+    {
+      "word": "inquiry",
+      "pos": "n.",
+      "def_zh": "詢問"
+    },
+    {
+      "word": "insect",
+      "pos": "n.",
+      "def_zh": "昆蟲"
+    },
+    {
+      "word": "insert",
+      "pos": "v.",
+      "def_zh": "插入"
+    },
+    {
+      "word": "insight",
+      "pos": "n.",
+      "def_zh": "洞見"
+    },
+    {
+      "word": "insist",
+      "pos": "v.",
+      "def_zh": "堅持"
+    },
+    {
+      "word": "inspect",
+      "pos": "v.",
+      "def_zh": "檢查"
+    },
+    {
+      "word": "install",
+      "pos": "v.",
+      "def_zh": "安裝"
+    },
+    {
+      "word": "instance",
+      "pos": "n.",
+      "def_zh": "實例"
+    },
+    {
+      "word": "instant",
+      "pos": "adj.",
+      "def_zh": "立即的"
+    },
+    {
+      "word": "instead",
+      "pos": "adv.",
+      "def_zh": "反而"
+    },
+    {
+      "word": "institute",
+      "pos": "n.",
+      "def_zh": "機構"
+    },
+    {
+      "word": "instruct",
+      "pos": "v.",
+      "def_zh": "指導"
+    },
+    {
+      "word": "instrument",
+      "pos": "n.",
+      "def_zh": "儀器；樂器"
+    },
+    {
+      "word": "insult",
+      "pos": "v./n.",
+      "def_zh": "侮辱"
+    },
+    {
+      "word": "insurance",
+      "pos": "n.",
+      "def_zh": "保險"
+    },
+    {
+      "word": "integrate",
+      "pos": "v.",
+      "def_zh": "整合"
+    },
+    {
+      "word": "intelligence",
+      "pos": "n.",
+      "def_zh": "智力"
+    },
+    {
+      "word": "intend",
+      "pos": "v.",
+      "def_zh": "打算"
+    },
+    {
+      "word": "intense",
+      "pos": "adj.",
+      "def_zh": "強烈的"
+    },
+    {
+      "word": "intention",
+      "pos": "n.",
+      "def_zh": "意圖"
+    },
+    {
+      "word": "interact",
+      "pos": "v.",
+      "def_zh": "互動"
+    },
+    {
+      "word": "interior",
+      "pos": "n.",
+      "def_zh": "內部"
+    },
+    {
+      "word": "internal",
+      "pos": "adj.",
+      "def_zh": "內部的"
+    },
+    {
+      "word": "interpret",
+      "pos": "v.",
+      "def_zh": "詮釋；口譯"
+    },
+    {
+      "word": "interrupt",
+      "pos": "v.",
+      "def_zh": "打斷"
+    },
+    {
+      "word": "interval",
+      "pos": "n.",
+      "def_zh": "間隔"
+    },
+    {
+      "word": "interview",
+      "pos": "n./v.",
+      "def_zh": "面試；訪談"
+    },
+    {
+      "word": "introduce",
+      "pos": "v.",
+      "def_zh": "介紹"
+    },
+    {
+      "word": "invent",
+      "pos": "v.",
+      "def_zh": "發明"
+    },
+    {
+      "word": "invest",
+      "pos": "v.",
+      "def_zh": "投資"
+    },
+    {
+      "word": "investigate",
+      "pos": "v.",
+      "def_zh": "調查"
+    },
+    {
+      "word": "involve",
+      "pos": "v.",
+      "def_zh": "涉及"
+    },
+    {
+      "word": "irony",
+      "pos": "n.",
+      "def_zh": "諷刺"
+    },
+    {
+      "word": "issue",
+      "pos": "n.",
+      "def_zh": "議題"
+    },
+    {
+      "word": "item",
+      "pos": "n.",
+      "def_zh": "項目"
+    },
+    {
+      "word": "jealous",
+      "pos": "adj.",
+      "def_zh": "嫉妒的"
+    },
+    {
+      "word": "journal",
+      "pos": "n.",
+      "def_zh": "期刊；日記"
+    },
+    {
+      "word": "journey",
+      "pos": "n.",
+      "def_zh": "旅程"
+    },
+    {
+      "word": "judge",
+      "pos": "n./v.",
+      "def_zh": "法官；判斷"
+    },
+    {
+      "word": "justice",
+      "pos": "n.",
+      "def_zh": "正義"
+    },
+    {
+      "word": "justify",
+      "pos": "v.",
+      "def_zh": "證明……有理"
+    },
+    {
+      "word": "keen",
+      "pos": "adj.",
+      "def_zh": "熱衷的；敏銳的"
+    },
+    {
+      "word": "knowledge",
+      "pos": "n.",
+      "def_zh": "知識"
+    },
+    {
+      "word": "label",
+      "pos": "n./v.",
+      "def_zh": "標籤；標示"
+    },
+    {
+      "word": "labor",
+      "pos": "n.",
+      "def_zh": "勞動"
+    },
+    {
+      "word": "lack",
+      "pos": "n./v.",
+      "def_zh": "缺乏"
+    },
+    {
+      "word": "latter",
+      "pos": "adj.",
+      "def_zh": "後者的"
+    },
+    {
+      "word": "launch",
+      "pos": "v.",
+      "def_zh": "推出；發射"
+    },
+    {
+      "word": "law",
+      "pos": "n.",
+      "def_zh": "法律"
+    },
+    {
+      "word": "lawyer",
+      "pos": "n.",
+      "def_zh": "律師"
+    },
+    {
+      "word": "layer",
+      "pos": "n.",
+      "def_zh": "層"
+    },
+    {
+      "word": "lead",
+      "pos": "v.",
+      "def_zh": "帶領"
+    },
+    {
+      "word": "leak",
+      "pos": "v./n.",
+      "def_zh": "洩漏"
+    },
+    {
+      "word": "lean",
+      "pos": "v.",
+      "def_zh": "倚靠"
+    },
+    {
+      "word": "legal",
+      "pos": "adj.",
+      "def_zh": "合法的"
+    },
+    {
+      "word": "legend",
+      "pos": "n.",
+      "def_zh": "傳說"
+    },
+    {
+      "word": "leisure",
+      "pos": "n.",
+      "def_zh": "閒暇"
+    },
+    {
+      "word": "length",
+      "pos": "n.",
+      "def_zh": "長度"
+    },
+    {
+      "word": "level",
+      "pos": "n.",
+      "def_zh": "程度；水平"
+    },
+    {
+      "word": "liable",
+      "pos": "adj.",
+      "def_zh": "可能的；有責任的"
+    },
+    {
+      "word": "liberty",
+      "pos": "n.",
+      "def_zh": "自由"
+    },
+    {
+      "word": "license",
+      "pos": "n.",
+      "def_zh": "執照"
+    },
+    {
+      "word": "likely",
+      "pos": "adj.",
+      "def_zh": "可能的"
+    },
+    {
+      "word": "limit",
+      "pos": "n./v.",
+      "def_zh": "限制"
+    },
+    {
+      "word": "link",
+      "pos": "n./v.",
+      "def_zh": "連結"
+    },
+    {
+      "word": "literary",
+      "pos": "adj.",
+      "def_zh": "文學的"
+    },
+    {
+      "word": "literature",
+      "pos": "n.",
+      "def_zh": "文學"
+    },
+    {
+      "word": "loan",
+      "pos": "n.",
+      "def_zh": "貸款"
+    },
+    {
+      "word": "local",
+      "pos": "adj.",
+      "def_zh": "當地的"
+    },
+    {
+      "word": "locate",
+      "pos": "v.",
+      "def_zh": "找出位置"
+    },
+    {
+      "word": "logic",
+      "pos": "n.",
+      "def_zh": "邏輯"
+    },
+    {
+      "word": "loyal",
+      "pos": "adj.",
+      "def_zh": "忠誠的"
+    },
+    {
+      "word": "luxury",
+      "pos": "n.",
+      "def_zh": "奢華"
+    },
+    {
+      "word": "maintain",
+      "pos": "v.",
+      "def_zh": "維持"
+    },
+    {
+      "word": "majority",
+      "pos": "n.",
+      "def_zh": "多數"
+    },
+    {
+      "word": "male",
+      "pos": "adj./n.",
+      "def_zh": "男性的；男性"
+    },
+    {
+      "word": "manage",
+      "pos": "v.",
+      "def_zh": "管理"
+    },
+    {
+      "word": "manner",
+      "pos": "n.",
+      "def_zh": "態度；方式"
+    },
+    {
+      "word": "manufacture",
+      "pos": "v.",
+      "def_zh": "製造"
+    },
+    {
+      "word": "margin",
+      "pos": "n.",
+      "def_zh": "邊緣；差額"
+    },
+    {
+      "word": "marine",
+      "pos": "adj.",
+      "def_zh": "海洋的"
+    },
+    {
+      "word": "marvel",
+      "pos": "v.",
+      "def_zh": "感到驚奇"
+    },
+    {
+      "word": "mass",
+      "pos": "n.",
+      "def_zh": "大量"
+    },
+    {
+      "word": "master",
+      "pos": "n./v.",
+      "def_zh": "主人；精通"
+    },
+    {
+      "word": "material",
+      "pos": "n.",
+      "def_zh": "材料"
+    },
+    {
+      "word": "maximum",
+      "pos": "n./adj.",
+      "def_zh": "最大值；最大的"
+    },
+    {
+      "word": "means",
+      "pos": "n.",
+      "def_zh": "方法"
+    },
+    {
+      "word": "measure",
+      "pos": "v./n.",
+      "def_zh": "測量；措施"
+    },
+    {
+      "word": "mechanic",
+      "pos": "n.",
+      "def_zh": "技工"
+    },
+    {
+      "word": "media",
+      "pos": "n.",
+      "def_zh": "媒體"
+    },
+    {
+      "word": "medical",
+      "pos": "adj.",
+      "def_zh": "醫療的"
+    },
+    {
+      "word": "medium",
+      "pos": "n.",
+      "def_zh": "媒介"
+    },
+    {
+      "word": "memory",
+      "pos": "n.",
+      "def_zh": "記憶"
+    },
+    {
+      "word": "mental",
+      "pos": "adj.",
+      "def_zh": "心理的"
+    },
+    {
+      "word": "mention",
+      "pos": "v.",
+      "def_zh": "提及"
+    },
+    {
+      "word": "merely",
+      "pos": "adv.",
+      "def_zh": "僅僅"
+    },
+    {
+      "word": "method",
+      "pos": "n.",
+      "def_zh": "方法"
+    },
+    {
+      "word": "military",
+      "pos": "adj.",
+      "def_zh": "軍事的"
+    },
+    {
+      "word": "minority",
+      "pos": "n.",
+      "def_zh": "少數"
+    },
+    {
+      "word": "miracle",
+      "pos": "n.",
+      "def_zh": "奇蹟"
+    },
+    {
+      "word": "misery",
+      "pos": "n.",
+      "def_zh": "悲慘"
+    },
+    {
+      "word": "mission",
+      "pos": "n.",
+      "def_zh": "任務"
+    },
+    {
+      "word": "mix",
+      "pos": "v.",
+      "def_zh": "混合"
+    },
+    {
+      "word": "mobile",
+      "pos": "adj.",
+      "def_zh": "可移動的"
+    },
+    {
+      "word": "mode",
+      "pos": "n.",
+      "def_zh": "模式"
+    },
+    {
+      "word": "moderate",
+      "pos": "adj.",
+      "def_zh": "適度的"
+    },
+    {
+      "word": "modest",
+      "pos": "adj.",
+      "def_zh": "謙遜的"
+    },
+    {
+      "word": "modify",
+      "pos": "v.",
+      "def_zh": "修改"
+    },
+    {
+      "word": "monitor",
+      "pos": "v./n.",
+      "def_zh": "監視；監視器"
+    },
+    {
+      "word": "moral",
+      "pos": "adj.",
+      "def_zh": "道德的"
+    },
+    {
+      "word": "moreover",
+      "pos": "adv.",
+      "def_zh": "此外"
+    },
+    {
+      "word": "motive",
+      "pos": "n.",
+      "def_zh": "動機"
+    },
+    {
+      "word": "multiple",
+      "pos": "adj.",
+      "def_zh": "多重的"
+    },
+    {
+      "word": "muscle",
+      "pos": "n.",
+      "def_zh": "肌肉"
+    },
+    {
+      "word": "mysterious",
+      "pos": "adj.",
+      "def_zh": "神秘的"
+    },
+    {
+      "word": "myth",
+      "pos": "n.",
+      "def_zh": "神話"
+    },
+    {
+      "word": "narrative",
+      "pos": "n.",
+      "def_zh": "敘事"
+    },
+    {
+      "word": "nation",
+      "pos": "n.",
+      "def_zh": "國家"
+    },
+    {
+      "word": "native",
+      "pos": "adj.",
+      "def_zh": "本土的"
+    },
+    {
+      "word": "natural",
+      "pos": "adj.",
+      "def_zh": "自然的"
+    },
+    {
+      "word": "nature",
+      "pos": "n.",
+      "def_zh": "自然"
+    },
+    {
+      "word": "navy",
+      "pos": "n.",
+      "def_zh": "海軍"
+    },
+    {
+      "word": "necessarily",
+      "pos": "adv.",
+      "def_zh": "必然地"
+    },
+    {
+      "word": "negative",
+      "pos": "adj.",
+      "def_zh": "負面的"
+    },
+    {
+      "word": "neglect",
+      "pos": "v.",
+      "def_zh": "忽視"
+    },
+    {
+      "word": "negotiate",
+      "pos": "v.",
+      "def_zh": "談判"
+    },
+    {
+      "word": "neighbor",
+      "pos": "n.",
+      "def_zh": "鄰居"
+    },
+    {
+      "word": "nervous",
+      "pos": "adj.",
+      "def_zh": "緊張的"
+    },
+    {
+      "word": "network",
+      "pos": "n.",
+      "def_zh": "網路"
+    },
+    {
+      "word": "nevertheless",
+      "pos": "adv.",
+      "def_zh": "然而"
+    },
+    {
+      "word": "nominate",
+      "pos": "v.",
+      "def_zh": "提名"
+    },
+    {
+      "word": "normally",
+      "pos": "adv.",
+      "def_zh": "通常"
+    },
+    {
+      "word": "notable",
+      "pos": "adj.",
+      "def_zh": "顯著的"
+    },
+    {
+      "word": "notice",
+      "pos": "v./n.",
+      "def_zh": "注意到；通知"
+    },
+    {
+      "word": "notion",
+      "pos": "n.",
+      "def_zh": "概念"
+    },
+    {
+      "word": "novel",
+      "pos": "n.",
+      "def_zh": "小說"
+    },
+    {
+      "word": "nowadays",
+      "pos": "adv.",
+      "def_zh": "如今"
+    },
+    {
+      "word": "nuclear",
+      "pos": "adj.",
+      "def_zh": "核子的"
+    },
+    {
+      "word": "numerous",
+      "pos": "adj.",
+      "def_zh": "眾多的"
+    },
+    {
+      "word": "object",
+      "pos": "n./v.",
+      "def_zh": "物體；反對"
+    },
+    {
+      "word": "objective",
+      "pos": "n./adj.",
+      "def_zh": "目標；客觀的"
+    },
+    {
+      "word": "obtain",
+      "pos": "v.",
+      "def_zh": "獲得"
+    },
+    {
+      "word": "obvious",
+      "pos": "adj.",
+      "def_zh": "明顯的"
+    },
+    {
+      "word": "occupation",
+      "pos": "n.",
+      "def_zh": "職業"
+    },
+    {
+      "word": "occupy",
+      "pos": "v.",
+      "def_zh": "占據"
+    },
+    {
+      "word": "occur",
+      "pos": "v.",
+      "def_zh": "發生"
+    },
+    {
+      "word": "odd",
+      "pos": "adj.",
+      "def_zh": "奇怪的；奇數的"
+    },
+    {
+      "word": "offend",
+      "pos": "v.",
+      "def_zh": "冒犯"
+    },
+    {
+      "word": "offer",
+      "pos": "v./n.",
+      "def_zh": "提供"
+    },
+    {
+      "word": "official",
+      "pos": "adj./n.",
+      "def_zh": "官方的；官員"
+    },
+    {
+      "word": "omit",
+      "pos": "v.",
+      "def_zh": "省略"
+    },
+    {
+      "word": "operate",
+      "pos": "v.",
+      "def_zh": "操作"
+    },
+    {
+      "word": "opinion",
+      "pos": "n.",
+      "def_zh": "意見"
+    },
+    {
+      "word": "opponent",
+      "pos": "n.",
+      "def_zh": "對手"
+    },
+    {
+      "word": "opportunity",
+      "pos": "n.",
+      "def_zh": "機會"
+    },
+    {
+      "word": "oppose",
+      "pos": "v.",
+      "def_zh": "反對"
+    },
+    {
+      "word": "option",
+      "pos": "n.",
+      "def_zh": "選項"
+    },
+    {
+      "word": "ordinary",
+      "pos": "adj.",
+      "def_zh": "普通的"
+    },
+    {
+      "word": "organ",
+      "pos": "n.",
+      "def_zh": "器官"
+    },
+    {
+      "word": "organize",
+      "pos": "v.",
+      "def_zh": "組織"
+    },
+    {
+      "word": "origin",
+      "pos": "n.",
+      "def_zh": "起源"
+    },
+    {
+      "word": "original",
+      "pos": "adj.",
+      "def_zh": "原創的"
+    },
+    {
+      "word": "otherwise",
+      "pos": "adv.",
+      "def_zh": "否則"
+    },
+    {
+      "word": "outcome",
+      "pos": "n.",
+      "def_zh": "結果"
+    },
+    {
+      "word": "outline",
+      "pos": "n./v.",
+      "def_zh": "大綱；概述"
+    },
+    {
+      "word": "output",
+      "pos": "n.",
+      "def_zh": "產出"
+    },
+    {
+      "word": "outstanding",
+      "pos": "adj.",
+      "def_zh": "傑出的"
+    },
+    {
+      "word": "overcome",
+      "pos": "v.",
+      "def_zh": "克服"
+    },
+    {
+      "word": "overlook",
+      "pos": "v.",
+      "def_zh": "忽略；俯瞰"
+    },
+    {
+      "word": "owe",
+      "pos": "v.",
+      "def_zh": "欠；歸功於"
+    },
+    {
+      "word": "pace",
+      "pos": "n.",
+      "def_zh": "步調"
+    },
+    {
+      "word": "pack",
+      "pos": "v./n.",
+      "def_zh": "打包；一包"
+    },
+    {
+      "word": "panel",
+      "pos": "n.",
+      "def_zh": "小組；面板"
+    },
+    {
+      "word": "panic",
+      "pos": "n.",
+      "def_zh": "驚慌"
+    },
+    {
+      "word": "paragraph",
+      "pos": "n.",
+      "def_zh": "段落"
+    },
+    {
+      "word": "parallel",
+      "pos": "adj.",
+      "def_zh": "平行的"
+    },
+    {
+      "word": "pardon",
+      "pos": "n./v.",
+      "def_zh": "原諒"
+    },
+    {
+      "word": "participate",
+      "pos": "v.",
+      "def_zh": "參與"
+    },
+    {
+      "word": "particular",
+      "pos": "adj.",
+      "def_zh": "特定的"
+    },
+    {
+      "word": "partner",
+      "pos": "n.",
+      "def_zh": "夥伴"
+    },
+    {
+      "word": "passion",
+      "pos": "n.",
+      "def_zh": "熱情"
+    },
+    {
+      "word": "passive",
+      "pos": "adj.",
+      "def_zh": "被動的"
+    },
+    {
+      "word": "pattern",
+      "pos": "n.",
+      "def_zh": "模式；圖案"
+    },
+    {
+      "word": "pause",
+      "pos": "v./n.",
+      "def_zh": "暫停"
+    },
+    {
+      "word": "peace",
+      "pos": "n.",
+      "def_zh": "和平"
+    },
+    {
+      "word": "peculiar",
+      "pos": "adj.",
+      "def_zh": "奇特的"
+    },
+    {
+      "word": "peer",
+      "pos": "n.",
+      "def_zh": "同儕"
+    },
+    {
+      "word": "perceive",
+      "pos": "v.",
+      "def_zh": "察覺"
+    },
+    {
+      "word": "percent",
+      "pos": "n.",
+      "def_zh": "百分比"
+    },
+    {
+      "word": "perfect",
+      "pos": "adj.",
+      "def_zh": "完美的"
+    },
+    {
+      "word": "period",
+      "pos": "n.",
+      "def_zh": "時期"
+    },
+    {
+      "word": "permanent",
+      "pos": "adj.",
+      "def_zh": "永久的"
+    },
+    {
+      "word": "permit",
+      "pos": "v./n.",
+      "def_zh": "允許；許可證"
+    },
+    {
+      "word": "persist",
+      "pos": "v.",
+      "def_zh": "持續"
+    },
+    {
+      "word": "perspective",
+      "pos": "n.",
+      "def_zh": "觀點"
+    },
+    {
+      "word": "persuade",
+      "pos": "v.",
+      "def_zh": "說服"
+    },
+    {
+      "word": "phenomenon",
+      "pos": "n.",
+      "def_zh": "現象"
+    },
+    {
+      "word": "philosophy",
+      "pos": "n.",
+      "def_zh": "哲學"
+    },
+    {
+      "word": "physical",
+      "pos": "adj.",
+      "def_zh": "身體的；物理的"
+    },
+    {
+      "word": "physician",
+      "pos": "n.",
+      "def_zh": "醫師"
+    },
+    {
+      "word": "pioneer",
+      "pos": "n.",
+      "def_zh": "先驅"
+    },
+    {
+      "word": "pity",
+      "pos": "n.",
+      "def_zh": "同情"
+    },
+    {
+      "word": "planet",
+      "pos": "n.",
+      "def_zh": "行星"
+    },
+    {
+      "word": "plot",
+      "pos": "n.",
+      "def_zh": "情節"
+    },
+    {
+      "word": "plus",
+      "pos": "prep.",
+      "def_zh": "加上"
+    },
+    {
+      "word": "poet",
+      "pos": "n.",
+      "def_zh": "詩人"
+    },
+    {
+      "word": "policy",
+      "pos": "n.",
+      "def_zh": "政策"
+    },
+    {
+      "word": "pollute",
+      "pos": "v.",
+      "def_zh": "污染"
+    },
+    {
+      "word": "population",
+      "pos": "n.",
+      "def_zh": "人口"
+    },
+    {
+      "word": "portion",
+      "pos": "n.",
+      "def_zh": "部分"
+    },
+    {
+      "word": "portrait",
+      "pos": "n.",
+      "def_zh": "肖像"
+    },
+    {
+      "word": "position",
+      "pos": "n.",
+      "def_zh": "位置；職位"
+    },
+    {
+      "word": "positive",
+      "pos": "adj.",
+      "def_zh": "正面的"
+    },
+    {
+      "word": "possess",
+      "pos": "v.",
+      "def_zh": "擁有"
+    },
+    {
+      "word": "possibility",
+      "pos": "n.",
+      "def_zh": "可能性"
+    },
+    {
+      "word": "potential",
+      "pos": "n./adj.",
+      "def_zh": "潛力；潛在的"
+    },
+    {
+      "word": "poverty",
+      "pos": "n.",
+      "def_zh": "貧窮"
+    },
+    {
+      "word": "practical",
+      "pos": "adj.",
+      "def_zh": "實用的"
+    },
+    {
+      "word": "praise",
+      "pos": "v./n.",
+      "def_zh": "稱讚"
+    },
+    {
+      "word": "precise",
+      "pos": "adj.",
+      "def_zh": "精確的"
+    },
+    {
+      "word": "predict",
+      "pos": "v.",
+      "def_zh": "預測"
+    },
+    {
+      "word": "prefer",
+      "pos": "v.",
+      "def_zh": "較喜歡"
+    },
+    {
+      "word": "prejudice",
+      "pos": "n.",
+      "def_zh": "偏見"
+    },
+    {
+      "word": "premise",
+      "pos": "n.",
+      "def_zh": "前提"
+    },
+    {
+      "word": "prepare",
+      "pos": "v.",
+      "def_zh": "準備"
+    },
+    {
+      "word": "presence",
+      "pos": "n.",
+      "def_zh": "存在"
+    },
+    {
+      "word": "preserve",
+      "pos": "v.",
+      "def_zh": "保存"
+    },
+    {
+      "word": "press",
+      "pos": "v./n.",
+      "def_zh": "按壓；新聞界"
+    },
+    {
+      "word": "pressure",
+      "pos": "n.",
+      "def_zh": "壓力"
+    },
+    {
+      "word": "pretend",
+      "pos": "v.",
+      "def_zh": "假裝"
+    },
+    {
+      "word": "prevent",
+      "pos": "v.",
+      "def_zh": "防止"
+    },
+    {
+      "word": "previous",
+      "pos": "adj.",
+      "def_zh": "先前的"
+    },
+    {
+      "word": "primary",
+      "pos": "adj.",
+      "def_zh": "主要的；初級的"
+    },
+    {
+      "word": "principle",
+      "pos": "n.",
+      "def_zh": "原則"
+    },
+    {
+      "word": "prior",
+      "pos": "adj.",
+      "def_zh": "先前的"
+    },
+    {
+      "word": "private",
+      "pos": "adj.",
+      "def_zh": "私人的"
+    },
+    {
+      "word": "privilege",
+      "pos": "n.",
+      "def_zh": "特權"
+    },
+    {
+      "word": "procedure",
+      "pos": "n.",
+      "def_zh": "程序"
+    },
+    {
+      "word": "process",
+      "pos": "n./v.",
+      "def_zh": "過程；處理"
+    },
+    {
+      "word": "produce",
+      "pos": "v.",
+      "def_zh": "生產"
+    },
+    {
+      "word": "product",
+      "pos": "n.",
+      "def_zh": "產品"
+    },
+    {
+      "word": "profession",
+      "pos": "n.",
+      "def_zh": "職業"
+    },
+    {
+      "word": "profit",
+      "pos": "n.",
+      "def_zh": "利潤"
+    },
+    {
+      "word": "progress",
+      "pos": "n./v.",
+      "def_zh": "進步"
+    },
+    {
+      "word": "project",
+      "pos": "n.",
+      "def_zh": "專案"
+    },
+    {
+      "word": "promise",
+      "pos": "v./n.",
+      "def_zh": "承諾"
+    },
+    {
+      "word": "promote",
+      "pos": "v.",
+      "def_zh": "促進；升遷"
+    },
+    {
+      "word": "prompt",
+      "pos": "adj./v.",
+      "def_zh": "迅速的；促使"
+    },
+    {
+      "word": "proof",
+      "pos": "n.",
+      "def_zh": "證據"
+    },
+    {
+      "word": "proper",
+      "pos": "adj.",
+      "def_zh": "適當的"
+    },
+    {
+      "word": "property",
+      "pos": "n.",
+      "def_zh": "財產"
+    },
+    {
+      "word": "proportion",
+      "pos": "n.",
+      "def_zh": "比例"
+    },
+    {
+      "word": "propose",
+      "pos": "v.",
+      "def_zh": "提議"
+    },
+    {
+      "word": "prospect",
+      "pos": "n.",
+      "def_zh": "前景"
+    },
+    {
+      "word": "protect",
+      "pos": "v.",
+      "def_zh": "保護"
+    },
+    {
+      "word": "protest",
+      "pos": "v./n.",
+      "def_zh": "抗議"
+    },
+    {
+      "word": "prove",
+      "pos": "v.",
+      "def_zh": "證明"
+    },
+    {
+      "word": "provide",
+      "pos": "v.",
+      "def_zh": "提供"
+    },
+    {
+      "word": "province",
+      "pos": "n.",
+      "def_zh": "省份"
+    },
+    {
+      "word": "psychology",
+      "pos": "n.",
+      "def_zh": "心理學"
+    },
+    {
+      "word": "publish",
+      "pos": "v.",
+      "def_zh": "出版"
+    },
+    {
+      "word": "punish",
+      "pos": "v.",
+      "def_zh": "懲罰"
+    },
+    {
+      "word": "purchase",
+      "pos": "v./n.",
+      "def_zh": "購買"
+    },
+    {
+      "word": "purpose",
+      "pos": "n.",
+      "def_zh": "目的"
+    },
+    {
+      "word": "qualify",
+      "pos": "v.",
+      "def_zh": "取得資格"
+    },
+    {
+      "word": "quality",
+      "pos": "n.",
+      "def_zh": "品質"
+    },
+    {
+      "word": "quantity",
+      "pos": "n.",
+      "def_zh": "數量"
+    },
+    {
+      "word": "quarrel",
+      "pos": "n./v.",
+      "def_zh": "爭吵"
+    },
+    {
+      "word": "quote",
+      "pos": "v./n.",
+      "def_zh": "引用"
+    },
+    {
+      "word": "range",
+      "pos": "n.",
+      "def_zh": "範圍"
+    },
+    {
+      "word": "rank",
+      "pos": "n./v.",
+      "def_zh": "等級；排名"
+    },
+    {
+      "word": "rapid",
+      "pos": "adj.",
+      "def_zh": "迅速的"
+    },
+    {
+      "word": "rare",
+      "pos": "adj.",
+      "def_zh": "罕見的"
+    },
+    {
+      "word": "rate",
+      "pos": "n.",
+      "def_zh": "比率"
+    },
+    {
+      "word": "rather",
+      "pos": "adv.",
+      "def_zh": "寧願；相當"
+    },
+    {
+      "word": "raw",
+      "pos": "adj.",
+      "def_zh": "生的；未經加工的"
+    },
+    {
+      "word": "react",
+      "pos": "v.",
+      "def_zh": "反應"
+    },
+    {
+      "word": "reality",
+      "pos": "n.",
+      "def_zh": "現實"
+    },
+    {
+      "word": "realize",
+      "pos": "v.",
+      "def_zh": "了解；實現"
+    },
+    {
+      "word": "recall",
+      "pos": "v.",
+      "def_zh": "回想"
+    },
+    {
+      "word": "receive",
+      "pos": "v.",
+      "def_zh": "收到"
+    },
+    {
+      "word": "recent",
+      "pos": "adj.",
+      "def_zh": "最近的"
+    },
+    {
+      "word": "recipe",
+      "pos": "n.",
+      "def_zh": "食譜"
+    },
+    {
+      "word": "recognize",
+      "pos": "v.",
+      "def_zh": "認出"
+    },
+    {
+      "word": "recommend",
+      "pos": "v.",
+      "def_zh": "推薦"
+    },
+    {
+      "word": "recover",
+      "pos": "v.",
+      "def_zh": "恢復"
+    },
+    {
+      "word": "reduce",
+      "pos": "v.",
+      "def_zh": "減少"
+    },
+    {
+      "word": "refer",
+      "pos": "v.",
+      "def_zh": "提到；參考"
+    },
+    {
+      "word": "reflect",
+      "pos": "v.",
+      "def_zh": "反映"
+    },
+    {
+      "word": "reform",
+      "pos": "n./v.",
+      "def_zh": "改革"
+    },
+    {
+      "word": "refuse",
+      "pos": "v.",
+      "def_zh": "拒絕"
+    },
+    {
+      "word": "regard",
+      "pos": "v./n.",
+      "def_zh": "視為；關心"
+    },
+    {
+      "word": "region",
+      "pos": "n.",
+      "def_zh": "地區"
+    },
+    {
+      "word": "register",
+      "pos": "v.",
+      "def_zh": "登記"
+    },
+    {
+      "word": "regret",
+      "pos": "v./n.",
+      "def_zh": "後悔"
+    },
+    {
+      "word": "regular",
+      "pos": "adj.",
+      "def_zh": "規律的"
+    },
+    {
+      "word": "reject",
+      "pos": "v.",
+      "def_zh": "拒絕"
+    },
+    {
+      "word": "relate",
+      "pos": "v.",
+      "def_zh": "有關；敘述"
+    },
+    {
+      "word": "relative",
+      "pos": "n.",
+      "def_zh": "親戚"
+    },
+    {
+      "word": "release",
+      "pos": "v./n.",
+      "def_zh": "釋放；發行"
+    },
+    {
+      "word": "relevant",
+      "pos": "adj.",
+      "def_zh": "相關的"
+    },
+    {
+      "word": "reliable",
+      "pos": "adj.",
+      "def_zh": "可靠的"
+    },
+    {
+      "word": "relief",
+      "pos": "n.",
+      "def_zh": "寬慰；救濟"
+    },
+    {
+      "word": "rely",
+      "pos": "v.",
+      "def_zh": "依賴"
+    },
+    {
+      "word": "remain",
+      "pos": "v.",
+      "def_zh": "仍然是；留下"
+    },
+    {
+      "word": "remark",
+      "pos": "n./v.",
+      "def_zh": "評論"
+    },
+    {
+      "word": "remarkable",
+      "pos": "adj.",
+      "def_zh": "出色的"
+    },
+    {
+      "word": "remedy",
+      "pos": "n.",
+      "def_zh": "補救方法"
+    },
+    {
+      "word": "remind",
+      "pos": "v.",
+      "def_zh": "提醒"
+    },
+    {
+      "word": "remote",
+      "pos": "adj.",
+      "def_zh": "遙遠的"
+    },
+    {
+      "word": "remove",
+      "pos": "v.",
+      "def_zh": "移除"
+    },
+    {
+      "word": "rent",
+      "pos": "v./n.",
+      "def_zh": "租；租金"
+    },
+    {
+      "word": "repair",
+      "pos": "v.",
+      "def_zh": "修理"
+    },
+    {
+      "word": "repeat",
+      "pos": "v.",
+      "def_zh": "重複"
+    },
+    {
+      "word": "replace",
+      "pos": "v.",
+      "def_zh": "取代"
+    },
+    {
+      "word": "reply",
+      "pos": "v./n.",
+      "def_zh": "回覆"
+    },
+    {
+      "word": "report",
+      "pos": "n./v.",
+      "def_zh": "報告"
+    },
+    {
+      "word": "represent",
+      "pos": "v.",
+      "def_zh": "代表"
+    },
+    {
+      "word": "reputation",
+      "pos": "n.",
+      "def_zh": "名聲"
+    },
+    {
+      "word": "request",
+      "pos": "n./v.",
+      "def_zh": "請求"
+    },
+    {
+      "word": "require",
+      "pos": "v.",
+      "def_zh": "需要"
+    },
+    {
+      "word": "rescue",
+      "pos": "v./n.",
+      "def_zh": "救援"
+    },
+    {
+      "word": "research",
+      "pos": "n./v.",
+      "def_zh": "研究"
+    },
+    {
+      "word": "resemble",
+      "pos": "v.",
+      "def_zh": "相似"
+    },
+    {
+      "word": "reserve",
+      "pos": "v./n.",
+      "def_zh": "保留；保護區"
+    },
+    {
+      "word": "reside",
+      "pos": "v.",
+      "def_zh": "居住"
+    },
+    {
+      "word": "resign",
+      "pos": "v.",
+      "def_zh": "辭職"
+    },
+    {
+      "word": "resist",
+      "pos": "v.",
+      "def_zh": "抵抗"
+    },
+    {
+      "word": "resolve",
+      "pos": "v.",
+      "def_zh": "解決"
+    },
+    {
+      "word": "resource",
+      "pos": "n.",
+      "def_zh": "資源"
+    },
+    {
+      "word": "respect",
+      "pos": "n./v.",
+      "def_zh": "尊重"
+    },
+    {
+      "word": "respond",
+      "pos": "v.",
+      "def_zh": "回應"
+    },
+    {
+      "word": "responsible",
+      "pos": "adj.",
+      "def_zh": "負責的"
+    },
+    {
+      "word": "restore",
+      "pos": "v.",
+      "def_zh": "恢復"
+    },
+    {
+      "word": "restrain",
+      "pos": "v.",
+      "def_zh": "克制"
+    },
+    {
+      "word": "restrict",
+      "pos": "v.",
+      "def_zh": "限制"
+    },
+    {
+      "word": "result",
+      "pos": "n.",
+      "def_zh": "結果"
+    },
+    {
+      "word": "retain",
+      "pos": "v.",
+      "def_zh": "保留"
+    },
+    {
+      "word": "retire",
+      "pos": "v.",
+      "def_zh": "退休"
+    },
+    {
+      "word": "reveal",
+      "pos": "v.",
+      "def_zh": "透露"
+    },
+    {
+      "word": "review",
+      "pos": "v./n.",
+      "def_zh": "複習；評論"
+    },
+    {
+      "word": "revise",
+      "pos": "v.",
+      "def_zh": "修訂"
+    },
+    {
+      "word": "revolution",
+      "pos": "n.",
+      "def_zh": "革命"
+    },
+    {
+      "word": "reward",
+      "pos": "n./v.",
+      "def_zh": "報酬；獎賞"
+    },
+    {
+      "word": "ridiculous",
+      "pos": "adj.",
+      "def_zh": "荒謬的"
+    },
+    {
+      "word": "risk",
+      "pos": "n./v.",
+      "def_zh": "風險；冒……的險"
+    },
+    {
+      "word": "rival",
+      "pos": "n.",
+      "def_zh": "對手"
+    },
+    {
+      "word": "romantic",
+      "pos": "adj.",
+      "def_zh": "浪漫的"
+    },
+    {
+      "word": "roughly",
+      "pos": "adv.",
+      "def_zh": "大約"
+    },
+    {
+      "word": "route",
+      "pos": "n.",
+      "def_zh": "路線"
+    },
+    {
+      "word": "routine",
+      "pos": "n.",
+      "def_zh": "例行公事"
+    },
+    {
+      "word": "rural",
+      "pos": "adj.",
+      "def_zh": "鄉村的"
+    },
+    {
+      "word": "sacrifice",
+      "pos": "n./v.",
+      "def_zh": "犧牲"
+    },
+    {
+      "word": "sake",
+      "pos": "n.",
+      "def_zh": "緣故"
+    },
+    {
+      "word": "salary",
+      "pos": "n.",
+      "def_zh": "薪水"
+    },
+    {
+      "word": "sample",
+      "pos": "n.",
+      "def_zh": "樣品"
+    },
+    {
+      "word": "satisfy",
+      "pos": "v.",
+      "def_zh": "使滿意"
+    },
+    {
+      "word": "scale",
+      "pos": "n.",
+      "def_zh": "規模；比例尺"
+    },
+    {
+      "word": "scan",
+      "pos": "v.",
+      "def_zh": "掃描；瀏覽"
+    },
+    {
+      "word": "scarce",
+      "pos": "adj.",
+      "def_zh": "稀少的"
+    },
+    {
+      "word": "scatter",
+      "pos": "v.",
+      "def_zh": "散佈"
+    },
+    {
+      "word": "scene",
+      "pos": "n.",
+      "def_zh": "場景"
+    },
+    {
+      "word": "schedule",
+      "pos": "n./v.",
+      "def_zh": "時程；安排"
+    },
+    {
+      "word": "scheme",
+      "pos": "n.",
+      "def_zh": "計畫"
+    },
+    {
+      "word": "scholar",
+      "pos": "n.",
+      "def_zh": "學者"
+    },
+    {
+      "word": "scope",
+      "pos": "n.",
+      "def_zh": "範圍"
+    },
+    {
+      "word": "scream",
+      "pos": "v.",
+      "def_zh": "尖叫"
+    },
+    {
+      "word": "screen",
+      "pos": "n.",
+      "def_zh": "螢幕"
+    },
+    {
+      "word": "search",
+      "pos": "v./n.",
+      "def_zh": "搜尋"
+    },
+    {
+      "word": "secret",
+      "pos": "n./adj.",
+      "def_zh": "秘密；秘密的"
+    },
+    {
+      "word": "section",
+      "pos": "n.",
+      "def_zh": "部分"
+    },
+    {
+      "word": "secure",
+      "pos": "adj./v.",
+      "def_zh": "安全的；確保"
+    },
+    {
+      "word": "seek",
+      "pos": "v.",
+      "def_zh": "尋求"
+    },
+    {
+      "word": "seize",
+      "pos": "v.",
+      "def_zh": "抓住"
+    },
+    {
+      "word": "select",
+      "pos": "v.",
+      "def_zh": "選擇"
+    },
+    {
+      "word": "semester",
+      "pos": "n.",
+      "def_zh": "學期"
+    },
+    {
+      "word": "senior",
+      "pos": "adj.",
+      "def_zh": "較年長的；高年級的"
+    },
+    {
+      "word": "sense",
+      "pos": "n.",
+      "def_zh": "感覺；意義"
+    },
+    {
+      "word": "sensitive",
+      "pos": "adj.",
+      "def_zh": "敏感的"
+    },
+    {
+      "word": "sequence",
+      "pos": "n.",
+      "def_zh": "順序"
+    },
+    {
+      "word": "series",
+      "pos": "n.",
+      "def_zh": "系列"
+    },
+    {
+      "word": "serious",
+      "pos": "adj.",
+      "def_zh": "認真的；嚴重的"
+    },
+    {
+      "word": "serve",
+      "pos": "v.",
+      "def_zh": "服務；供應"
+    },
+    {
+      "word": "service",
+      "pos": "n.",
+      "def_zh": "服務"
+    },
+    {
+      "word": "session",
+      "pos": "n.",
+      "def_zh": "時段；會議"
+    },
+    {
+      "word": "settle",
+      "pos": "v.",
+      "def_zh": "解決；定居"
+    },
+    {
+      "word": "severe",
+      "pos": "adj.",
+      "def_zh": "嚴重的"
+    },
+    {
+      "word": "shade",
+      "pos": "n.",
+      "def_zh": "樹蔭"
+    },
+    {
+      "word": "shadow",
+      "pos": "n.",
+      "def_zh": "影子"
+    },
+    {
+      "word": "shake",
+      "pos": "v.",
+      "def_zh": "搖晃"
+    },
+    {
+      "word": "shallow",
+      "pos": "adj.",
+      "def_zh": "淺的"
+    },
+    {
+      "word": "shame",
+      "pos": "n.",
+      "def_zh": "羞愧"
+    },
+    {
+      "word": "sharp",
+      "pos": "adj.",
+      "def_zh": "鋒利的；敏銳的"
+    },
+    {
+      "word": "shelter",
+      "pos": "n.",
+      "def_zh": "遮蔽處"
+    },
+    {
+      "word": "shift",
+      "pos": "v./n.",
+      "def_zh": "轉移；輪班"
+    },
+    {
+      "word": "shock",
+      "pos": "n./v.",
+      "def_zh": "震驚"
+    },
+    {
+      "word": "shortage",
+      "pos": "n.",
+      "def_zh": "短缺"
+    },
+    {
+      "word": "sight",
+      "pos": "n.",
+      "def_zh": "視力；景象"
+    },
+    {
+      "word": "signal",
+      "pos": "n.",
+      "def_zh": "信號"
+    },
+    {
+      "word": "significant",
+      "pos": "adj.",
+      "def_zh": "重要的"
+    },
+    {
+      "word": "silence",
+      "pos": "n.",
+      "def_zh": "寂靜"
+    },
+    {
+      "word": "similar",
+      "pos": "adj.",
+      "def_zh": "相似的"
+    },
+    {
+      "word": "sincere",
+      "pos": "adj.",
+      "def_zh": "真誠的"
+    },
+    {
+      "word": "single",
+      "pos": "adj.",
+      "def_zh": "單一的"
+    },
+    {
+      "word": "site",
+      "pos": "n.",
+      "def_zh": "地點"
+    },
+    {
+      "word": "situation",
+      "pos": "n.",
+      "def_zh": "情況"
+    },
+    {
+      "word": "slightly",
+      "pos": "adv.",
+      "def_zh": "稍微"
+    },
+    {
+      "word": "slope",
+      "pos": "n.",
+      "def_zh": "斜坡"
+    },
+    {
+      "word": "smooth",
+      "pos": "adj.",
+      "def_zh": "平滑的"
+    },
+    {
+      "word": "social",
+      "pos": "adj.",
+      "def_zh": "社會的"
+    },
+    {
+      "word": "society",
+      "pos": "n.",
+      "def_zh": "社會"
+    },
+    {
+      "word": "software",
+      "pos": "n.",
+      "def_zh": "軟體"
+    },
+    {
+      "word": "soil",
+      "pos": "n.",
+      "def_zh": "土壤"
+    },
+    {
+      "word": "solid",
+      "pos": "adj.",
+      "def_zh": "堅固的"
+    },
+    {
+      "word": "solve",
+      "pos": "v.",
+      "def_zh": "解決"
+    },
+    {
+      "word": "somehow",
+      "pos": "adv.",
+      "def_zh": "以某種方式"
+    },
+    {
+      "word": "somewhat",
+      "pos": "adv.",
+      "def_zh": "有點"
+    },
+    {
+      "word": "source",
+      "pos": "n.",
+      "def_zh": "來源"
+    },
+    {
+      "word": "specific",
+      "pos": "adj.",
+      "def_zh": "特定的"
+    },
+    {
+      "word": "spectacle",
+      "pos": "n.",
+      "def_zh": "景象"
+    },
+    {
+      "word": "speculate",
+      "pos": "v.",
+      "def_zh": "推測"
+    },
+    {
+      "word": "speech",
+      "pos": "n.",
+      "def_zh": "演說"
+    },
+    {
+      "word": "sphere",
+      "pos": "n.",
+      "def_zh": "領域；球體"
+    },
+    {
+      "word": "spirit",
+      "pos": "n.",
+      "def_zh": "精神"
+    },
+    {
+      "word": "spite",
+      "pos": "n.",
+      "def_zh": "惡意"
+    },
+    {
+      "word": "splendid",
+      "pos": "adj.",
+      "def_zh": "極好的"
+    },
+    {
+      "word": "split",
+      "pos": "v.",
+      "def_zh": "分裂"
+    },
+    {
+      "word": "spread",
+      "pos": "v.",
+      "def_zh": "傳播"
+    },
+    {
+      "word": "stable",
+      "pos": "adj.",
+      "def_zh": "穩定的"
+    },
+    {
+      "word": "staff",
+      "pos": "n.",
+      "def_zh": "員工"
+    },
+    {
+      "word": "stage",
+      "pos": "n.",
+      "def_zh": "舞臺；階段"
+    },
+    {
+      "word": "standard",
+      "pos": "n.",
+      "def_zh": "標準"
+    },
+    {
+      "word": "stare",
+      "pos": "v.",
+      "def_zh": "凝視"
+    },
+    {
+      "word": "state",
+      "pos": "n./v.",
+      "def_zh": "州；陳述"
+    },
+    {
+      "word": "statement",
+      "pos": "n.",
+      "def_zh": "聲明"
+    },
+    {
+      "word": "statue",
+      "pos": "n.",
+      "def_zh": "雕像"
+    },
+    {
+      "word": "status",
+      "pos": "n.",
+      "def_zh": "地位"
+    },
+    {
+      "word": "steady",
+      "pos": "adj.",
+      "def_zh": "穩定的"
+    },
+    {
+      "word": "steam",
+      "pos": "n.",
+      "def_zh": "蒸汽"
+    },
+    {
+      "word": "steel",
+      "pos": "n.",
+      "def_zh": "鋼鐵"
+    },
+    {
+      "word": "steep",
+      "pos": "adj.",
+      "def_zh": "陡峭的"
+    },
+    {
+      "word": "stem",
+      "pos": "n.",
+      "def_zh": "莖；根源"
+    },
+    {
+      "word": "step",
+      "pos": "n.",
+      "def_zh": "步驟"
+    },
+    {
+      "word": "stick",
+      "pos": "v./n.",
+      "def_zh": "黏住；棍子"
+    },
+    {
+      "word": "stiff",
+      "pos": "adj.",
+      "def_zh": "僵硬的"
+    },
+    {
+      "word": "stimulate",
+      "pos": "v.",
+      "def_zh": "刺激"
+    },
+    {
+      "word": "stir",
+      "pos": "v.",
+      "def_zh": "攪拌"
+    },
+    {
+      "word": "stock",
+      "pos": "n.",
+      "def_zh": "庫存；股票"
+    },
+    {
+      "word": "storage",
+      "pos": "n.",
+      "def_zh": "儲存"
+    },
+    {
+      "word": "strategy",
+      "pos": "n.",
+      "def_zh": "策略"
+    },
+    {
+      "word": "strength",
+      "pos": "n.",
+      "def_zh": "力量"
+    },
+    {
+      "word": "stress",
+      "pos": "n.",
+      "def_zh": "壓力"
+    },
+    {
+      "word": "stretch",
+      "pos": "v.",
+      "def_zh": "伸展"
+    },
+    {
+      "word": "strict",
+      "pos": "adj.",
+      "def_zh": "嚴格的"
+    },
+    {
+      "word": "strike",
+      "pos": "v.",
+      "def_zh": "打擊；罷工"
+    },
+    {
+      "word": "structure",
+      "pos": "n.",
+      "def_zh": "結構"
+    },
+    {
+      "word": "struggle",
+      "pos": "v./n.",
+      "def_zh": "奮鬥"
+    },
+    {
+      "word": "stuff",
+      "pos": "n.",
+      "def_zh": "東西"
+    },
+    {
+      "word": "style",
+      "pos": "n.",
+      "def_zh": "風格"
+    },
+    {
+      "word": "submit",
+      "pos": "v.",
+      "def_zh": "提交"
+    },
+    {
+      "word": "substance",
+      "pos": "n.",
+      "def_zh": "物質"
+    },
+    {
+      "word": "subtle",
+      "pos": "adj.",
+      "def_zh": "微妙的"
+    },
+    {
+      "word": "succeed",
+      "pos": "v.",
+      "def_zh": "成功"
+    },
+    {
+      "word": "sufficient",
+      "pos": "adj.",
+      "def_zh": "充足的"
+    },
+    {
+      "word": "suggest",
+      "pos": "v.",
+      "def_zh": "建議"
+    },
+    {
+      "word": "suit",
+      "pos": "v./n.",
+      "def_zh": "適合；套裝"
+    },
+    {
+      "word": "sum",
+      "pos": "n.",
+      "def_zh": "總和"
+    },
+    {
+      "word": "summary",
+      "pos": "n.",
+      "def_zh": "摘要"
+    },
+    {
+      "word": "supply",
+      "pos": "v./n.",
+      "def_zh": "供應"
+    },
+    {
+      "word": "support",
+      "pos": "v./n.",
+      "def_zh": "支持"
+    },
+    {
+      "word": "suppose",
+      "pos": "v.",
+      "def_zh": "假設"
+    },
+    {
+      "word": "supreme",
+      "pos": "adj.",
+      "def_zh": "至高的"
+    },
+    {
+      "word": "surface",
+      "pos": "n.",
+      "def_zh": "表面"
+    },
+    {
+      "word": "surgery",
+      "pos": "n.",
+      "def_zh": "外科手術"
+    },
+    {
+      "word": "surplus",
+      "pos": "n.",
+      "def_zh": "過剩"
+    },
+    {
+      "word": "survey",
+      "pos": "n./v.",
+      "def_zh": "調查"
+    },
+    {
+      "word": "survive",
+      "pos": "v.",
+      "def_zh": "存活"
+    },
+    {
+      "word": "suspect",
+      "pos": "v.",
+      "def_zh": "懷疑"
+    },
+    {
+      "word": "sustain",
+      "pos": "v.",
+      "def_zh": "維持"
+    },
+    {
+      "word": "swallow",
+      "pos": "v.",
+      "def_zh": "吞下"
+    },
+    {
+      "word": "sweep",
+      "pos": "v.",
+      "def_zh": "掃除"
+    },
+    {
+      "word": "symbol",
+      "pos": "n.",
+      "def_zh": "象徵"
+    },
+    {
+      "word": "sympathy",
+      "pos": "n.",
+      "def_zh": "同情"
+    },
+    {
+      "word": "symptom",
+      "pos": "n.",
+      "def_zh": "症狀"
+    },
+    {
+      "word": "system",
+      "pos": "n.",
+      "def_zh": "系統"
+    },
+    {
+      "word": "talent",
+      "pos": "n.",
+      "def_zh": "才能"
+    },
+    {
+      "word": "target",
+      "pos": "n.",
+      "def_zh": "目標"
+    },
+    {
+      "word": "task",
+      "pos": "n.",
+      "def_zh": "任務"
+    },
+    {
+      "word": "tax",
+      "pos": "n.",
+      "def_zh": "稅"
+    },
+    {
+      "word": "technique",
+      "pos": "n.",
+      "def_zh": "技巧"
+    },
+    {
+      "word": "technology",
+      "pos": "n.",
+      "def_zh": "科技"
+    },
+    {
+      "word": "teenager",
+      "pos": "n.",
+      "def_zh": "青少年"
+    },
+    {
+      "word": "temporary",
+      "pos": "adj.",
+      "def_zh": "暫時的"
+    },
+    {
+      "word": "tend",
+      "pos": "v.",
+      "def_zh": "傾向"
+    },
+    {
+      "word": "tense",
+      "pos": "adj.",
+      "def_zh": "緊張的"
+    },
+    {
+      "word": "term",
+      "pos": "n.",
+      "def_zh": "詞語；學期"
+    },
+    {
+      "word": "territory",
+      "pos": "n.",
+      "def_zh": "領土"
+    },
+    {
+      "word": "theory",
+      "pos": "n.",
+      "def_zh": "理論"
+    },
+    {
+      "word": "therefore",
+      "pos": "adv.",
+      "def_zh": "因此"
+    },
+    {
+      "word": "thorough",
+      "pos": "adj.",
+      "def_zh": "徹底的"
+    },
+    {
+      "word": "threat",
+      "pos": "n.",
+      "def_zh": "威脅"
+    },
+    {
+      "word": "thus",
+      "pos": "adv.",
+      "def_zh": "因此"
+    },
+    {
+      "word": "tight",
+      "pos": "adj.",
+      "def_zh": "緊的"
+    },
+    {
+      "word": "tissue",
+      "pos": "n.",
+      "def_zh": "組織；面紙"
+    },
+    {
+      "word": "title",
+      "pos": "n.",
+      "def_zh": "標題"
+    },
+    {
+      "word": "tolerate",
+      "pos": "v.",
+      "def_zh": "忍受"
+    },
+    {
+      "word": "tone",
+      "pos": "n.",
+      "def_zh": "語氣"
+    },
+    {
+      "word": "topic",
+      "pos": "n.",
+      "def_zh": "主題"
+    },
+    {
+      "word": "total",
+      "pos": "adj./n.",
+      "def_zh": "全部的；總數"
+    },
+    {
+      "word": "trace",
+      "pos": "v./n.",
+      "def_zh": "追蹤；痕跡"
+    },
+    {
+      "word": "trade",
+      "pos": "n./v.",
+      "def_zh": "貿易"
+    },
+    {
+      "word": "traffic",
+      "pos": "n.",
+      "def_zh": "交通"
+    },
+    {
+      "word": "transfer",
+      "pos": "v.",
+      "def_zh": "轉移"
+    },
+    {
+      "word": "transform",
+      "pos": "v.",
+      "def_zh": "轉變"
+    },
+    {
+      "word": "transit",
+      "pos": "n.",
+      "def_zh": "運輸"
+    },
+    {
+      "word": "translate",
+      "pos": "v.",
+      "def_zh": "翻譯"
+    },
+    {
+      "word": "transport",
+      "pos": "v./n.",
+      "def_zh": "運輸"
+    },
+    {
+      "word": "trap",
+      "pos": "n./v.",
+      "def_zh": "陷阱；困住"
+    },
+    {
+      "word": "treasure",
+      "pos": "n.",
+      "def_zh": "寶藏"
+    },
+    {
+      "word": "treat",
+      "pos": "v.",
+      "def_zh": "對待；治療"
+    },
+    {
+      "word": "trend",
+      "pos": "n.",
+      "def_zh": "趨勢"
+    },
+    {
+      "word": "trial",
+      "pos": "n.",
+      "def_zh": "試驗；審判"
+    },
+    {
+      "word": "tribe",
+      "pos": "n.",
+      "def_zh": "部落"
+    },
+    {
+      "word": "trick",
+      "pos": "n.",
+      "def_zh": "詭計；竅門"
+    },
+    {
+      "word": "trim",
+      "pos": "v.",
+      "def_zh": "修剪"
+    },
+    {
+      "word": "triumph",
+      "pos": "n.",
+      "def_zh": "勝利"
+    },
+    {
+      "word": "tropical",
+      "pos": "adj.",
+      "def_zh": "熱帶的"
+    },
+    {
+      "word": "trust",
+      "pos": "v./n.",
+      "def_zh": "信任"
+    },
+    {
+      "word": "tube",
+      "pos": "n.",
+      "def_zh": "管子"
+    },
+    {
+      "word": "tune",
+      "pos": "n.",
+      "def_zh": "曲調"
+    },
+    {
+      "word": "typical",
+      "pos": "adj.",
+      "def_zh": "典型的"
+    },
+    {
+      "word": "ultimate",
+      "pos": "adj.",
+      "def_zh": "終極的"
+    },
+    {
+      "word": "undergo",
+      "pos": "v.",
+      "def_zh": "經歷"
+    },
+    {
+      "word": "underline",
+      "pos": "v.",
+      "def_zh": "強調；劃底線"
+    },
+    {
+      "word": "undermine",
+      "pos": "v.",
+      "def_zh": "損害"
+    },
+    {
+      "word": "undertake",
+      "pos": "v.",
+      "def_zh": "承擔"
+    },
+    {
+      "word": "unemployment",
+      "pos": "n.",
+      "def_zh": "失業"
+    },
+    {
+      "word": "unexpected",
+      "pos": "adj.",
+      "def_zh": "出乎意料的"
+    },
+    {
+      "word": "unfortunate",
+      "pos": "adj.",
+      "def_zh": "不幸的"
+    },
+    {
+      "word": "unique",
+      "pos": "adj.",
+      "def_zh": "獨特的"
+    },
+    {
+      "word": "unite",
+      "pos": "v.",
+      "def_zh": "聯合"
+    },
+    {
+      "word": "universe",
+      "pos": "n.",
+      "def_zh": "宇宙"
+    },
+    {
+      "word": "university",
+      "pos": "n.",
+      "def_zh": "大學"
+    },
+    {
+      "word": "unless",
+      "pos": "conj.",
+      "def_zh": "除非"
+    },
+    {
+      "word": "unlike",
+      "pos": "prep.",
+      "def_zh": "不像"
+    },
+    {
+      "word": "unusual",
+      "pos": "adj.",
+      "def_zh": "不尋常的"
+    },
+    {
+      "word": "upset",
+      "pos": "adj.",
+      "def_zh": "難過的"
+    },
+    {
+      "word": "urban",
+      "pos": "adj.",
+      "def_zh": "都市的"
+    },
+    {
+      "word": "urge",
+      "pos": "v.",
+      "def_zh": "力勸"
+    },
+    {
+      "word": "urgent",
+      "pos": "adj.",
+      "def_zh": "緊急的"
+    },
+    {
+      "word": "utility",
+      "pos": "n.",
+      "def_zh": "公用事業；實用性"
+    },
+    {
+      "word": "vacant",
+      "pos": "adj.",
+      "def_zh": "空的"
+    },
+    {
+      "word": "vague",
+      "pos": "adj.",
+      "def_zh": "含糊的"
+    },
+    {
+      "word": "valid",
+      "pos": "adj.",
+      "def_zh": "有效的"
+    },
+    {
+      "word": "value",
+      "pos": "n.",
+      "def_zh": "價值"
+    },
+    {
+      "word": "vanish",
+      "pos": "v.",
+      "def_zh": "消失"
+    },
+    {
+      "word": "variety",
+      "pos": "n.",
+      "def_zh": "多樣"
+    },
+    {
+      "word": "various",
+      "pos": "adj.",
+      "def_zh": "各種的"
+    },
+    {
+      "word": "vast",
+      "pos": "adj.",
+      "def_zh": "廣大的"
+    },
+    {
+      "word": "vehicle",
+      "pos": "n.",
+      "def_zh": "車輛"
+    },
+    {
+      "word": "venture",
+      "pos": "n.",
+      "def_zh": "冒險事業"
+    },
+    {
+      "word": "version",
+      "pos": "n.",
+      "def_zh": "版本"
+    },
+    {
+      "word": "versus",
+      "pos": "prep.",
+      "def_zh": "對上"
+    },
+    {
+      "word": "vessel",
+      "pos": "n.",
+      "def_zh": "船隻；血管"
+    },
+    {
+      "word": "veteran",
+      "pos": "n.",
+      "def_zh": "資深者"
+    },
+    {
+      "word": "via",
+      "pos": "prep.",
+      "def_zh": "經由"
+    },
+    {
+      "word": "victim",
+      "pos": "n.",
+      "def_zh": "受害者"
+    },
+    {
+      "word": "victory",
+      "pos": "n.",
+      "def_zh": "勝利"
+    },
+    {
+      "word": "view",
+      "pos": "n./v.",
+      "def_zh": "景色；看待"
+    },
+    {
+      "word": "virtual",
+      "pos": "adj.",
+      "def_zh": "虛擬的"
+    },
+    {
+      "word": "visible",
+      "pos": "adj.",
+      "def_zh": "可見的"
+    },
+    {
+      "word": "vision",
+      "pos": "n.",
+      "def_zh": "願景；視力"
+    },
+    {
+      "word": "visual",
+      "pos": "adj.",
+      "def_zh": "視覺的"
+    },
+    {
+      "word": "vital",
+      "pos": "adj.",
+      "def_zh": "極重要的"
+    },
+    {
+      "word": "vivid",
+      "pos": "adj.",
+      "def_zh": "生動的"
+    },
+    {
+      "word": "volume",
+      "pos": "n.",
+      "def_zh": "音量；冊"
+    },
+    {
+      "word": "wage",
+      "pos": "n.",
+      "def_zh": "工資"
+    },
+    {
+      "word": "wander",
+      "pos": "v.",
+      "def_zh": "閒逛"
+    },
+    {
+      "word": "warn",
+      "pos": "v.",
+      "def_zh": "警告"
+    },
+    {
+      "word": "waste",
+      "pos": "v./n.",
+      "def_zh": "浪費"
+    },
+    {
+      "word": "wealth",
+      "pos": "n.",
+      "def_zh": "財富"
+    },
+    {
+      "word": "weigh",
+      "pos": "v.",
+      "def_zh": "秤重"
+    },
+    {
+      "word": "weight",
+      "pos": "n.",
+      "def_zh": "重量"
+    },
+    {
+      "word": "welfare",
+      "pos": "n.",
+      "def_zh": "福利"
+    },
+    {
+      "word": "whereas",
+      "pos": "conj.",
+      "def_zh": "然而"
+    },
+    {
+      "word": "whisper",
+      "pos": "v.",
+      "def_zh": "低語"
+    },
+    {
+      "word": "widespread",
+      "pos": "adj.",
+      "def_zh": "普遍的"
+    },
+    {
+      "word": "wildlife",
+      "pos": "n.",
+      "def_zh": "野生生物"
+    },
+    {
+      "word": "willing",
+      "pos": "adj.",
+      "def_zh": "願意的"
+    },
+    {
+      "word": "wisdom",
+      "pos": "n.",
+      "def_zh": "智慧"
+    },
+    {
+      "word": "withdraw",
+      "pos": "v.",
+      "def_zh": "撤回"
+    },
+    {
+      "word": "witness",
+      "pos": "n./v.",
+      "def_zh": "證人；目擊"
+    },
+    {
+      "word": "wonder",
+      "pos": "v./n.",
+      "def_zh": "納悶；奇觀"
+    },
+    {
+      "word": "wrap",
+      "pos": "v.",
+      "def_zh": "包裹"
+    },
+    {
+      "word": "yield",
+      "pos": "v./n.",
+      "def_zh": "產生；產量"
+    },
+    {
+      "word": "youth",
+      "pos": "n.",
+      "def_zh": "青年"
+    },
+    {
+      "word": "zone",
+      "pos": "n.",
+      "def_zh": "區域"
     }
   ]
 }

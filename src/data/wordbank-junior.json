@@ -1,5 +1,5 @@
 {
-  "note": "精簡常用字庫，供產文抽字；完整官方字表請依非營利條件自官方 PDF 匯入，勿把本檔當成大考中心全文。",
+  "note": "供每日產文抽字的國中字庫。詞目以教育部十二年國教課綱英語文附錄五（國中約二千字）常見基本字為範圍，釋義為本站自編臺灣繁體簡釋，供非營利教育使用；本檔並非官方字表全文，不得替代官方文件。",
   "words": [
     {
       "word": "practice",
@@ -150,6 +150,4096 @@
       "word": "story",
       "pos": "n.",
       "def_zh": "故事"
+    },
+    {
+      "word": "able",
+      "pos": "adj.",
+      "def_zh": "能夠的"
+    },
+    {
+      "word": "about",
+      "pos": "prep.",
+      "def_zh": "關於"
+    },
+    {
+      "word": "above",
+      "pos": "prep.",
+      "def_zh": "在……上面"
+    },
+    {
+      "word": "afraid",
+      "pos": "adj.",
+      "def_zh": "害怕的"
+    },
+    {
+      "word": "after",
+      "pos": "prep.",
+      "def_zh": "在……之後"
+    },
+    {
+      "word": "afternoon",
+      "pos": "n.",
+      "def_zh": "下午"
+    },
+    {
+      "word": "again",
+      "pos": "adv.",
+      "def_zh": "再一次"
+    },
+    {
+      "word": "age",
+      "pos": "n.",
+      "def_zh": "年齡"
+    },
+    {
+      "word": "ago",
+      "pos": "adv.",
+      "def_zh": "以前"
+    },
+    {
+      "word": "air",
+      "pos": "n.",
+      "def_zh": "空氣"
+    },
+    {
+      "word": "airplane",
+      "pos": "n.",
+      "def_zh": "飛機"
+    },
+    {
+      "word": "airport",
+      "pos": "n.",
+      "def_zh": "機場"
+    },
+    {
+      "word": "almost",
+      "pos": "adv.",
+      "def_zh": "幾乎"
+    },
+    {
+      "word": "alone",
+      "pos": "adv.",
+      "def_zh": "獨自"
+    },
+    {
+      "word": "along",
+      "pos": "prep.",
+      "def_zh": "沿著"
+    },
+    {
+      "word": "already",
+      "pos": "adv.",
+      "def_zh": "已經"
+    },
+    {
+      "word": "also",
+      "pos": "adv.",
+      "def_zh": "也"
+    },
+    {
+      "word": "always",
+      "pos": "adv.",
+      "def_zh": "總是"
+    },
+    {
+      "word": "animal",
+      "pos": "n.",
+      "def_zh": "動物"
+    },
+    {
+      "word": "answer",
+      "pos": "v./n.",
+      "def_zh": "回答"
+    },
+    {
+      "word": "any",
+      "pos": "adj.",
+      "def_zh": "任何的"
+    },
+    {
+      "word": "anyone",
+      "pos": "n.",
+      "def_zh": "任何人"
+    },
+    {
+      "word": "anything",
+      "pos": "n.",
+      "def_zh": "任何事物"
+    },
+    {
+      "word": "apple",
+      "pos": "n.",
+      "def_zh": "蘋果"
+    },
+    {
+      "word": "arm",
+      "pos": "n.",
+      "def_zh": "手臂"
+    },
+    {
+      "word": "around",
+      "pos": "prep.",
+      "def_zh": "在……周圍"
+    },
+    {
+      "word": "arrive",
+      "pos": "v.",
+      "def_zh": "到達"
+    },
+    {
+      "word": "art",
+      "pos": "n.",
+      "def_zh": "藝術"
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "def_zh": "詢問"
+    },
+    {
+      "word": "aunt",
+      "pos": "n.",
+      "def_zh": "阿姨；伯母"
+    },
+    {
+      "word": "autumn",
+      "pos": "n.",
+      "def_zh": "秋天"
+    },
+    {
+      "word": "away",
+      "pos": "adv.",
+      "def_zh": "離開"
+    },
+    {
+      "word": "baby",
+      "pos": "n.",
+      "def_zh": "嬰兒"
+    },
+    {
+      "word": "back",
+      "pos": "n./adv.",
+      "def_zh": "背部；回"
+    },
+    {
+      "word": "bad",
+      "pos": "adj.",
+      "def_zh": "壞的"
+    },
+    {
+      "word": "bag",
+      "pos": "n.",
+      "def_zh": "袋子"
+    },
+    {
+      "word": "ball",
+      "pos": "n.",
+      "def_zh": "球"
+    },
+    {
+      "word": "banana",
+      "pos": "n.",
+      "def_zh": "香蕉"
+    },
+    {
+      "word": "bank",
+      "pos": "n.",
+      "def_zh": "銀行"
+    },
+    {
+      "word": "baseball",
+      "pos": "n.",
+      "def_zh": "棒球"
+    },
+    {
+      "word": "basketball",
+      "pos": "n.",
+      "def_zh": "籃球"
+    },
+    {
+      "word": "bath",
+      "pos": "n.",
+      "def_zh": "沐浴"
+    },
+    {
+      "word": "bathroom",
+      "pos": "n.",
+      "def_zh": "浴室"
+    },
+    {
+      "word": "beach",
+      "pos": "n.",
+      "def_zh": "海灘"
+    },
+    {
+      "word": "bean",
+      "pos": "n.",
+      "def_zh": "豆子"
+    },
+    {
+      "word": "bear",
+      "pos": "n.",
+      "def_zh": "熊"
+    },
+    {
+      "word": "beautiful",
+      "pos": "adj.",
+      "def_zh": "美麗的"
+    },
+    {
+      "word": "because",
+      "pos": "conj.",
+      "def_zh": "因為"
+    },
+    {
+      "word": "become",
+      "pos": "v.",
+      "def_zh": "成為"
+    },
+    {
+      "word": "bed",
+      "pos": "n.",
+      "def_zh": "床"
+    },
+    {
+      "word": "bedroom",
+      "pos": "n.",
+      "def_zh": "臥室"
+    },
+    {
+      "word": "before",
+      "pos": "prep.",
+      "def_zh": "在……之前"
+    },
+    {
+      "word": "begin",
+      "pos": "v.",
+      "def_zh": "開始"
+    },
+    {
+      "word": "behind",
+      "pos": "prep.",
+      "def_zh": "在……後面"
+    },
+    {
+      "word": "believe",
+      "pos": "v.",
+      "def_zh": "相信"
+    },
+    {
+      "word": "bell",
+      "pos": "n.",
+      "def_zh": "鈴；鐘"
+    },
+    {
+      "word": "below",
+      "pos": "prep.",
+      "def_zh": "在……下面"
+    },
+    {
+      "word": "beside",
+      "pos": "prep.",
+      "def_zh": "在……旁邊"
+    },
+    {
+      "word": "best",
+      "pos": "adj.",
+      "def_zh": "最好的"
+    },
+    {
+      "word": "better",
+      "pos": "adj.",
+      "def_zh": "較好的"
+    },
+    {
+      "word": "between",
+      "pos": "prep.",
+      "def_zh": "在……之間"
+    },
+    {
+      "word": "big",
+      "pos": "adj.",
+      "def_zh": "大的"
+    },
+    {
+      "word": "bird",
+      "pos": "n.",
+      "def_zh": "鳥"
+    },
+    {
+      "word": "birthday",
+      "pos": "n.",
+      "def_zh": "生日"
+    },
+    {
+      "word": "black",
+      "pos": "adj.",
+      "def_zh": "黑色的"
+    },
+    {
+      "word": "blackboard",
+      "pos": "n.",
+      "def_zh": "黑板"
+    },
+    {
+      "word": "blow",
+      "pos": "v.",
+      "def_zh": "吹"
+    },
+    {
+      "word": "blue",
+      "pos": "adj.",
+      "def_zh": "藍色的"
+    },
+    {
+      "word": "boat",
+      "pos": "n.",
+      "def_zh": "小船"
+    },
+    {
+      "word": "body",
+      "pos": "n.",
+      "def_zh": "身體"
+    },
+    {
+      "word": "book",
+      "pos": "n.",
+      "def_zh": "書"
+    },
+    {
+      "word": "both",
+      "pos": "adj.",
+      "def_zh": "兩者都"
+    },
+    {
+      "word": "bottle",
+      "pos": "n.",
+      "def_zh": "瓶子"
+    },
+    {
+      "word": "box",
+      "pos": "n.",
+      "def_zh": "箱子"
+    },
+    {
+      "word": "boy",
+      "pos": "n.",
+      "def_zh": "男孩"
+    },
+    {
+      "word": "brave",
+      "pos": "adj.",
+      "def_zh": "勇敢的"
+    },
+    {
+      "word": "bread",
+      "pos": "n.",
+      "def_zh": "麵包"
+    },
+    {
+      "word": "break",
+      "pos": "v.",
+      "def_zh": "打破"
+    },
+    {
+      "word": "bridge",
+      "pos": "n.",
+      "def_zh": "橋"
+    },
+    {
+      "word": "bright",
+      "pos": "adj.",
+      "def_zh": "明亮的"
+    },
+    {
+      "word": "bring",
+      "pos": "v.",
+      "def_zh": "帶來"
+    },
+    {
+      "word": "brother",
+      "pos": "n.",
+      "def_zh": "兄弟"
+    },
+    {
+      "word": "brown",
+      "pos": "adj.",
+      "def_zh": "棕色的"
+    },
+    {
+      "word": "brush",
+      "pos": "v./n.",
+      "def_zh": "刷；刷子"
+    },
+    {
+      "word": "build",
+      "pos": "v.",
+      "def_zh": "建造"
+    },
+    {
+      "word": "building",
+      "pos": "n.",
+      "def_zh": "建築物"
+    },
+    {
+      "word": "bus",
+      "pos": "n.",
+      "def_zh": "公車"
+    },
+    {
+      "word": "busy",
+      "pos": "adj.",
+      "def_zh": "忙碌的"
+    },
+    {
+      "word": "butter",
+      "pos": "n.",
+      "def_zh": "奶油"
+    },
+    {
+      "word": "buy",
+      "pos": "v.",
+      "def_zh": "購買"
+    },
+    {
+      "word": "cake",
+      "pos": "n.",
+      "def_zh": "蛋糕"
+    },
+    {
+      "word": "call",
+      "pos": "v.",
+      "def_zh": "呼叫；打電話"
+    },
+    {
+      "word": "camp",
+      "pos": "v./n.",
+      "def_zh": "露營"
+    },
+    {
+      "word": "candle",
+      "pos": "n.",
+      "def_zh": "蠟燭"
+    },
+    {
+      "word": "candy",
+      "pos": "n.",
+      "def_zh": "糖果"
+    },
+    {
+      "word": "cap",
+      "pos": "n.",
+      "def_zh": "便帽"
+    },
+    {
+      "word": "capital",
+      "pos": "n.",
+      "def_zh": "首都"
+    },
+    {
+      "word": "card",
+      "pos": "n.",
+      "def_zh": "卡片"
+    },
+    {
+      "word": "care",
+      "pos": "v./n.",
+      "def_zh": "關心；照顧"
+    },
+    {
+      "word": "careful",
+      "pos": "adj.",
+      "def_zh": "小心的"
+    },
+    {
+      "word": "carry",
+      "pos": "v.",
+      "def_zh": "攜帶"
+    },
+    {
+      "word": "cat",
+      "pos": "n.",
+      "def_zh": "貓"
+    },
+    {
+      "word": "catch",
+      "pos": "v.",
+      "def_zh": "抓住；接住"
+    },
+    {
+      "word": "center",
+      "pos": "n.",
+      "def_zh": "中心"
+    },
+    {
+      "word": "chair",
+      "pos": "n.",
+      "def_zh": "椅子"
+    },
+    {
+      "word": "change",
+      "pos": "v./n.",
+      "def_zh": "改變"
+    },
+    {
+      "word": "cheap",
+      "pos": "adj.",
+      "def_zh": "便宜的"
+    },
+    {
+      "word": "cheese",
+      "pos": "n.",
+      "def_zh": "起司"
+    },
+    {
+      "word": "chicken",
+      "pos": "n.",
+      "def_zh": "雞；雞肉"
+    },
+    {
+      "word": "child",
+      "pos": "n.",
+      "def_zh": "小孩"
+    },
+    {
+      "word": "chocolate",
+      "pos": "n.",
+      "def_zh": "巧克力"
+    },
+    {
+      "word": "choose",
+      "pos": "v.",
+      "def_zh": "選擇"
+    },
+    {
+      "word": "city",
+      "pos": "n.",
+      "def_zh": "城市"
+    },
+    {
+      "word": "class",
+      "pos": "n.",
+      "def_zh": "班級；課"
+    },
+    {
+      "word": "classmate",
+      "pos": "n.",
+      "def_zh": "同學"
+    },
+    {
+      "word": "classroom",
+      "pos": "n.",
+      "def_zh": "教室"
+    },
+    {
+      "word": "clean",
+      "pos": "adj./v.",
+      "def_zh": "乾淨的；打掃"
+    },
+    {
+      "word": "clear",
+      "pos": "adj.",
+      "def_zh": "清楚的"
+    },
+    {
+      "word": "clever",
+      "pos": "adj.",
+      "def_zh": "聰明的"
+    },
+    {
+      "word": "climb",
+      "pos": "v.",
+      "def_zh": "攀爬"
+    },
+    {
+      "word": "clock",
+      "pos": "n.",
+      "def_zh": "時鐘"
+    },
+    {
+      "word": "close",
+      "pos": "v.",
+      "def_zh": "關閉"
+    },
+    {
+      "word": "clothes",
+      "pos": "n.",
+      "def_zh": "衣服"
+    },
+    {
+      "word": "cloud",
+      "pos": "n.",
+      "def_zh": "雲"
+    },
+    {
+      "word": "cloudy",
+      "pos": "adj.",
+      "def_zh": "多雲的"
+    },
+    {
+      "word": "club",
+      "pos": "n.",
+      "def_zh": "社團"
+    },
+    {
+      "word": "coat",
+      "pos": "n.",
+      "def_zh": "外套"
+    },
+    {
+      "word": "coffee",
+      "pos": "n.",
+      "def_zh": "咖啡"
+    },
+    {
+      "word": "cold",
+      "pos": "adj./n.",
+      "def_zh": "冷的；感冒"
+    },
+    {
+      "word": "color",
+      "pos": "n.",
+      "def_zh": "顏色"
+    },
+    {
+      "word": "come",
+      "pos": "v.",
+      "def_zh": "來"
+    },
+    {
+      "word": "comfortable",
+      "pos": "adj.",
+      "def_zh": "舒適的"
+    },
+    {
+      "word": "comic",
+      "pos": "n.",
+      "def_zh": "漫畫"
+    },
+    {
+      "word": "common",
+      "pos": "adj.",
+      "def_zh": "普通的"
+    },
+    {
+      "word": "computer",
+      "pos": "n.",
+      "def_zh": "電腦"
+    },
+    {
+      "word": "cool",
+      "pos": "adj.",
+      "def_zh": "涼爽的"
+    },
+    {
+      "word": "corner",
+      "pos": "n.",
+      "def_zh": "角落"
+    },
+    {
+      "word": "correct",
+      "pos": "adj./v.",
+      "def_zh": "正確的；改正"
+    },
+    {
+      "word": "cost",
+      "pos": "v./n.",
+      "def_zh": "花費"
+    },
+    {
+      "word": "count",
+      "pos": "v.",
+      "def_zh": "數"
+    },
+    {
+      "word": "country",
+      "pos": "n.",
+      "def_zh": "國家；鄉下"
+    },
+    {
+      "word": "cousin",
+      "pos": "n.",
+      "def_zh": "表親；堂親"
+    },
+    {
+      "word": "cow",
+      "pos": "n.",
+      "def_zh": "乳牛"
+    },
+    {
+      "word": "cross",
+      "pos": "v.",
+      "def_zh": "穿越"
+    },
+    {
+      "word": "cry",
+      "pos": "v.",
+      "def_zh": "哭"
+    },
+    {
+      "word": "cup",
+      "pos": "n.",
+      "def_zh": "杯子"
+    },
+    {
+      "word": "cute",
+      "pos": "adj.",
+      "def_zh": "可愛的"
+    },
+    {
+      "word": "dance",
+      "pos": "v./n.",
+      "def_zh": "跳舞"
+    },
+    {
+      "word": "dangerous",
+      "pos": "adj.",
+      "def_zh": "危險的"
+    },
+    {
+      "word": "dark",
+      "pos": "adj.",
+      "def_zh": "黑暗的"
+    },
+    {
+      "word": "date",
+      "pos": "n.",
+      "def_zh": "日期"
+    },
+    {
+      "word": "daughter",
+      "pos": "n.",
+      "def_zh": "女兒"
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "def_zh": "日子"
+    },
+    {
+      "word": "dear",
+      "pos": "adj.",
+      "def_zh": "親愛的"
+    },
+    {
+      "word": "decide",
+      "pos": "v.",
+      "def_zh": "決定"
+    },
+    {
+      "word": "deep",
+      "pos": "adj.",
+      "def_zh": "深的"
+    },
+    {
+      "word": "desk",
+      "pos": "n.",
+      "def_zh": "書桌"
+    },
+    {
+      "word": "diary",
+      "pos": "n.",
+      "def_zh": "日記"
+    },
+    {
+      "word": "dictionary",
+      "pos": "n.",
+      "def_zh": "字典"
+    },
+    {
+      "word": "die",
+      "pos": "v.",
+      "def_zh": "死亡"
+    },
+    {
+      "word": "different",
+      "pos": "adj.",
+      "def_zh": "不同的"
+    },
+    {
+      "word": "difficult",
+      "pos": "adj.",
+      "def_zh": "困難的"
+    },
+    {
+      "word": "dinner",
+      "pos": "n.",
+      "def_zh": "晚餐"
+    },
+    {
+      "word": "dirty",
+      "pos": "adj.",
+      "def_zh": "骯髒的"
+    },
+    {
+      "word": "dish",
+      "pos": "n.",
+      "def_zh": "盤子；菜餚"
+    },
+    {
+      "word": "doctor",
+      "pos": "n.",
+      "def_zh": "醫生"
+    },
+    {
+      "word": "dog",
+      "pos": "n.",
+      "def_zh": "狗"
+    },
+    {
+      "word": "doll",
+      "pos": "n.",
+      "def_zh": "玩偶"
+    },
+    {
+      "word": "door",
+      "pos": "n.",
+      "def_zh": "門"
+    },
+    {
+      "word": "down",
+      "pos": "adv.",
+      "def_zh": "向下"
+    },
+    {
+      "word": "draw",
+      "pos": "v.",
+      "def_zh": "畫"
+    },
+    {
+      "word": "dream",
+      "pos": "v./n.",
+      "def_zh": "做夢；夢"
+    },
+    {
+      "word": "dress",
+      "pos": "n.",
+      "def_zh": "洋裝"
+    },
+    {
+      "word": "drink",
+      "pos": "v./n.",
+      "def_zh": "喝；飲料"
+    },
+    {
+      "word": "drive",
+      "pos": "v.",
+      "def_zh": "駕駛"
+    },
+    {
+      "word": "driver",
+      "pos": "n.",
+      "def_zh": "司機"
+    },
+    {
+      "word": "drop",
+      "pos": "v.",
+      "def_zh": "掉落"
+    },
+    {
+      "word": "dry",
+      "pos": "adj./v.",
+      "def_zh": "乾燥的；弄乾"
+    },
+    {
+      "word": "duck",
+      "pos": "n.",
+      "def_zh": "鴨子"
+    },
+    {
+      "word": "during",
+      "pos": "prep.",
+      "def_zh": "在……期間"
+    },
+    {
+      "word": "each",
+      "pos": "adj.",
+      "def_zh": "每一"
+    },
+    {
+      "word": "ear",
+      "pos": "n.",
+      "def_zh": "耳朵"
+    },
+    {
+      "word": "early",
+      "pos": "adj./adv.",
+      "def_zh": "早的；很早"
+    },
+    {
+      "word": "earth",
+      "pos": "n.",
+      "def_zh": "地球"
+    },
+    {
+      "word": "east",
+      "pos": "n.",
+      "def_zh": "東方"
+    },
+    {
+      "word": "easy",
+      "pos": "adj.",
+      "def_zh": "容易的"
+    },
+    {
+      "word": "eat",
+      "pos": "v.",
+      "def_zh": "吃"
+    },
+    {
+      "word": "egg",
+      "pos": "n.",
+      "def_zh": "蛋"
+    },
+    {
+      "word": "eight",
+      "pos": "n.",
+      "def_zh": "八"
+    },
+    {
+      "word": "eighteen",
+      "pos": "n.",
+      "def_zh": "十八"
+    },
+    {
+      "word": "eighty",
+      "pos": "n.",
+      "def_zh": "八十"
+    },
+    {
+      "word": "either",
+      "pos": "adv.",
+      "def_zh": "也（不）"
+    },
+    {
+      "word": "elephant",
+      "pos": "n.",
+      "def_zh": "大象"
+    },
+    {
+      "word": "eleven",
+      "pos": "n.",
+      "def_zh": "十一"
+    },
+    {
+      "word": "else",
+      "pos": "adv.",
+      "def_zh": "其他"
+    },
+    {
+      "word": "email",
+      "pos": "n.",
+      "def_zh": "電子郵件"
+    },
+    {
+      "word": "end",
+      "pos": "n./v.",
+      "def_zh": "結束"
+    },
+    {
+      "word": "enjoy",
+      "pos": "v.",
+      "def_zh": "享受"
+    },
+    {
+      "word": "enough",
+      "pos": "adj.",
+      "def_zh": "足夠的"
+    },
+    {
+      "word": "enter",
+      "pos": "v.",
+      "def_zh": "進入"
+    },
+    {
+      "word": "even",
+      "pos": "adv.",
+      "def_zh": "甚至"
+    },
+    {
+      "word": "evening",
+      "pos": "n.",
+      "def_zh": "傍晚"
+    },
+    {
+      "word": "ever",
+      "pos": "adv.",
+      "def_zh": "曾經"
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "def_zh": "每一個"
+    },
+    {
+      "word": "everyone",
+      "pos": "n.",
+      "def_zh": "每個人"
+    },
+    {
+      "word": "everything",
+      "pos": "n.",
+      "def_zh": "每件事"
+    },
+    {
+      "word": "exam",
+      "pos": "n.",
+      "def_zh": "考試"
+    },
+    {
+      "word": "example",
+      "pos": "n.",
+      "def_zh": "例子"
+    },
+    {
+      "word": "excellent",
+      "pos": "adj.",
+      "def_zh": "極好的"
+    },
+    {
+      "word": "excited",
+      "pos": "adj.",
+      "def_zh": "興奮的"
+    },
+    {
+      "word": "excuse",
+      "pos": "v./n.",
+      "def_zh": "原諒；藉口"
+    },
+    {
+      "word": "exercise",
+      "pos": "n./v.",
+      "def_zh": "運動；練習"
+    },
+    {
+      "word": "expensive",
+      "pos": "adj.",
+      "def_zh": "昂貴的"
+    },
+    {
+      "word": "eye",
+      "pos": "n.",
+      "def_zh": "眼睛"
+    },
+    {
+      "word": "face",
+      "pos": "n.",
+      "def_zh": "臉"
+    },
+    {
+      "word": "fact",
+      "pos": "n.",
+      "def_zh": "事實"
+    },
+    {
+      "word": "factory",
+      "pos": "n.",
+      "def_zh": "工廠"
+    },
+    {
+      "word": "fail",
+      "pos": "v.",
+      "def_zh": "失敗"
+    },
+    {
+      "word": "fall",
+      "pos": "v./n.",
+      "def_zh": "落下；秋天"
+    },
+    {
+      "word": "family",
+      "pos": "n.",
+      "def_zh": "家庭"
+    },
+    {
+      "word": "famous",
+      "pos": "adj.",
+      "def_zh": "著名的"
+    },
+    {
+      "word": "far",
+      "pos": "adj.",
+      "def_zh": "遠的"
+    },
+    {
+      "word": "farm",
+      "pos": "n.",
+      "def_zh": "農場"
+    },
+    {
+      "word": "farmer",
+      "pos": "n.",
+      "def_zh": "農夫"
+    },
+    {
+      "word": "fast",
+      "pos": "adj./adv.",
+      "def_zh": "快的；迅速地"
+    },
+    {
+      "word": "fat",
+      "pos": "adj.",
+      "def_zh": "肥胖的"
+    },
+    {
+      "word": "father",
+      "pos": "n.",
+      "def_zh": "父親"
+    },
+    {
+      "word": "favorite",
+      "pos": "adj.",
+      "def_zh": "最喜愛的"
+    },
+    {
+      "word": "feel",
+      "pos": "v.",
+      "def_zh": "感覺"
+    },
+    {
+      "word": "few",
+      "pos": "adj.",
+      "def_zh": "少數的"
+    },
+    {
+      "word": "field",
+      "pos": "n.",
+      "def_zh": "田地；場地"
+    },
+    {
+      "word": "fifteen",
+      "pos": "n.",
+      "def_zh": "十五"
+    },
+    {
+      "word": "fifty",
+      "pos": "n.",
+      "def_zh": "五十"
+    },
+    {
+      "word": "fight",
+      "pos": "v.",
+      "def_zh": "打架；對抗"
+    },
+    {
+      "word": "fill",
+      "pos": "v.",
+      "def_zh": "填滿"
+    },
+    {
+      "word": "film",
+      "pos": "n.",
+      "def_zh": "影片；電影"
+    },
+    {
+      "word": "find",
+      "pos": "v.",
+      "def_zh": "找到"
+    },
+    {
+      "word": "fine",
+      "pos": "adj.",
+      "def_zh": "良好的"
+    },
+    {
+      "word": "finger",
+      "pos": "n.",
+      "def_zh": "手指"
+    },
+    {
+      "word": "finish",
+      "pos": "v.",
+      "def_zh": "完成"
+    },
+    {
+      "word": "fire",
+      "pos": "n.",
+      "def_zh": "火"
+    },
+    {
+      "word": "first",
+      "pos": "adj.",
+      "def_zh": "第一的"
+    },
+    {
+      "word": "fish",
+      "pos": "n./v.",
+      "def_zh": "魚；釣魚"
+    },
+    {
+      "word": "five",
+      "pos": "n.",
+      "def_zh": "五"
+    },
+    {
+      "word": "floor",
+      "pos": "n.",
+      "def_zh": "地板；樓層"
+    },
+    {
+      "word": "flower",
+      "pos": "n.",
+      "def_zh": "花"
+    },
+    {
+      "word": "fly",
+      "pos": "v./n.",
+      "def_zh": "飛；蒼蠅"
+    },
+    {
+      "word": "follow",
+      "pos": "v.",
+      "def_zh": "跟隨"
+    },
+    {
+      "word": "food",
+      "pos": "n.",
+      "def_zh": "食物"
+    },
+    {
+      "word": "foot",
+      "pos": "n.",
+      "def_zh": "腳"
+    },
+    {
+      "word": "football",
+      "pos": "n.",
+      "def_zh": "足球"
+    },
+    {
+      "word": "foreign",
+      "pos": "adj.",
+      "def_zh": "外國的"
+    },
+    {
+      "word": "forest",
+      "pos": "n.",
+      "def_zh": "森林"
+    },
+    {
+      "word": "forget",
+      "pos": "v.",
+      "def_zh": "忘記"
+    },
+    {
+      "word": "fork",
+      "pos": "n.",
+      "def_zh": "叉子"
+    },
+    {
+      "word": "forty",
+      "pos": "n.",
+      "def_zh": "四十"
+    },
+    {
+      "word": "four",
+      "pos": "n.",
+      "def_zh": "四"
+    },
+    {
+      "word": "fourteen",
+      "pos": "n.",
+      "def_zh": "十四"
+    },
+    {
+      "word": "free",
+      "pos": "adj.",
+      "def_zh": "免費的；空閒的"
+    },
+    {
+      "word": "fresh",
+      "pos": "adj.",
+      "def_zh": "新鮮的"
+    },
+    {
+      "word": "Friday",
+      "pos": "n.",
+      "def_zh": "星期五"
+    },
+    {
+      "word": "front",
+      "pos": "n.",
+      "def_zh": "前面"
+    },
+    {
+      "word": "fruit",
+      "pos": "n.",
+      "def_zh": "水果"
+    },
+    {
+      "word": "full",
+      "pos": "adj.",
+      "def_zh": "滿的"
+    },
+    {
+      "word": "fun",
+      "pos": "n.",
+      "def_zh": "樂趣"
+    },
+    {
+      "word": "funny",
+      "pos": "adj.",
+      "def_zh": "有趣的"
+    },
+    {
+      "word": "future",
+      "pos": "n.",
+      "def_zh": "未來"
+    },
+    {
+      "word": "game",
+      "pos": "n.",
+      "def_zh": "遊戲；比賽"
+    },
+    {
+      "word": "get",
+      "pos": "v.",
+      "def_zh": "得到"
+    },
+    {
+      "word": "gift",
+      "pos": "n.",
+      "def_zh": "禮物"
+    },
+    {
+      "word": "girl",
+      "pos": "n.",
+      "def_zh": "女孩"
+    },
+    {
+      "word": "give",
+      "pos": "v.",
+      "def_zh": "給"
+    },
+    {
+      "word": "glass",
+      "pos": "n.",
+      "def_zh": "玻璃；玻璃杯"
+    },
+    {
+      "word": "glove",
+      "pos": "n.",
+      "def_zh": "手套"
+    },
+    {
+      "word": "go",
+      "pos": "v.",
+      "def_zh": "去"
+    },
+    {
+      "word": "good",
+      "pos": "adj.",
+      "def_zh": "好的"
+    },
+    {
+      "word": "goodbye",
+      "pos": "n.",
+      "def_zh": "再見"
+    },
+    {
+      "word": "grandfather",
+      "pos": "n.",
+      "def_zh": "祖父"
+    },
+    {
+      "word": "grandmother",
+      "pos": "n.",
+      "def_zh": "祖母"
+    },
+    {
+      "word": "grass",
+      "pos": "n.",
+      "def_zh": "草"
+    },
+    {
+      "word": "great",
+      "pos": "adj.",
+      "def_zh": "很棒的"
+    },
+    {
+      "word": "green",
+      "pos": "adj.",
+      "def_zh": "綠色的"
+    },
+    {
+      "word": "ground",
+      "pos": "n.",
+      "def_zh": "地面"
+    },
+    {
+      "word": "group",
+      "pos": "n.",
+      "def_zh": "團體"
+    },
+    {
+      "word": "grow",
+      "pos": "v.",
+      "def_zh": "生長"
+    },
+    {
+      "word": "guess",
+      "pos": "v.",
+      "def_zh": "猜測"
+    },
+    {
+      "word": "guest",
+      "pos": "n.",
+      "def_zh": "客人"
+    },
+    {
+      "word": "guide",
+      "pos": "n./v.",
+      "def_zh": "導遊；帶領"
+    },
+    {
+      "word": "guitar",
+      "pos": "n.",
+      "def_zh": "吉他"
+    },
+    {
+      "word": "hair",
+      "pos": "n.",
+      "def_zh": "頭髮"
+    },
+    {
+      "word": "half",
+      "pos": "n.",
+      "def_zh": "一半"
+    },
+    {
+      "word": "hall",
+      "pos": "n.",
+      "def_zh": "大廳"
+    },
+    {
+      "word": "hamburger",
+      "pos": "n.",
+      "def_zh": "漢堡"
+    },
+    {
+      "word": "hand",
+      "pos": "n.",
+      "def_zh": "手"
+    },
+    {
+      "word": "handsome",
+      "pos": "adj.",
+      "def_zh": "英俊的"
+    },
+    {
+      "word": "happen",
+      "pos": "v.",
+      "def_zh": "發生"
+    },
+    {
+      "word": "happy",
+      "pos": "adj.",
+      "def_zh": "快樂的"
+    },
+    {
+      "word": "hard",
+      "pos": "adj./adv.",
+      "def_zh": "困難的；努力地"
+    },
+    {
+      "word": "hat",
+      "pos": "n.",
+      "def_zh": "帽子"
+    },
+    {
+      "word": "have",
+      "pos": "v.",
+      "def_zh": "有"
+    },
+    {
+      "word": "head",
+      "pos": "n.",
+      "def_zh": "頭"
+    },
+    {
+      "word": "health",
+      "pos": "n.",
+      "def_zh": "健康"
+    },
+    {
+      "word": "healthy",
+      "pos": "adj.",
+      "def_zh": "健康的"
+    },
+    {
+      "word": "hear",
+      "pos": "v.",
+      "def_zh": "聽見"
+    },
+    {
+      "word": "heart",
+      "pos": "n.",
+      "def_zh": "心"
+    },
+    {
+      "word": "heavy",
+      "pos": "adj.",
+      "def_zh": "重的"
+    },
+    {
+      "word": "hello",
+      "pos": "n.",
+      "def_zh": "你好"
+    },
+    {
+      "word": "help",
+      "pos": "v./n.",
+      "def_zh": "幫助"
+    },
+    {
+      "word": "here",
+      "pos": "adv.",
+      "def_zh": "這裡"
+    },
+    {
+      "word": "high",
+      "pos": "adj.",
+      "def_zh": "高的"
+    },
+    {
+      "word": "hike",
+      "pos": "v./n.",
+      "def_zh": "健行"
+    },
+    {
+      "word": "hill",
+      "pos": "n.",
+      "def_zh": "小山"
+    },
+    {
+      "word": "history",
+      "pos": "n.",
+      "def_zh": "歷史"
+    },
+    {
+      "word": "hit",
+      "pos": "v.",
+      "def_zh": "打；擊中"
+    },
+    {
+      "word": "hold",
+      "pos": "v.",
+      "def_zh": "握住"
+    },
+    {
+      "word": "holiday",
+      "pos": "n.",
+      "def_zh": "假日"
+    },
+    {
+      "word": "home",
+      "pos": "n.",
+      "def_zh": "家"
+    },
+    {
+      "word": "homework",
+      "pos": "n.",
+      "def_zh": "作業"
+    },
+    {
+      "word": "honest",
+      "pos": "adj.",
+      "def_zh": "誠實的"
+    },
+    {
+      "word": "hope",
+      "pos": "v./n.",
+      "def_zh": "希望"
+    },
+    {
+      "word": "horse",
+      "pos": "n.",
+      "def_zh": "馬"
+    },
+    {
+      "word": "hospital",
+      "pos": "n.",
+      "def_zh": "醫院"
+    },
+    {
+      "word": "hot",
+      "pos": "adj.",
+      "def_zh": "熱的"
+    },
+    {
+      "word": "hotel",
+      "pos": "n.",
+      "def_zh": "旅館"
+    },
+    {
+      "word": "hour",
+      "pos": "n.",
+      "def_zh": "小時"
+    },
+    {
+      "word": "house",
+      "pos": "n.",
+      "def_zh": "房子"
+    },
+    {
+      "word": "how",
+      "pos": "adv.",
+      "def_zh": "如何"
+    },
+    {
+      "word": "hundred",
+      "pos": "n.",
+      "def_zh": "一百"
+    },
+    {
+      "word": "hurry",
+      "pos": "v.",
+      "def_zh": "趕緊"
+    },
+    {
+      "word": "hurt",
+      "pos": "v.",
+      "def_zh": "受傷；疼痛"
+    },
+    {
+      "word": "ice",
+      "pos": "n.",
+      "def_zh": "冰"
+    },
+    {
+      "word": "idea",
+      "pos": "n.",
+      "def_zh": "想法"
+    },
+    {
+      "word": "important",
+      "pos": "adj.",
+      "def_zh": "重要的"
+    },
+    {
+      "word": "in",
+      "pos": "prep.",
+      "def_zh": "在……裡面"
+    },
+    {
+      "word": "inside",
+      "pos": "prep.",
+      "def_zh": "在……之內"
+    },
+    {
+      "word": "interest",
+      "pos": "n.",
+      "def_zh": "興趣"
+    },
+    {
+      "word": "interesting",
+      "pos": "adj.",
+      "def_zh": "有趣的"
+    },
+    {
+      "word": "Internet",
+      "pos": "n.",
+      "def_zh": "網際網路"
+    },
+    {
+      "word": "into",
+      "pos": "prep.",
+      "def_zh": "進入"
+    },
+    {
+      "word": "invite",
+      "pos": "v.",
+      "def_zh": "邀請"
+    },
+    {
+      "word": "island",
+      "pos": "n.",
+      "def_zh": "島嶼"
+    },
+    {
+      "word": "jacket",
+      "pos": "n.",
+      "def_zh": "夾克"
+    },
+    {
+      "word": "job",
+      "pos": "n.",
+      "def_zh": "工作"
+    },
+    {
+      "word": "join",
+      "pos": "v.",
+      "def_zh": "參加"
+    },
+    {
+      "word": "joke",
+      "pos": "n.",
+      "def_zh": "笑話"
+    },
+    {
+      "word": "juice",
+      "pos": "n.",
+      "def_zh": "果汁"
+    },
+    {
+      "word": "jump",
+      "pos": "v.",
+      "def_zh": "跳"
+    },
+    {
+      "word": "just",
+      "pos": "adv.",
+      "def_zh": "剛好；只是"
+    },
+    {
+      "word": "keep",
+      "pos": "v.",
+      "def_zh": "保持"
+    },
+    {
+      "word": "key",
+      "pos": "n.",
+      "def_zh": "鑰匙"
+    },
+    {
+      "word": "kick",
+      "pos": "v.",
+      "def_zh": "踢"
+    },
+    {
+      "word": "kid",
+      "pos": "n.",
+      "def_zh": "小孩"
+    },
+    {
+      "word": "kind",
+      "pos": "adj./n.",
+      "def_zh": "仁慈的；種類"
+    },
+    {
+      "word": "king",
+      "pos": "n.",
+      "def_zh": "國王"
+    },
+    {
+      "word": "kitchen",
+      "pos": "n.",
+      "def_zh": "廚房"
+    },
+    {
+      "word": "kite",
+      "pos": "n.",
+      "def_zh": "風箏"
+    },
+    {
+      "word": "knee",
+      "pos": "n.",
+      "def_zh": "膝蓋"
+    },
+    {
+      "word": "knife",
+      "pos": "n.",
+      "def_zh": "刀子"
+    },
+    {
+      "word": "know",
+      "pos": "v.",
+      "def_zh": "知道"
+    },
+    {
+      "word": "lake",
+      "pos": "n.",
+      "def_zh": "湖泊"
+    },
+    {
+      "word": "lamp",
+      "pos": "n.",
+      "def_zh": "燈"
+    },
+    {
+      "word": "land",
+      "pos": "n.",
+      "def_zh": "陸地"
+    },
+    {
+      "word": "language",
+      "pos": "n.",
+      "def_zh": "語言"
+    },
+    {
+      "word": "large",
+      "pos": "adj.",
+      "def_zh": "大的"
+    },
+    {
+      "word": "last",
+      "pos": "adj.",
+      "def_zh": "最後的"
+    },
+    {
+      "word": "late",
+      "pos": "adj.",
+      "def_zh": "遲的"
+    },
+    {
+      "word": "later",
+      "pos": "adv.",
+      "def_zh": "稍後"
+    },
+    {
+      "word": "laugh",
+      "pos": "v.",
+      "def_zh": "笑"
+    },
+    {
+      "word": "leaf",
+      "pos": "n.",
+      "def_zh": "葉子"
+    },
+    {
+      "word": "learn",
+      "pos": "v.",
+      "def_zh": "學習"
+    },
+    {
+      "word": "leave",
+      "pos": "v.",
+      "def_zh": "離開"
+    },
+    {
+      "word": "left",
+      "pos": "adj./n.",
+      "def_zh": "左邊的；左邊"
+    },
+    {
+      "word": "leg",
+      "pos": "n.",
+      "def_zh": "腿"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "def_zh": "課程"
+    },
+    {
+      "word": "let",
+      "pos": "v.",
+      "def_zh": "讓"
+    },
+    {
+      "word": "letter",
+      "pos": "n.",
+      "def_zh": "信；字母"
+    },
+    {
+      "word": "lie",
+      "pos": "v.",
+      "def_zh": "躺；說謊"
+    },
+    {
+      "word": "life",
+      "pos": "n.",
+      "def_zh": "生活；生命"
+    },
+    {
+      "word": "light",
+      "pos": "n./adj.",
+      "def_zh": "光；輕的"
+    },
+    {
+      "word": "like",
+      "pos": "v.",
+      "def_zh": "喜歡"
+    },
+    {
+      "word": "line",
+      "pos": "n.",
+      "def_zh": "線；隊伍"
+    },
+    {
+      "word": "lion",
+      "pos": "n.",
+      "def_zh": "獅子"
+    },
+    {
+      "word": "list",
+      "pos": "n.",
+      "def_zh": "清單"
+    },
+    {
+      "word": "listen",
+      "pos": "v.",
+      "def_zh": "聽"
+    },
+    {
+      "word": "little",
+      "pos": "adj.",
+      "def_zh": "小的"
+    },
+    {
+      "word": "live",
+      "pos": "v.",
+      "def_zh": "居住；生活"
+    },
+    {
+      "word": "long",
+      "pos": "adj.",
+      "def_zh": "長的"
+    },
+    {
+      "word": "look",
+      "pos": "v.",
+      "def_zh": "看"
+    },
+    {
+      "word": "lose",
+      "pos": "v.",
+      "def_zh": "失去；輸掉"
+    },
+    {
+      "word": "lot",
+      "pos": "n.",
+      "def_zh": "許多"
+    },
+    {
+      "word": "loud",
+      "pos": "adj.",
+      "def_zh": "大聲的"
+    },
+    {
+      "word": "love",
+      "pos": "v./n.",
+      "def_zh": "愛"
+    },
+    {
+      "word": "low",
+      "pos": "adj.",
+      "def_zh": "低的"
+    },
+    {
+      "word": "lucky",
+      "pos": "adj.",
+      "def_zh": "幸運的"
+    },
+    {
+      "word": "lunch",
+      "pos": "n.",
+      "def_zh": "午餐"
+    },
+    {
+      "word": "machine",
+      "pos": "n.",
+      "def_zh": "機器"
+    },
+    {
+      "word": "magazine",
+      "pos": "n.",
+      "def_zh": "雜誌"
+    },
+    {
+      "word": "mail",
+      "pos": "n./v.",
+      "def_zh": "郵件；寄"
+    },
+    {
+      "word": "make",
+      "pos": "v.",
+      "def_zh": "做；製造"
+    },
+    {
+      "word": "man",
+      "pos": "n.",
+      "def_zh": "男人"
+    },
+    {
+      "word": "many",
+      "pos": "adj.",
+      "def_zh": "許多的"
+    },
+    {
+      "word": "map",
+      "pos": "n.",
+      "def_zh": "地圖"
+    },
+    {
+      "word": "math",
+      "pos": "n.",
+      "def_zh": "數學"
+    },
+    {
+      "word": "matter",
+      "pos": "v./n.",
+      "def_zh": "要緊；事情"
+    },
+    {
+      "word": "maybe",
+      "pos": "adv.",
+      "def_zh": "也許"
+    },
+    {
+      "word": "meal",
+      "pos": "n.",
+      "def_zh": "一餐"
+    },
+    {
+      "word": "meat",
+      "pos": "n.",
+      "def_zh": "肉"
+    },
+    {
+      "word": "meet",
+      "pos": "v.",
+      "def_zh": "遇見"
+    },
+    {
+      "word": "meeting",
+      "pos": "n.",
+      "def_zh": "會議"
+    },
+    {
+      "word": "member",
+      "pos": "n.",
+      "def_zh": "成員"
+    },
+    {
+      "word": "menu",
+      "pos": "n.",
+      "def_zh": "菜單"
+    },
+    {
+      "word": "message",
+      "pos": "n.",
+      "def_zh": "訊息"
+    },
+    {
+      "word": "middle",
+      "pos": "n.",
+      "def_zh": "中間"
+    },
+    {
+      "word": "milk",
+      "pos": "n.",
+      "def_zh": "牛奶"
+    },
+    {
+      "word": "mind",
+      "pos": "n./v.",
+      "def_zh": "心意；介意"
+    },
+    {
+      "word": "minute",
+      "pos": "n.",
+      "def_zh": "分鐘"
+    },
+    {
+      "word": "miss",
+      "pos": "v.",
+      "def_zh": "想念；錯過"
+    },
+    {
+      "word": "mistake",
+      "pos": "n.",
+      "def_zh": "錯誤"
+    },
+    {
+      "word": "Monday",
+      "pos": "n.",
+      "def_zh": "星期一"
+    },
+    {
+      "word": "money",
+      "pos": "n.",
+      "def_zh": "錢"
+    },
+    {
+      "word": "monkey",
+      "pos": "n.",
+      "def_zh": "猴子"
+    },
+    {
+      "word": "month",
+      "pos": "n.",
+      "def_zh": "月份"
+    },
+    {
+      "word": "moon",
+      "pos": "n.",
+      "def_zh": "月亮"
+    },
+    {
+      "word": "more",
+      "pos": "adj.",
+      "def_zh": "更多的"
+    },
+    {
+      "word": "morning",
+      "pos": "n.",
+      "def_zh": "早上"
+    },
+    {
+      "word": "most",
+      "pos": "adj.",
+      "def_zh": "最多的"
+    },
+    {
+      "word": "mother",
+      "pos": "n.",
+      "def_zh": "母親"
+    },
+    {
+      "word": "mouth",
+      "pos": "n.",
+      "def_zh": "嘴巴"
+    },
+    {
+      "word": "move",
+      "pos": "v.",
+      "def_zh": "移動"
+    },
+    {
+      "word": "movie",
+      "pos": "n.",
+      "def_zh": "電影"
+    },
+    {
+      "word": "much",
+      "pos": "adj.",
+      "def_zh": "許多的"
+    },
+    {
+      "word": "must",
+      "pos": "v.",
+      "def_zh": "必須"
+    },
+    {
+      "word": "name",
+      "pos": "n.",
+      "def_zh": "名字"
+    },
+    {
+      "word": "near",
+      "pos": "prep.",
+      "def_zh": "靠近"
+    },
+    {
+      "word": "neck",
+      "pos": "n.",
+      "def_zh": "脖子"
+    },
+    {
+      "word": "need",
+      "pos": "v.",
+      "def_zh": "需要"
+    },
+    {
+      "word": "never",
+      "pos": "adv.",
+      "def_zh": "從不"
+    },
+    {
+      "word": "new",
+      "pos": "adj.",
+      "def_zh": "新的"
+    },
+    {
+      "word": "news",
+      "pos": "n.",
+      "def_zh": "新聞"
+    },
+    {
+      "word": "newspaper",
+      "pos": "n.",
+      "def_zh": "報紙"
+    },
+    {
+      "word": "next",
+      "pos": "adj.",
+      "def_zh": "下一個的"
+    },
+    {
+      "word": "nice",
+      "pos": "adj.",
+      "def_zh": "美好的"
+    },
+    {
+      "word": "night",
+      "pos": "n.",
+      "def_zh": "夜晚"
+    },
+    {
+      "word": "nine",
+      "pos": "n.",
+      "def_zh": "九"
+    },
+    {
+      "word": "nineteen",
+      "pos": "n.",
+      "def_zh": "十九"
+    },
+    {
+      "word": "ninety",
+      "pos": "n.",
+      "def_zh": "九十"
+    },
+    {
+      "word": "nobody",
+      "pos": "n.",
+      "def_zh": "沒有人"
+    },
+    {
+      "word": "noisy",
+      "pos": "adj.",
+      "def_zh": "吵鬧的"
+    },
+    {
+      "word": "noon",
+      "pos": "n.",
+      "def_zh": "中午"
+    },
+    {
+      "word": "north",
+      "pos": "n.",
+      "def_zh": "北方"
+    },
+    {
+      "word": "nose",
+      "pos": "n.",
+      "def_zh": "鼻子"
+    },
+    {
+      "word": "note",
+      "pos": "n.",
+      "def_zh": "筆記"
+    },
+    {
+      "word": "notebook",
+      "pos": "n.",
+      "def_zh": "筆記本"
+    },
+    {
+      "word": "nothing",
+      "pos": "n.",
+      "def_zh": "沒有東西"
+    },
+    {
+      "word": "now",
+      "pos": "adv.",
+      "def_zh": "現在"
+    },
+    {
+      "word": "number",
+      "pos": "n.",
+      "def_zh": "數字"
+    },
+    {
+      "word": "nurse",
+      "pos": "n.",
+      "def_zh": "護理師"
+    },
+    {
+      "word": "ocean",
+      "pos": "n.",
+      "def_zh": "海洋"
+    },
+    {
+      "word": "off",
+      "pos": "adv.",
+      "def_zh": "離開；關掉"
+    },
+    {
+      "word": "office",
+      "pos": "n.",
+      "def_zh": "辦公室"
+    },
+    {
+      "word": "often",
+      "pos": "adv.",
+      "def_zh": "常常"
+    },
+    {
+      "word": "oil",
+      "pos": "n.",
+      "def_zh": "油"
+    },
+    {
+      "word": "old",
+      "pos": "adj.",
+      "def_zh": "年老的；舊的"
+    },
+    {
+      "word": "on",
+      "pos": "prep.",
+      "def_zh": "在……上面"
+    },
+    {
+      "word": "once",
+      "pos": "adv.",
+      "def_zh": "一次；曾經"
+    },
+    {
+      "word": "one",
+      "pos": "n.",
+      "def_zh": "一"
+    },
+    {
+      "word": "only",
+      "pos": "adv.",
+      "def_zh": "只有"
+    },
+    {
+      "word": "open",
+      "pos": "v./adj.",
+      "def_zh": "打開；開著的"
+    },
+    {
+      "word": "or",
+      "pos": "conj.",
+      "def_zh": "或者"
+    },
+    {
+      "word": "orange",
+      "pos": "n./adj.",
+      "def_zh": "橘子；橘色的"
+    },
+    {
+      "word": "order",
+      "pos": "v./n.",
+      "def_zh": "點餐；順序"
+    },
+    {
+      "word": "other",
+      "pos": "adj.",
+      "def_zh": "其他的"
+    },
+    {
+      "word": "our",
+      "pos": "adj.",
+      "def_zh": "我們的"
+    },
+    {
+      "word": "out",
+      "pos": "adv.",
+      "def_zh": "向外"
+    },
+    {
+      "word": "outside",
+      "pos": "adv./prep.",
+      "def_zh": "在外面"
+    },
+    {
+      "word": "over",
+      "pos": "prep.",
+      "def_zh": "在……上方"
+    },
+    {
+      "word": "own",
+      "pos": "adj./v.",
+      "def_zh": "自己的；擁有"
+    },
+    {
+      "word": "page",
+      "pos": "n.",
+      "def_zh": "頁"
+    },
+    {
+      "word": "pain",
+      "pos": "n.",
+      "def_zh": "疼痛"
+    },
+    {
+      "word": "pair",
+      "pos": "n.",
+      "def_zh": "一雙"
+    },
+    {
+      "word": "pants",
+      "pos": "n.",
+      "def_zh": "褲子"
+    },
+    {
+      "word": "paper",
+      "pos": "n.",
+      "def_zh": "紙"
+    },
+    {
+      "word": "parent",
+      "pos": "n.",
+      "def_zh": "父或母"
+    },
+    {
+      "word": "park",
+      "pos": "n./v.",
+      "def_zh": "公園；停車"
+    },
+    {
+      "word": "part",
+      "pos": "n.",
+      "def_zh": "部分"
+    },
+    {
+      "word": "party",
+      "pos": "n.",
+      "def_zh": "聚會"
+    },
+    {
+      "word": "pass",
+      "pos": "v.",
+      "def_zh": "通過；傳遞"
+    },
+    {
+      "word": "past",
+      "pos": "prep./n.",
+      "def_zh": "經過；過去"
+    },
+    {
+      "word": "pay",
+      "pos": "v.",
+      "def_zh": "付款"
+    },
+    {
+      "word": "pen",
+      "pos": "n.",
+      "def_zh": "筆"
+    },
+    {
+      "word": "pencil",
+      "pos": "n.",
+      "def_zh": "鉛筆"
+    },
+    {
+      "word": "people",
+      "pos": "n.",
+      "def_zh": "人們"
+    },
+    {
+      "word": "perhaps",
+      "pos": "adv.",
+      "def_zh": "也許"
+    },
+    {
+      "word": "person",
+      "pos": "n.",
+      "def_zh": "人"
+    },
+    {
+      "word": "pet",
+      "pos": "n.",
+      "def_zh": "寵物"
+    },
+    {
+      "word": "phone",
+      "pos": "n.",
+      "def_zh": "電話"
+    },
+    {
+      "word": "photo",
+      "pos": "n.",
+      "def_zh": "照片"
+    },
+    {
+      "word": "piano",
+      "pos": "n.",
+      "def_zh": "鋼琴"
+    },
+    {
+      "word": "pick",
+      "pos": "v.",
+      "def_zh": "挑選；採摘"
+    },
+    {
+      "word": "picnic",
+      "pos": "n.",
+      "def_zh": "野餐"
+    },
+    {
+      "word": "picture",
+      "pos": "n.",
+      "def_zh": "圖畫"
+    },
+    {
+      "word": "piece",
+      "pos": "n.",
+      "def_zh": "一塊；一片"
+    },
+    {
+      "word": "pig",
+      "pos": "n.",
+      "def_zh": "豬"
+    },
+    {
+      "word": "pink",
+      "pos": "adj.",
+      "def_zh": "粉紅色的"
+    },
+    {
+      "word": "pizza",
+      "pos": "n.",
+      "def_zh": "披薩"
+    },
+    {
+      "word": "place",
+      "pos": "n.",
+      "def_zh": "地方"
+    },
+    {
+      "word": "plan",
+      "pos": "n./v.",
+      "def_zh": "計畫"
+    },
+    {
+      "word": "plane",
+      "pos": "n.",
+      "def_zh": "飛機"
+    },
+    {
+      "word": "plant",
+      "pos": "n./v.",
+      "def_zh": "植物；種植"
+    },
+    {
+      "word": "plate",
+      "pos": "n.",
+      "def_zh": "盤子"
+    },
+    {
+      "word": "play",
+      "pos": "v.",
+      "def_zh": "玩；演奏"
+    },
+    {
+      "word": "player",
+      "pos": "n.",
+      "def_zh": "選手；演奏者"
+    },
+    {
+      "word": "playground",
+      "pos": "n.",
+      "def_zh": "遊戲場"
+    },
+    {
+      "word": "please",
+      "pos": "v.",
+      "def_zh": "請"
+    },
+    {
+      "word": "pocket",
+      "pos": "n.",
+      "def_zh": "口袋"
+    },
+    {
+      "word": "point",
+      "pos": "v./n.",
+      "def_zh": "指向；要點"
+    },
+    {
+      "word": "police",
+      "pos": "n.",
+      "def_zh": "警察"
+    },
+    {
+      "word": "polite",
+      "pos": "adj.",
+      "def_zh": "有禮貌的"
+    },
+    {
+      "word": "pool",
+      "pos": "n.",
+      "def_zh": "水池"
+    },
+    {
+      "word": "poor",
+      "pos": "adj.",
+      "def_zh": "貧窮的"
+    },
+    {
+      "word": "popular",
+      "pos": "adj.",
+      "def_zh": "受歡迎的"
+    },
+    {
+      "word": "possible",
+      "pos": "adj.",
+      "def_zh": "可能的"
+    },
+    {
+      "word": "post",
+      "pos": "n./v.",
+      "def_zh": "郵件；張貼"
+    },
+    {
+      "word": "potato",
+      "pos": "n.",
+      "def_zh": "馬鈴薯"
+    },
+    {
+      "word": "pound",
+      "pos": "n.",
+      "def_zh": "磅"
+    },
+    {
+      "word": "power",
+      "pos": "n.",
+      "def_zh": "力量；電力"
+    },
+    {
+      "word": "present",
+      "pos": "n./adj.",
+      "def_zh": "禮物；現在的"
+    },
+    {
+      "word": "pretty",
+      "pos": "adj.",
+      "def_zh": "漂亮的"
+    },
+    {
+      "word": "price",
+      "pos": "n.",
+      "def_zh": "價格"
+    },
+    {
+      "word": "problem",
+      "pos": "n.",
+      "def_zh": "問題"
+    },
+    {
+      "word": "proud",
+      "pos": "adj.",
+      "def_zh": "驕傲的"
+    },
+    {
+      "word": "public",
+      "pos": "adj.",
+      "def_zh": "公共的"
+    },
+    {
+      "word": "pull",
+      "pos": "v.",
+      "def_zh": "拉"
+    },
+    {
+      "word": "puppy",
+      "pos": "n.",
+      "def_zh": "小狗"
+    },
+    {
+      "word": "purple",
+      "pos": "adj.",
+      "def_zh": "紫色的"
+    },
+    {
+      "word": "push",
+      "pos": "v.",
+      "def_zh": "推"
+    },
+    {
+      "word": "put",
+      "pos": "v.",
+      "def_zh": "放置"
+    },
+    {
+      "word": "quarter",
+      "pos": "n.",
+      "def_zh": "四分之一；十五分鐘"
+    },
+    {
+      "word": "question",
+      "pos": "n.",
+      "def_zh": "問題"
+    },
+    {
+      "word": "quick",
+      "pos": "adj.",
+      "def_zh": "快的"
+    },
+    {
+      "word": "quiet",
+      "pos": "adj.",
+      "def_zh": "安靜的"
+    },
+    {
+      "word": "quite",
+      "pos": "adv.",
+      "def_zh": "相當"
+    },
+    {
+      "word": "rabbit",
+      "pos": "n.",
+      "def_zh": "兔子"
+    },
+    {
+      "word": "radio",
+      "pos": "n.",
+      "def_zh": "收音機"
+    },
+    {
+      "word": "rain",
+      "pos": "n./v.",
+      "def_zh": "雨；下雨"
+    },
+    {
+      "word": "rainbow",
+      "pos": "n.",
+      "def_zh": "彩虹"
+    },
+    {
+      "word": "rainy",
+      "pos": "adj.",
+      "def_zh": "下雨的"
+    },
+    {
+      "word": "read",
+      "pos": "v.",
+      "def_zh": "閱讀"
+    },
+    {
+      "word": "ready",
+      "pos": "adj.",
+      "def_zh": "準備好的"
+    },
+    {
+      "word": "really",
+      "pos": "adv.",
+      "def_zh": "真的"
+    },
+    {
+      "word": "reason",
+      "pos": "n.",
+      "def_zh": "理由"
+    },
+    {
+      "word": "red",
+      "pos": "adj.",
+      "def_zh": "紅色的"
+    },
+    {
+      "word": "relax",
+      "pos": "v.",
+      "def_zh": "放鬆"
+    },
+    {
+      "word": "remember",
+      "pos": "v.",
+      "def_zh": "記得"
+    },
+    {
+      "word": "rest",
+      "pos": "v./n.",
+      "def_zh": "休息"
+    },
+    {
+      "word": "restaurant",
+      "pos": "n.",
+      "def_zh": "餐廳"
+    },
+    {
+      "word": "rice",
+      "pos": "n.",
+      "def_zh": "米；飯"
+    },
+    {
+      "word": "rich",
+      "pos": "adj.",
+      "def_zh": "富有的"
+    },
+    {
+      "word": "ride",
+      "pos": "v.",
+      "def_zh": "騎"
+    },
+    {
+      "word": "right",
+      "pos": "adj./n.",
+      "def_zh": "對的；右邊"
+    },
+    {
+      "word": "ring",
+      "pos": "n./v.",
+      "def_zh": "戒指；鈴響"
+    },
+    {
+      "word": "rise",
+      "pos": "v.",
+      "def_zh": "升起"
+    },
+    {
+      "word": "road",
+      "pos": "n.",
+      "def_zh": "道路"
+    },
+    {
+      "word": "rock",
+      "pos": "n.",
+      "def_zh": "岩石"
+    },
+    {
+      "word": "room",
+      "pos": "n.",
+      "def_zh": "房間"
+    },
+    {
+      "word": "rose",
+      "pos": "n.",
+      "def_zh": "玫瑰"
+    },
+    {
+      "word": "round",
+      "pos": "adj.",
+      "def_zh": "圓的"
+    },
+    {
+      "word": "rule",
+      "pos": "n.",
+      "def_zh": "規則"
+    },
+    {
+      "word": "run",
+      "pos": "v.",
+      "def_zh": "跑"
+    },
+    {
+      "word": "sad",
+      "pos": "adj.",
+      "def_zh": "悲傷的"
+    },
+    {
+      "word": "safe",
+      "pos": "adj.",
+      "def_zh": "安全的"
+    },
+    {
+      "word": "salad",
+      "pos": "n.",
+      "def_zh": "沙拉"
+    },
+    {
+      "word": "sale",
+      "pos": "n.",
+      "def_zh": "拍賣；特價"
+    },
+    {
+      "word": "salt",
+      "pos": "n.",
+      "def_zh": "鹽"
+    },
+    {
+      "word": "same",
+      "pos": "adj.",
+      "def_zh": "相同的"
+    },
+    {
+      "word": "sand",
+      "pos": "n.",
+      "def_zh": "沙子"
+    },
+    {
+      "word": "sandwich",
+      "pos": "n.",
+      "def_zh": "三明治"
+    },
+    {
+      "word": "Saturday",
+      "pos": "n.",
+      "def_zh": "星期六"
+    },
+    {
+      "word": "save",
+      "pos": "v.",
+      "def_zh": "拯救；存"
+    },
+    {
+      "word": "say",
+      "pos": "v.",
+      "def_zh": "說"
+    },
+    {
+      "word": "school",
+      "pos": "n.",
+      "def_zh": "學校"
+    },
+    {
+      "word": "science",
+      "pos": "n.",
+      "def_zh": "科學"
+    },
+    {
+      "word": "sea",
+      "pos": "n.",
+      "def_zh": "海"
+    },
+    {
+      "word": "season",
+      "pos": "n.",
+      "def_zh": "季節"
+    },
+    {
+      "word": "seat",
+      "pos": "n.",
+      "def_zh": "座位"
+    },
+    {
+      "word": "second",
+      "pos": "adj./n.",
+      "def_zh": "第二的；秒"
+    },
+    {
+      "word": "see",
+      "pos": "v.",
+      "def_zh": "看見"
+    },
+    {
+      "word": "sell",
+      "pos": "v.",
+      "def_zh": "賣"
+    },
+    {
+      "word": "send",
+      "pos": "v.",
+      "def_zh": "寄送"
+    },
+    {
+      "word": "sentence",
+      "pos": "n.",
+      "def_zh": "句子"
+    },
+    {
+      "word": "seven",
+      "pos": "n.",
+      "def_zh": "七"
+    },
+    {
+      "word": "seventeen",
+      "pos": "n.",
+      "def_zh": "十七"
+    },
+    {
+      "word": "seventy",
+      "pos": "n.",
+      "def_zh": "七十"
+    },
+    {
+      "word": "several",
+      "pos": "adj.",
+      "def_zh": "幾個的"
+    },
+    {
+      "word": "shape",
+      "pos": "n.",
+      "def_zh": "形狀"
+    },
+    {
+      "word": "sheep",
+      "pos": "n.",
+      "def_zh": "綿羊"
+    },
+    {
+      "word": "shelf",
+      "pos": "n.",
+      "def_zh": "架子"
+    },
+    {
+      "word": "ship",
+      "pos": "n.",
+      "def_zh": "船"
+    },
+    {
+      "word": "shirt",
+      "pos": "n.",
+      "def_zh": "襯衫"
+    },
+    {
+      "word": "shoe",
+      "pos": "n.",
+      "def_zh": "鞋子"
+    },
+    {
+      "word": "shop",
+      "pos": "n./v.",
+      "def_zh": "商店；購物"
+    },
+    {
+      "word": "short",
+      "pos": "adj.",
+      "def_zh": "短的；矮的"
+    },
+    {
+      "word": "shoulder",
+      "pos": "n.",
+      "def_zh": "肩膀"
+    },
+    {
+      "word": "shout",
+      "pos": "v.",
+      "def_zh": "喊叫"
+    },
+    {
+      "word": "show",
+      "pos": "v./n.",
+      "def_zh": "展示；表演"
+    },
+    {
+      "word": "sick",
+      "pos": "adj.",
+      "def_zh": "生病的"
+    },
+    {
+      "word": "side",
+      "pos": "n.",
+      "def_zh": "旁邊"
+    },
+    {
+      "word": "sign",
+      "pos": "n.",
+      "def_zh": "標誌"
+    },
+    {
+      "word": "simple",
+      "pos": "adj.",
+      "def_zh": "簡單的"
+    },
+    {
+      "word": "since",
+      "pos": "prep.",
+      "def_zh": "自從"
+    },
+    {
+      "word": "sing",
+      "pos": "v.",
+      "def_zh": "唱歌"
+    },
+    {
+      "word": "singer",
+      "pos": "n.",
+      "def_zh": "歌手"
+    },
+    {
+      "word": "sister",
+      "pos": "n.",
+      "def_zh": "姊妹"
+    },
+    {
+      "word": "sit",
+      "pos": "v.",
+      "def_zh": "坐"
+    },
+    {
+      "word": "six",
+      "pos": "n.",
+      "def_zh": "六"
+    },
+    {
+      "word": "sixteen",
+      "pos": "n.",
+      "def_zh": "十六"
+    },
+    {
+      "word": "sixty",
+      "pos": "n.",
+      "def_zh": "六十"
+    },
+    {
+      "word": "size",
+      "pos": "n.",
+      "def_zh": "尺寸"
+    },
+    {
+      "word": "skirt",
+      "pos": "n.",
+      "def_zh": "裙子"
+    },
+    {
+      "word": "sky",
+      "pos": "n.",
+      "def_zh": "天空"
+    },
+    {
+      "word": "sleep",
+      "pos": "v.",
+      "def_zh": "睡覺"
+    },
+    {
+      "word": "slow",
+      "pos": "adj.",
+      "def_zh": "慢的"
+    },
+    {
+      "word": "small",
+      "pos": "adj.",
+      "def_zh": "小的"
+    },
+    {
+      "word": "smart",
+      "pos": "adj.",
+      "def_zh": "聰明的"
+    },
+    {
+      "word": "smile",
+      "pos": "v./n.",
+      "def_zh": "微笑"
+    },
+    {
+      "word": "smoke",
+      "pos": "n./v.",
+      "def_zh": "煙；抽菸"
+    },
+    {
+      "word": "snow",
+      "pos": "n./v.",
+      "def_zh": "雪；下雪"
+    },
+    {
+      "word": "so",
+      "pos": "adv.",
+      "def_zh": "如此"
+    },
+    {
+      "word": "soap",
+      "pos": "n.",
+      "def_zh": "肥皂"
+    },
+    {
+      "word": "soccer",
+      "pos": "n.",
+      "def_zh": "足球"
+    },
+    {
+      "word": "sock",
+      "pos": "n.",
+      "def_zh": "襪子"
+    },
+    {
+      "word": "sofa",
+      "pos": "n.",
+      "def_zh": "沙發"
+    },
+    {
+      "word": "soft",
+      "pos": "adj.",
+      "def_zh": "柔軟的"
+    },
+    {
+      "word": "some",
+      "pos": "adj.",
+      "def_zh": "一些"
+    },
+    {
+      "word": "someone",
+      "pos": "n.",
+      "def_zh": "某人"
+    },
+    {
+      "word": "something",
+      "pos": "n.",
+      "def_zh": "某事；某物"
+    },
+    {
+      "word": "sometimes",
+      "pos": "adv.",
+      "def_zh": "有時候"
+    },
+    {
+      "word": "son",
+      "pos": "n.",
+      "def_zh": "兒子"
+    },
+    {
+      "word": "song",
+      "pos": "n.",
+      "def_zh": "歌曲"
+    },
+    {
+      "word": "soon",
+      "pos": "adv.",
+      "def_zh": "很快"
+    },
+    {
+      "word": "sorry",
+      "pos": "adj.",
+      "def_zh": "抱歉的"
+    },
+    {
+      "word": "soup",
+      "pos": "n.",
+      "def_zh": "湯"
+    },
+    {
+      "word": "south",
+      "pos": "n.",
+      "def_zh": "南方"
+    },
+    {
+      "word": "space",
+      "pos": "n.",
+      "def_zh": "空間；太空"
+    },
+    {
+      "word": "speak",
+      "pos": "v.",
+      "def_zh": "說話"
+    },
+    {
+      "word": "special",
+      "pos": "adj.",
+      "def_zh": "特別的"
+    },
+    {
+      "word": "spell",
+      "pos": "v.",
+      "def_zh": "拼寫"
+    },
+    {
+      "word": "spend",
+      "pos": "v.",
+      "def_zh": "花費"
+    },
+    {
+      "word": "spoon",
+      "pos": "n.",
+      "def_zh": "湯匙"
+    },
+    {
+      "word": "sport",
+      "pos": "n.",
+      "def_zh": "運動"
+    },
+    {
+      "word": "spring",
+      "pos": "n.",
+      "def_zh": "春天"
+    },
+    {
+      "word": "square",
+      "pos": "n.",
+      "def_zh": "廣場；正方形"
+    },
+    {
+      "word": "stamp",
+      "pos": "n.",
+      "def_zh": "郵票"
+    },
+    {
+      "word": "stand",
+      "pos": "v.",
+      "def_zh": "站立"
+    },
+    {
+      "word": "star",
+      "pos": "n.",
+      "def_zh": "星星"
+    },
+    {
+      "word": "start",
+      "pos": "v.",
+      "def_zh": "開始"
+    },
+    {
+      "word": "station",
+      "pos": "n.",
+      "def_zh": "車站"
+    },
+    {
+      "word": "stay",
+      "pos": "v.",
+      "def_zh": "停留"
+    },
+    {
+      "word": "still",
+      "pos": "adv.",
+      "def_zh": "仍然"
+    },
+    {
+      "word": "stomach",
+      "pos": "n.",
+      "def_zh": "胃；肚子"
+    },
+    {
+      "word": "stone",
+      "pos": "n.",
+      "def_zh": "石頭"
+    },
+    {
+      "word": "stop",
+      "pos": "v./n.",
+      "def_zh": "停止"
+    },
+    {
+      "word": "store",
+      "pos": "n.",
+      "def_zh": "商店"
+    },
+    {
+      "word": "storm",
+      "pos": "n.",
+      "def_zh": "暴風雨"
+    },
+    {
+      "word": "straight",
+      "pos": "adj.",
+      "def_zh": "直的"
+    },
+    {
+      "word": "strange",
+      "pos": "adj.",
+      "def_zh": "奇怪的"
+    },
+    {
+      "word": "street",
+      "pos": "n.",
+      "def_zh": "街道"
+    },
+    {
+      "word": "strong",
+      "pos": "adj.",
+      "def_zh": "強壯的"
+    },
+    {
+      "word": "student",
+      "pos": "n.",
+      "def_zh": "學生"
+    },
+    {
+      "word": "study",
+      "pos": "v.",
+      "def_zh": "學習"
+    },
+    {
+      "word": "subject",
+      "pos": "n.",
+      "def_zh": "科目"
+    },
+    {
+      "word": "success",
+      "pos": "n.",
+      "def_zh": "成功"
+    },
+    {
+      "word": "such",
+      "pos": "adj.",
+      "def_zh": "這樣的"
+    },
+    {
+      "word": "sugar",
+      "pos": "n.",
+      "def_zh": "糖"
+    },
+    {
+      "word": "summer",
+      "pos": "n.",
+      "def_zh": "夏天"
+    },
+    {
+      "word": "sun",
+      "pos": "n.",
+      "def_zh": "太陽"
+    },
+    {
+      "word": "Sunday",
+      "pos": "n.",
+      "def_zh": "星期日"
+    },
+    {
+      "word": "supermarket",
+      "pos": "n.",
+      "def_zh": "超級市場"
+    },
+    {
+      "word": "sure",
+      "pos": "adj.",
+      "def_zh": "確定的"
+    },
+    {
+      "word": "surprise",
+      "pos": "n./v.",
+      "def_zh": "驚喜；使驚訝"
+    },
+    {
+      "word": "sweater",
+      "pos": "n.",
+      "def_zh": "毛衣"
+    },
+    {
+      "word": "sweet",
+      "pos": "adj.",
+      "def_zh": "甜的"
+    },
+    {
+      "word": "table",
+      "pos": "n.",
+      "def_zh": "桌子"
+    },
+    {
+      "word": "take",
+      "pos": "v.",
+      "def_zh": "拿；帶"
+    },
+    {
+      "word": "talk",
+      "pos": "v.",
+      "def_zh": "說話"
+    },
+    {
+      "word": "tall",
+      "pos": "adj.",
+      "def_zh": "高的"
+    },
+    {
+      "word": "tape",
+      "pos": "n.",
+      "def_zh": "膠帶；錄音帶"
+    },
+    {
+      "word": "taste",
+      "pos": "v./n.",
+      "def_zh": "嚐；味道"
+    },
+    {
+      "word": "tea",
+      "pos": "n.",
+      "def_zh": "茶"
+    },
+    {
+      "word": "teach",
+      "pos": "v.",
+      "def_zh": "教導"
+    },
+    {
+      "word": "teacher",
+      "pos": "n.",
+      "def_zh": "老師"
+    },
+    {
+      "word": "telephone",
+      "pos": "n.",
+      "def_zh": "電話"
+    },
+    {
+      "word": "television",
+      "pos": "n.",
+      "def_zh": "電視"
+    },
+    {
+      "word": "tell",
+      "pos": "v.",
+      "def_zh": "告訴"
+    },
+    {
+      "word": "ten",
+      "pos": "n.",
+      "def_zh": "十"
+    },
+    {
+      "word": "tennis",
+      "pos": "n.",
+      "def_zh": "網球"
+    },
+    {
+      "word": "test",
+      "pos": "n./v.",
+      "def_zh": "測驗"
+    },
+    {
+      "word": "than",
+      "pos": "conj.",
+      "def_zh": "比"
+    },
+    {
+      "word": "thank",
+      "pos": "v.",
+      "def_zh": "感謝"
+    },
+    {
+      "word": "then",
+      "pos": "adv.",
+      "def_zh": "然後"
+    },
+    {
+      "word": "there",
+      "pos": "adv.",
+      "def_zh": "那裡"
+    },
+    {
+      "word": "these",
+      "pos": "adj.",
+      "def_zh": "這些"
+    },
+    {
+      "word": "thick",
+      "pos": "adj.",
+      "def_zh": "厚的"
+    },
+    {
+      "word": "thin",
+      "pos": "adj.",
+      "def_zh": "薄的；瘦的"
+    },
+    {
+      "word": "thing",
+      "pos": "n.",
+      "def_zh": "東西"
+    },
+    {
+      "word": "think",
+      "pos": "v.",
+      "def_zh": "想"
+    },
+    {
+      "word": "thirsty",
+      "pos": "adj.",
+      "def_zh": "口渴的"
+    },
+    {
+      "word": "thirteen",
+      "pos": "n.",
+      "def_zh": "十三"
+    },
+    {
+      "word": "thirty",
+      "pos": "n.",
+      "def_zh": "三十"
+    },
+    {
+      "word": "thousand",
+      "pos": "n.",
+      "def_zh": "一千"
+    },
+    {
+      "word": "three",
+      "pos": "n.",
+      "def_zh": "三"
+    },
+    {
+      "word": "through",
+      "pos": "prep.",
+      "def_zh": "穿過"
+    },
+    {
+      "word": "throw",
+      "pos": "v.",
+      "def_zh": "投擲"
+    },
+    {
+      "word": "Thursday",
+      "pos": "n.",
+      "def_zh": "星期四"
+    },
+    {
+      "word": "ticket",
+      "pos": "n.",
+      "def_zh": "票"
+    },
+    {
+      "word": "tidy",
+      "pos": "adj.",
+      "def_zh": "整齊的"
+    },
+    {
+      "word": "tie",
+      "pos": "n./v.",
+      "def_zh": "領帶；綁"
+    },
+    {
+      "word": "tiger",
+      "pos": "n.",
+      "def_zh": "老虎"
+    },
+    {
+      "word": "time",
+      "pos": "n.",
+      "def_zh": "時間"
+    },
+    {
+      "word": "tired",
+      "pos": "adj.",
+      "def_zh": "疲倦的"
+    },
+    {
+      "word": "today",
+      "pos": "n.",
+      "def_zh": "今天"
+    },
+    {
+      "word": "together",
+      "pos": "adv.",
+      "def_zh": "一起"
+    },
+    {
+      "word": "tomato",
+      "pos": "n.",
+      "def_zh": "番茄"
+    },
+    {
+      "word": "tomorrow",
+      "pos": "n.",
+      "def_zh": "明天"
+    },
+    {
+      "word": "tonight",
+      "pos": "n.",
+      "def_zh": "今晚"
+    },
+    {
+      "word": "too",
+      "pos": "adv.",
+      "def_zh": "也；太"
+    },
+    {
+      "word": "tooth",
+      "pos": "n.",
+      "def_zh": "牙齒"
+    },
+    {
+      "word": "top",
+      "pos": "n.",
+      "def_zh": "頂部"
+    },
+    {
+      "word": "touch",
+      "pos": "v.",
+      "def_zh": "觸摸"
+    },
+    {
+      "word": "tour",
+      "pos": "n.",
+      "def_zh": "旅遊"
+    },
+    {
+      "word": "town",
+      "pos": "n.",
+      "def_zh": "城鎮"
+    },
+    {
+      "word": "toy",
+      "pos": "n.",
+      "def_zh": "玩具"
+    },
+    {
+      "word": "train",
+      "pos": "n.",
+      "def_zh": "火車"
+    },
+    {
+      "word": "tree",
+      "pos": "n.",
+      "def_zh": "樹"
+    },
+    {
+      "word": "trip",
+      "pos": "n.",
+      "def_zh": "旅行"
+    },
+    {
+      "word": "trouble",
+      "pos": "n.",
+      "def_zh": "麻煩"
+    },
+    {
+      "word": "true",
+      "pos": "adj.",
+      "def_zh": "真實的"
+    },
+    {
+      "word": "try",
+      "pos": "v.",
+      "def_zh": "嘗試"
+    },
+    {
+      "word": "T-shirt",
+      "pos": "n.",
+      "def_zh": "T恤"
+    },
+    {
+      "word": "Tuesday",
+      "pos": "n.",
+      "def_zh": "星期二"
+    },
+    {
+      "word": "turn",
+      "pos": "v.",
+      "def_zh": "轉動；輪到"
+    },
+    {
+      "word": "twelve",
+      "pos": "n.",
+      "def_zh": "十二"
+    },
+    {
+      "word": "twenty",
+      "pos": "n.",
+      "def_zh": "二十"
+    },
+    {
+      "word": "twice",
+      "pos": "adv.",
+      "def_zh": "兩次"
+    },
+    {
+      "word": "two",
+      "pos": "n.",
+      "def_zh": "二"
+    },
+    {
+      "word": "umbrella",
+      "pos": "n.",
+      "def_zh": "雨傘"
+    },
+    {
+      "word": "uncle",
+      "pos": "n.",
+      "def_zh": "叔叔；舅舅"
+    },
+    {
+      "word": "under",
+      "pos": "prep.",
+      "def_zh": "在……下面"
+    },
+    {
+      "word": "understand",
+      "pos": "v.",
+      "def_zh": "了解"
+    },
+    {
+      "word": "until",
+      "pos": "prep.",
+      "def_zh": "直到"
+    },
+    {
+      "word": "up",
+      "pos": "adv.",
+      "def_zh": "向上"
+    },
+    {
+      "word": "us",
+      "pos": "n.",
+      "def_zh": "我們"
+    },
+    {
+      "word": "use",
+      "pos": "v.",
+      "def_zh": "使用"
+    },
+    {
+      "word": "useful",
+      "pos": "adj.",
+      "def_zh": "有用的"
+    },
+    {
+      "word": "usually",
+      "pos": "adv.",
+      "def_zh": "通常"
+    },
+    {
+      "word": "vacation",
+      "pos": "n.",
+      "def_zh": "假期"
+    },
+    {
+      "word": "vegetable",
+      "pos": "n.",
+      "def_zh": "蔬菜"
+    },
+    {
+      "word": "very",
+      "pos": "adv.",
+      "def_zh": "非常"
+    },
+    {
+      "word": "video",
+      "pos": "n.",
+      "def_zh": "影片"
+    },
+    {
+      "word": "village",
+      "pos": "n.",
+      "def_zh": "村莊"
+    },
+    {
+      "word": "visit",
+      "pos": "v.",
+      "def_zh": "拜訪"
+    },
+    {
+      "word": "visitor",
+      "pos": "n.",
+      "def_zh": "訪客"
+    },
+    {
+      "word": "voice",
+      "pos": "n.",
+      "def_zh": "聲音"
+    },
+    {
+      "word": "wait",
+      "pos": "v.",
+      "def_zh": "等候"
+    },
+    {
+      "word": "wake",
+      "pos": "v.",
+      "def_zh": "醒來"
+    },
+    {
+      "word": "walk",
+      "pos": "v./n.",
+      "def_zh": "走路；散步"
+    },
+    {
+      "word": "wall",
+      "pos": "n.",
+      "def_zh": "牆"
+    },
+    {
+      "word": "want",
+      "pos": "v.",
+      "def_zh": "想要"
+    },
+    {
+      "word": "warm",
+      "pos": "adj.",
+      "def_zh": "溫暖的"
+    },
+    {
+      "word": "wash",
+      "pos": "v.",
+      "def_zh": "洗"
+    },
+    {
+      "word": "watch",
+      "pos": "v./n.",
+      "def_zh": "觀看；手錶"
+    },
+    {
+      "word": "water",
+      "pos": "n.",
+      "def_zh": "水"
+    },
+    {
+      "word": "way",
+      "pos": "n.",
+      "def_zh": "方法；路"
+    },
+    {
+      "word": "we",
+      "pos": "n.",
+      "def_zh": "我們"
+    },
+    {
+      "word": "weak",
+      "pos": "adj.",
+      "def_zh": "虛弱的"
+    },
+    {
+      "word": "wear",
+      "pos": "v.",
+      "def_zh": "穿；戴"
+    },
+    {
+      "word": "Wednesday",
+      "pos": "n.",
+      "def_zh": "星期三"
+    },
+    {
+      "word": "week",
+      "pos": "n.",
+      "def_zh": "週"
+    },
+    {
+      "word": "welcome",
+      "pos": "v./adj.",
+      "def_zh": "歡迎"
+    },
+    {
+      "word": "well",
+      "pos": "adv.",
+      "def_zh": "好地"
+    },
+    {
+      "word": "west",
+      "pos": "n.",
+      "def_zh": "西方"
+    },
+    {
+      "word": "wet",
+      "pos": "adj.",
+      "def_zh": "濕的"
+    },
+    {
+      "word": "what",
+      "pos": "pron.",
+      "def_zh": "什麼"
+    },
+    {
+      "word": "when",
+      "pos": "adv.",
+      "def_zh": "何時"
+    },
+    {
+      "word": "where",
+      "pos": "adv.",
+      "def_zh": "哪裡"
+    },
+    {
+      "word": "which",
+      "pos": "pron.",
+      "def_zh": "哪一個"
+    },
+    {
+      "word": "white",
+      "pos": "adj.",
+      "def_zh": "白色的"
+    },
+    {
+      "word": "who",
+      "pos": "pron.",
+      "def_zh": "誰"
+    },
+    {
+      "word": "why",
+      "pos": "adv.",
+      "def_zh": "為什麼"
+    },
+    {
+      "word": "wide",
+      "pos": "adj.",
+      "def_zh": "寬的"
+    },
+    {
+      "word": "wife",
+      "pos": "n.",
+      "def_zh": "妻子"
+    },
+    {
+      "word": "will",
+      "pos": "v.",
+      "def_zh": "將會"
+    },
+    {
+      "word": "win",
+      "pos": "v.",
+      "def_zh": "贏"
+    },
+    {
+      "word": "wind",
+      "pos": "n.",
+      "def_zh": "風"
+    },
+    {
+      "word": "window",
+      "pos": "n.",
+      "def_zh": "窗戶"
+    },
+    {
+      "word": "windy",
+      "pos": "adj.",
+      "def_zh": "有風的"
+    },
+    {
+      "word": "winter",
+      "pos": "n.",
+      "def_zh": "冬天"
+    },
+    {
+      "word": "wish",
+      "pos": "v./n.",
+      "def_zh": "希望；願望"
+    },
+    {
+      "word": "with",
+      "pos": "prep.",
+      "def_zh": "和……一起"
+    },
+    {
+      "word": "without",
+      "pos": "prep.",
+      "def_zh": "沒有"
+    },
+    {
+      "word": "woman",
+      "pos": "n.",
+      "def_zh": "女人"
+    },
+    {
+      "word": "wonderful",
+      "pos": "adj.",
+      "def_zh": "極好的"
+    },
+    {
+      "word": "word",
+      "pos": "n.",
+      "def_zh": "單字；話"
+    },
+    {
+      "word": "work",
+      "pos": "v./n.",
+      "def_zh": "工作"
+    },
+    {
+      "word": "worker",
+      "pos": "n.",
+      "def_zh": "工人"
+    },
+    {
+      "word": "world",
+      "pos": "n.",
+      "def_zh": "世界"
+    },
+    {
+      "word": "worry",
+      "pos": "v.",
+      "def_zh": "擔心"
+    },
+    {
+      "word": "write",
+      "pos": "v.",
+      "def_zh": "寫"
+    },
+    {
+      "word": "wrong",
+      "pos": "adj.",
+      "def_zh": "錯誤的"
+    },
+    {
+      "word": "year",
+      "pos": "n.",
+      "def_zh": "年"
+    },
+    {
+      "word": "yellow",
+      "pos": "adj.",
+      "def_zh": "黃色的"
+    },
+    {
+      "word": "yes",
+      "pos": "adv.",
+      "def_zh": "是"
+    },
+    {
+      "word": "yesterday",
+      "pos": "n.",
+      "def_zh": "昨天"
+    },
+    {
+      "word": "yet",
+      "pos": "adv.",
+      "def_zh": "還沒"
+    },
+    {
+      "word": "you",
+      "pos": "n.",
+      "def_zh": "你"
+    },
+    {
+      "word": "young",
+      "pos": "adj.",
+      "def_zh": "年輕的"
+    },
+    {
+      "word": "your",
+      "pos": "adj.",
+      "def_zh": "你的"
+    },
+    {
+      "word": "zoo",
+      "pos": "n.",
+      "def_zh": "動物園"
     }
   ]
 }

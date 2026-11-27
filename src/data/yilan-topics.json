@@ -92,6 +92,69 @@
       }
     },
     {
+      "id": "wufengqi-falls",
+      "title_hint": "五峯旗瀑布",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／宜蘭之河」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "得子口溪發源於雪山山脈三角崙山（1029公尺）與草湳山，在五峯旗地區流入蘭陽平原，主流長度為17公里，於頭城鎮的竹安橋附近先後會合猴洞溪、金面溪、福德溪和武營溪後入海，各溪上游因流經礁溪大斷層，形成瀑布羣，為觀光勝地。"
+        }
+      ],
+      "image": {
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Wufengqi_Second_Fall-yilan-20260926.jpg",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Wufengqi_Second_Fall-yilan-20260926.jpg",
+        "author": "F9000040",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "礁溪五峯旗瀑布的瀑布景觀",
+        "credit": "照片：F9000040（Wikimedia Commons），CC BY-SA 4.0。已縮圖供網頁使用。"
+      }
+    },
+    {
+      "id": "dongshan-river",
+      "title_hint": "冬山河",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／宜蘭之河」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "冬山河主流長度為24公里，發源於中央山脈北緣新寮山（1040公尺），其上游有新寮、舊寮、十三分坑、安平坑、照安等溪，會合後稱之為冬山河。由於河道彎曲，加上地勢較低，早期每逢大雨大潮，極易氾濫成災，使兩岸冬山鄉、五結鄉聚落、稻田、道路等淹沒於大水之中，颱風季節的災情更是慘重。1976年臺灣省水利局於開始有截彎取直、整修圳渠等整治工程。1982年冬山河整治完成改善排水，現在已成為宜蘭縣重要的觀光遊憩區。"
+        }
+      ],
+      "image": {
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Dongshan_River_Water_Park_%28Yilan%2C_Taiwan%29.JPG",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG",
+        "author": "Gpdprince",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "整治後的冬山河水域與親水公園景觀",
+        "credit": "照片：Gpdprince（Wikimedia Commons），CC BY-SA 4.0。已縮圖供網頁使用。"
+      }
+    },
+    {
+      "id": "wushibi-cape",
+      "title_hint": "蘇澳烏石鼻",
+      "used_on": [],
+      "sources": [
+        {
+          "title": "宜蘭縣政府「宜蘭好山水／宜蘭大地」",
+          "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+          "excerpt": "宜蘭縣境内的山地、平原和離島地質構造不同。山地區域在蘇澳以南為中央山脈東翼地質區，主要都是變質岩，變質岩乃是地下岩石受到高溫和高壓的作用而變質形成的岩石。本區的岩石是全臺灣最古老的岩石，包括片岩、變質石灰岩、片麻岩、和角閃岩等。其中片麻岩質地非常堅硬，能耐風化和侵蝕的破壞作用。蘇澳鎮的烏石鼻突出海中，風景秀麗，已被列為自然保護區，即是由片麻岩組成。"
+        }
+      ],
+      "image": {
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wushibi_Cape_%E7%83%8F%E7%9F%B3%E9%BC%BB_-_panoramio.jpg",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Wushibi_Cape_%E7%83%8F%E7%9F%B3%E9%BC%BB_-_panoramio.jpg",
+        "author": "lienyuan lee",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "alt": "蘇澳烏石鼻突出海中的岬角地景",
+        "credit": "照片：lienyuan lee（Wikimedia Commons），CC BY 3.0。已縮圖供網頁使用。"
+      }
+    },
+    {
       "id": "kavalan-ting-1812",
       "title_hint": "噶瑪蘭廳設立",
       "used_on": [],
