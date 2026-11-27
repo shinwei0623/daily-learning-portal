@@ -22,7 +22,7 @@ function current(href: string) {
       <a href={`${base}yilan/`} aria-current={path.includes('/yilan') ? 'page' : undefined}>宜蘭每日見聞</a>
       <a href={`${base}resources/`} aria-current={path.includes('/resources') ? 'page' : undefined}>教育資源分享</a>
       <a href={`${base}about/`} aria-current={path.includes('/about') ? 'page' : undefined}>關於</a>
-      <a class="nav-external" href={BRAND_LINK_URL} target="_blank" rel="noopener">{BRAND_LINK_LABEL}</a>
+      <a class="nav-external" href={BRAND_LINK_URL} target="_blank" rel="noopener noreferrer" aria-label={`${BRAND_LINK_LABEL}（另開新分頁）`}>{BRAND_LINK_LABEL}</a>
     </nav>
   </div>
 </header>

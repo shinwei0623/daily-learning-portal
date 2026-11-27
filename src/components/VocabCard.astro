@@ -20,7 +20,7 @@ const src = item.audio
 <article class="vocab-card" id={id}>
   <div class="vocab-head">
     <h3 class="vocab-word">{item.word}</h3>
-    <button class="audio-btn" type="button" data-word={item.word} data-src={src} aria-label={`播放 ${item.word} 的發音`}>▶</button>
+    <button class="audio-btn" type="button" data-word={item.word} data-src={src} aria-label={`播放 ${item.word} 的發音`}><span aria-hidden="true">▶</span></button>
   </div>
   <p class="pos">{item.pos}</p>
   <p class="phonetics"><span>KK {item.kk}</span><span>IPA {item.ipa}</span></p>

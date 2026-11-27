@@ -67,7 +67,7 @@ const base = import.meta.env.BASE_URL;
           <p class="meta">{formatZhDate(latestYilan.data.date)}</p>
           <h3 style="margin-top:0;">{latestYilan.data.title}</h3>
           <figure class="article-image">
-            <img src={`${base}${latestYilan.data.image}`} alt={latestYilan.data.image_alt} width="900" height="580" />
+            <img src={`${base}${latestYilan.data.image}`} alt={latestYilan.data.image_alt} width="900" height="580" decoding="async" />
           </figure>
           <p class="credit">{latestYilan.data.image_credit}</p>
           <div class="yilan-body">{YilanBody && <YilanBody />}</div>
