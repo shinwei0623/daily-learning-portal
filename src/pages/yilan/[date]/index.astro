@@ -26,9 +26,9 @@ const data = entry.data;
       printHref={`${base}yilan/${data.date}/print/`}
     />
     <figure class="article-image">
-      <img src={`${base}${data.image}`} alt={data.image_alt} width="1800" height="1160" />
+      <img src={`${base}${data.image}`} alt={data.image_alt} width="1800" height="1160" decoding="async" />
     </figure>
-    <p class="credit">{data.image_credit} 授權條款：<a href={data.image_license_url}>{data.image_license}</a>．原圖：<a href={data.image_source_url}>{data.image_author}</a></p>
+    <p class="credit">{data.image_credit} 授權條款：<a href={data.image_license_url} rel="noopener noreferrer">{data.image_license}</a>．原圖：<a href={data.image_source_url} rel="noopener noreferrer">{data.image_author}</a></p>
     <div class="yilan-body card" style="margin-top:1rem;">
       <Content />
     </div>
@@ -37,7 +37,7 @@ const data = entry.data;
       <ul>
         {data.sources.map((s) => (
           <li>
-            <a href={s.url}>{s.title}</a>
+            <a href={s.url} rel="noopener noreferrer">{s.title}</a>
             {s.note ? ` — ${s.note}` : ''}
           </li>
         ))}

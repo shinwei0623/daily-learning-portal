@@ -9,7 +9,7 @@ import { SITE_NAME, CEEC_NOTICE, BRAND_LINK_LABEL, BRAND_LINK_URL, SUPPORTER_TEX
     <p class="supporter-credit">
       {SUPPORTER_TEXT}
       <span class="supporter-sep" aria-hidden="true">·</span>
-      <a href={BRAND_LINK_URL} target="_blank" rel="noopener">{BRAND_LINK_LABEL}</a>
+      <a href={BRAND_LINK_URL} target="_blank" rel="noopener noreferrer" aria-label={`${BRAND_LINK_LABEL}（另開新分頁）`}>{BRAND_LINK_LABEL}</a>
     </p>
   </div>
 </footer>
