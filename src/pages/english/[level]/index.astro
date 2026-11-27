@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import LevelToggle from '../../../components/LevelToggle.astro';
 import { isLevelId, LEVELS, type LevelId } from '../../../lib/site';
 import { formatZhDate, taipeiDateISO } from '../../../lib/dates';
 
@@ -27,10 +28,9 @@ const levelInfo = LEVELS[level];
   <div class="wrap hero">
     <p class="kicker">英語單字</p>
     <h1>{levelInfo.label}短文檔案</h1>
-    <p class="lede">每天兩篇約 100 字的英文短文，各介紹五個單字。可切換國中或高中程度。</p>
-    <div class="level-toggle" role="navigation" aria-label="程度切換" style="margin-top:1rem;">
-      <a href={`${base}english/junior/`} class:list={[{ 'is-active': level === 'junior' }]} aria-current={level === 'junior' ? 'page' : undefined}>國中</a>
-      <a href={`${base}english/senior/`} class:list={[{ 'is-active': level === 'senior' }]} aria-current={level === 'senior' ? 'page' : undefined}>高中</a>
+    <p class="lede">每天兩篇約 100 字的英文短文，各介紹五個單字。可切換入門或普通程度。</p>
+    <div style="margin-top:1rem;">
+      <LevelToggle current={level} />
     </div>
   </div>
   <div class="wrap">

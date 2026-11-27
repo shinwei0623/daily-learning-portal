@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import VocabCard from '../../../components/VocabCard.astro';
+import LevelToggle from '../../../components/LevelToggle.astro';
 import { isLevelId, LEVELS, type LevelId } from '../../../lib/site';
 import { formatZhDate } from '../../../lib/dates';
 
@@ -34,9 +35,8 @@ const levelInfo = LEVELS[level];
     <p class="kicker">英語單字 · {levelInfo.label}</p>
     <h1>{formatZhDate(date)}</h1>
     <p class="lede">兩篇約 100 字短文，每篇五個單字。點短文裡的粗體字可聽到發音。程度：{levelInfo.words}。</p>
-    <div class="level-toggle" role="navigation" aria-label="程度切換" style="margin-top:1rem;">
-      <a href={`${base}english/junior/${date}/`} class:list={[{ 'is-active': level === 'junior' }]} aria-current={level === 'junior' ? 'page' : undefined}>國中</a>
-      <a href={`${base}english/senior/${date}/`} class:list={[{ 'is-active': level === 'senior' }]} aria-current={level === 'senior' ? 'page' : undefined}>高中</a>
+    <div style="margin-top:1rem;">
+      <LevelToggle current={level} date={date} />
     </div>
   </div>
   <div class="wrap">
