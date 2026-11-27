@@ -73,7 +73,9 @@
     {
       "id": "suao-cold-spring",
       "title_hint": "蘇澳冷泉",
-      "used_on": [],
+      "used_on": [
+        "2026-11-27"
+      ],
       "sources": [
         {
           "title": "宜蘭縣政府「宜蘭好山水／宜蘭大地」",
