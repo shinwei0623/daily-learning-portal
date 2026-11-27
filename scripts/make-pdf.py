@@ -2,6 +2,7 @@
 """依內容檔產出宜蘭見聞 A4 PDF（不依賴瀏覽器）。"""
 from __future__ import annotations
 
+import os
 import re
 import sys
 from pathlib import Path
@@ -29,6 +30,24 @@ INK = (28, 25, 23)
 SOFT = (74, 67, 60)
 LINE = (228, 216, 200)
 PAPER = (255, 253, 248)
+
+
+
+def credit_line() -> str:
+    """頁尾支持單位。預設維持宜蘭高中員生合作社原文；Charming 版另加粉專名稱。"""
+    defaults = {
+        "ylsh": "日日學網站由宜蘭高中員生合作社支持建置",
+        "charming": "日日學網站由 Charming 支持分享",
+    }
+    brand = (os.environ.get("BRAND") or "ylsh").strip().lower()
+    if brand not in defaults:
+        brand = "ylsh"
+    text = os.environ.get("SUPPORTER_TEXT") or defaults[brand]
+    if brand == "charming":
+        label = os.environ.get("BRAND_LINK_LABEL") or "Charming 粉專"
+        if label and label not in text:
+            return f"{text} · {label}"
+    return text
 
 
 def font(bold: bool, size: int) -> ImageFont.FreeTypeFont:
@@ -136,12 +155,12 @@ def render_one(data: dict, dest: Path) -> None:
         y += 6
 
     footer = "本頁為非營利公益學習用途。建議以 A4 直式列印。"
-    credit_line = "日日學網站由宜蘭高中員生合作社支持建置"
+    credit = credit_line()
     fw = draw.textlength(footer, font=small)
     draw.text(((W - fw) / 2, H - MARGIN - 44), footer, font=small, fill=SOFT)
     credit_f = font(False, 15)
-    cw = draw.textlength(credit_line, font=credit_f)
-    draw.text(((W - cw) / 2, H - MARGIN - 18), credit_line, font=credit_f, fill=SOFT)
+    cw = draw.textlength(credit, font=credit_f)
+    draw.text(((W - cw) / 2, H - MARGIN - 18), credit, font=credit_f, fill=SOFT)
 
     dest.parent.mkdir(parents=True, exist_ok=True)
     img.save(dest, "PDF", resolution=DPI, title=data["title"])
