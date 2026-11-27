@@ -22,8 +22,8 @@ export const COOP_SITE_LABEL = BRAND_LINK_LABEL;
 export const COOP_SITE_URL = BRAND_LINK_URL;
 
 export const LEVELS = {
-  junior: { id: 'junior' as const, label: '國中', short: '國中', words: '課綱約 2,000 字' },
-  senior: { id: 'senior' as const, label: '高中', short: '高中', words: '學測參考詞彙 6,005 字' },
+  junior: { id: 'junior' as const, label: '入門', short: '入門', words: '基礎約 2,000 字' },
+  senior: { id: 'senior' as const, label: '普通', short: '普通', words: '進階約 6,005 字' },
 };
 
 export type LevelId = keyof typeof LEVELS;
@@ -33,4 +33,4 @@ export function isLevelId(value: string): value is LevelId {
 }
 
 export const CEEC_NOTICE =
-  '高中單字範圍依大學入學考試中心《高中英文參考詞彙表》（111 學年度起適用）；國中範圍依十二年國教課綱英語文領域附錄五。該字表著作權屬財團法人大學入學考試中心基金會，本站僅供非營利學習使用，並註明出處。';
+  '普通程度單字範圍依大學入學考試中心《高中英文參考詞彙表》（111 學年度起適用）；入門程度依十二年國教課綱英語文領域附錄五。該字表著作權屬財團法人大學入學考試中心基金會，本站僅供非營利學習使用，並註明出處。';

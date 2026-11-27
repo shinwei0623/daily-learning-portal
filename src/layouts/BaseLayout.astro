@@ -10,7 +10,7 @@ interface Props {
   printFriendly?: boolean;
 }
 
-const { title, description = '每天兩篇適合台灣國高中生的英語短文，以及一則宜蘭歷史地理見聞。公益學習網站。', printFriendly = false } = Astro.props;
+const { title, description = '每天兩篇英語短文（可切換入門或普通程度），以及一則宜蘭歷史地理見聞。公益學習網站。', printFriendly = false } = Astro.props;
 const pageTitle = title ? `${title}｜${SITE_NAME}` : `${SITE_NAME}｜英語單字與宜蘭見聞`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
 ---
