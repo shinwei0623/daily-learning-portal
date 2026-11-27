@@ -63,11 +63,17 @@
     const word = (mark.textContent || '').trim();
     const id = 'word-' + word.toLowerCase().replace(/[^a-z0-9]+/g, '-');
     const card = document.getElementById(id);
-    if (!card) return;
+    if (!card) {
+      if (word) fallbackSpeak(word);
+      return;
+    }
+    const details = card.closest('details');
+    if (details && !details.open) details.open = true;
     card.classList.add('is-active');
     card.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth', block: 'center' });
     const audioBtn = card.querySelector('.audio-btn');
     if (audioBtn) playButton(audioBtn);
+    else if (word) fallbackSpeak(word);
     setTimeout(function () { card.classList.remove('is-active'); }, 2200);
   }
 

@@ -30,6 +30,10 @@ const yilanRendered = latestYilan ? await render(latestYilan) : null;
 const YilanBody = yilanRendered?.Content;
 
 const base = import.meta.env.BASE_URL;
+
+function wordAnchor(word: string) {
+  return `word-${word.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+}
 ---
 <BaseLayout title="今日" description={`${SITE_NAME}：今天的英語短文與宜蘭見聞。`}>
   <div class="wrap hero">
@@ -46,21 +50,43 @@ const base = import.meta.env.BASE_URL;
       </div>
       <p class="meta">{showDate ? formatZhDate(showDate) : ''} · {LEVELS[homeLevel].label} · {LEVELS[homeLevel].words}</p>
       {rendered.length === 0 && <p>尚無這個程度的短文。</p>}
-      {rendered.map(({ entry, Content }) => (
-        <article style="margin-bottom: 1.4rem;">
-          <h3 style="margin:0 0 0.3rem;">{entry.data.title_zh} <span style="font-weight:500;color:var(--ink-soft);font-family:var(--font-en);font-size:0.95rem;">{entry.data.title}</span></h3>
-          <div class="story"><Content /></div>
-          <div class="vocab-grid">
-            {entry.data.words.map((w) => <VocabCard item={w} />)}
-          </div>
-        </article>
-      ))}
+      <div class="home-stories">
+        {rendered.map(({ entry, Content }) => (
+          <article class="home-story">
+            <h3 class="home-story-title">{entry.data.title_zh} <span class="home-story-en">{entry.data.title}</span></h3>
+            <div class="story"><Content /></div>
+            <ul class="vocab-preview">
+              {entry.data.words.map((w) => (
+                <li>
+                  <a href={showDate ? `${base}english/${homeLevel}/${showDate}/#${wordAnchor(w.word)}` : `${base}english/${homeLevel}/`}>
+                    <span class="vocab-preview-en">{w.word}</span>
+                    <span class="vocab-preview-zh">{w.def_zh}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <details class="vocab-fold">
+              <summary>
+                <span class="fold-closed">展開本篇單字卡</span>
+                <span class="fold-open">收合本篇單字卡</span>
+              </summary>
+              <div class="vocab-grid">
+                {entry.data.words.map((w) => <VocabCard item={w} />)}
+              </div>
+            </details>
+          </article>
+        ))}
+      </div>
       <div class="btn-row">
-        <a class="btn btn-primary btn-link" href={`${base}english/${homeLevel}/`}>看英語檔案</a>
+        {showDate ? (
+          <a class="btn btn-primary btn-link" href={`${base}english/${homeLevel}/${showDate}/`}>看完整單字卡</a>
+        ) : (
+          <a class="btn btn-primary btn-link" href={`${base}english/${homeLevel}/`}>看英語檔案</a>
+        )}
       </div>
     </section>
 
-    <section class="card">
+    <section class="card home-yilan">
       <h2>宜蘭每日見聞</h2>
       {latestYilan ? (
         <>
