@@ -96,7 +96,9 @@
     {
       "id": "wufengqi-falls",
       "title_hint": "五峯旗瀑布",
-      "used_on": [],
+      "used_on": [
+        "2026-11-28"
+      ],
       "sources": [
         {
           "title": "宜蘭縣政府「宜蘭好山水／宜蘭之河」",
